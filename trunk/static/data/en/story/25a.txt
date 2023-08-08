@@ -1,0 +1,61 @@
+# This is the Lyle's quest
+
+[BACKGROUND]
+	assets/story/backgrounds/3.swf
+
+[FOREGROUND]
+	assets/story/letterbox.swf
+
+[SETTINGS]
+	USE_LEFT_ARROW					yes
+	ACTOR_STAYS_FOR_PLAYER_SPEECH	yes
+	ACTOR_STAYS_FOR_ANIM			no
+	PLAYER_BUBBLE_X					0
+	PLAYER_BUBBLE_Y					510
+	NPC_BUBBLE_X					480
+	NPC_BUBBLE_Y					300
+
+[PLAYER]
+	NAME		You
+
+[CHARACTER - LYLE]
+	ASSET	assets/story/npc/lyle.swf
+	NAME	Lyle
+	
+[ANIM - SEXY_GF]						# This is the picture of Lyle's sexy gf
+	ASSET	assets/story/anim/sexy_gf.swf
+
+[ANIM - WASABEE]						# This is the over-sized Wasabee
+	ASSET	assets/story/anim/wasabee.swf
+
+[STORY]
+
+	LYLE IN
+
+	PLAYER		Lyle? Is that you?
+		
+	LYLE		Hey, neighbor! You got a minute? I'm in big trouble!
+
+	PLAYER		So you're the guy Nova was talking about...
+
+	LYLE		Who? Anyway, here's how it is: I bought some chocolates for my long-distance girlfriend, Gertrude...
+	
+	SEXY_GF
+	
+	LYLE		What? Why are you looking at me like that? She loves me for my personality, OK!?!
+	
+	LYLE		Anywho, she lives in Windhym, and I think the earthquakes wrecked it up pretty good. I was making her a care package, but these big angry bee things came and stole the chocolates!
+
+	LYLE		Those chocolates were the cornerstone of the whole care package operation! I tried to get them back, but they beat the gravy out of me and stung me in the face!
+	
+	PLAYER		I'm a Moga tamer now. Do you need some help?
+	
+	LYLE		Well, if you're offering... yeah! I need you to grab those chocolates from the bees. I think they're called Wasabees. They hang around back up the road, on the Warmwood Trail.
+	
+	WASABEE
+
+	PLAYER		OK, I'll have a look.
+	
+	LYLE		Hurry up, pal! The chocolates are gonna melt! {ACCEPT}
+	
+	LYLE OUT

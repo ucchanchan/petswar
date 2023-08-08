@@ -1,0 +1,29 @@
+# This is Lyle's last message. 
+
+[BACKGROUND]
+	assets/story/backgrounds/3.swf
+
+[FOREGROUND]
+	assets/story/letterbox.swf
+
+[SETTINGS]
+	USE_LEFT_ARROW					yes
+	ACTOR_STAYS_FOR_PLAYER_SPEECH	yes
+	ACTOR_STAYS_FOR_ANIM			no
+	PLAYER_BUBBLE_X					0
+	PLAYER_BUBBLE_Y					510
+	NPC_BUBBLE_X					480
+	NPC_BUBBLE_Y					300
+
+[PLAYER]
+	NAME		You
+
+[CHARACTER - LYLE]
+	ASSET	assets/story/npc/lyle.swf
+	NAME	Lyle
+	
+[STORY]
+		
+	LYLE		I heard you're on some kind of big, fancy adventure now. Don't worry, I'll be supporting you from here, neighbor! {OK}
+	
+	LYLE OUT

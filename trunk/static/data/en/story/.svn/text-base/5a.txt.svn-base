@@ -1,0 +1,40 @@
+# After beating sheep guy. 
+
+[BACKGROUND]
+	assets/story/backgrounds/11.swf
+
+[FOREGROUND]
+	assets/story/letterbox.swf
+
+[SETTINGS]
+	USE_LEFT_ARROW					yes
+	ACTOR_STAYS_FOR_PLAYER_SPEECH	yes
+	ACTOR_STAYS_FOR_ANIM			no
+	PLAYER_BUBBLE_X					0
+	PLAYER_BUBBLE_Y					510
+	NPC_BUBBLE_X					480
+	NPC_BUBBLE_Y					300
+
+[PLAYER]
+	NAME		You
+
+[CHARACTER - SHEEP_GUY]
+	ASSET	assets/story/npc/sheep_guy.swf
+	NAME		Sheep 
+
+[STORY]
+
+	SHEEP_GUY	We're sorry! BAAAAhh... Please don't steal our wool!
+
+	PLAYER		Don't worry, I'm not here to take your wool.
+
+	SHEEP_GUY	Thank heavens! I'm just so nervous lately, but... a tamer like you probaaahbly doesn't have time to listen to my woeful bleatings.
+
+	PLAYER		Something wrong?
+
+	SHEEP_GUY	BAAAaahh. A few weeks ago, the local Woolfs came by and told me they have... compromising photos of me. They've been threatening to publish the photos unless we give them our wool.
+
+	SHEEP_GUY	The Woolfs gather near the cave, back toward the woods. Will you please get those photos? I beg of you! BAaAAaAAAH! {ACCEPT}
+
+	SHEEP_GUY OUT
+

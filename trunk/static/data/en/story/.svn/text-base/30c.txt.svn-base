@@ -1,0 +1,33 @@
+# Jack frost Lainedeer complete
+
+[BACKGROUND]
+	assets/story/backgrounds/30a.swf
+
+[FOREGROUND]
+	assets/story/letterbox.swf
+
+[SETTINGS]
+	USE_LEFT_ARROW					yes
+	ACTOR_STAYS_FOR_PLAYER_SPEECH	yes
+	ACTOR_STAYS_FOR_ANIM			no
+	PLAYER_BUBBLE_X					0
+	PLAYER_BUBBLE_Y					510
+	NPC_BUBBLE_X					480
+	NPC_BUBBLE_Y					300
+
+[PLAYER]
+	NAME		You
+
+[CHARACTER - JACKFROST]
+	ASSET	assets/story/npc/jackfrost.swf
+	NAME	Jack Frost
+
+[STORY]
+		
+	JACKFROST		I can't believe it! You've tamed a Lainedeer!
+	
+	JACKFROST		In all my centuries of wintermaking, I've never seen one in the hands of a tamer. Perhaps you're destined to be a great Master.
+	
+	JACKFROST		But now it's back to work for me, tamer. Look for me again next winter, when the first snow begins to fall-- I'll be expecting you!
+	
+	JACKFROST OUT

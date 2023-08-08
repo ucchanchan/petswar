@@ -1,0 +1,45 @@
+
+# This is the third part of Poe's Celestial Gatekeepers quest, in which you have caught the Gatekeeper and he sends you to Serene.
+
+[BACKGROUND]
+	assets/story/backgrounds/33.swf
+
+[FOREGROUND]
+	assets/story/letterbox.swf
+
+[SETTINGS]
+	USE_LEFT_ARROW					yes
+	ACTOR_STAYS_FOR_PLAYER_SPEECH	yes
+	ACTOR_STAYS_FOR_ANIM			no
+	PLAYER_BUBBLE_X					0
+	PLAYER_BUBBLE_Y					510
+	NPC_BUBBLE_X					480
+	NPC_BUBBLE_Y					300
+
+[PLAYER]
+	NAME		You
+
+[CHARACTER - POE]
+	ASSET	assets/story/npc/poe	
+	NAME	Poe
+	
+[STORY]
+
+
+POE IN
+
+POE				That is quite a glorious creature you've captured. It would be perfect if it didn't have the stars--if the empty blackness of space swallowed everything. 
+
+PLAYER		Thanks for helping me find it. Have you thought about the other thing I asked you? Can you help the prince of Pueblonia with poetry?  
+
+POE				I would love to infect a young mind with the curse of poetry, but I'd be really out of place in Pueblonia. At least here I'm surrounded by people like me. 
+
+PLAYER		You live in a graveyard.
+
+POE				Exactly. Actually... I do know someone who lives outside of Pueblonia, in a place called {$GREEN Sandshitre}. I've seen some of her work in my favorite poetry zine, "Night Terrors." Could you introduce us?
+
+PLAYER		Sure--and thanks for helping me find that Celestial Gatekeeper. 
+
+POE			No problem. Now if you'll excuse me, I have an epic to work on. It's about ants eating my body after I'm dead. {ACCEPT}
+
+POE OUT

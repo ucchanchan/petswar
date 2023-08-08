@@ -1,0 +1,30 @@
+# Quest completion for capturing Shen at Rankwallow
+[BACKGROUND]
+	assets/story/backgrounds/168.swf
+
+[FOREGROUND]
+	assets/story/letterbox.swf
+
+[SETTINGS]
+	USE_LEFT_ARROW					yes
+	ACTOR_STAYS_FOR_PLAYER_SPEECH	yes
+	ACTOR_STAYS_FOR_ANIM			no
+	PLAYER_BUBBLE_X					0
+	PLAYER_BUBBLE_Y					510
+	NPC_BUBBLE_X					480
+	NPC_BUBBLE_Y					300
+
+[PLAYER]
+	NAME		You
+
+[CHARACTER - PIERCE]
+	ASSET	assets/story/npc/sgtPierce.swf
+	NAME	Pierce
+
+[STORY]
+
+PIERCE IN
+
+PIERCE    Real fine work, shortpants. I'm glad {$RED Shen} will be helping us out instead of chomping people up. {OK}
+
+PIERCE OUT

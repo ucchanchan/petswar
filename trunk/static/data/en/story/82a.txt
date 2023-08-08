@@ -1,0 +1,37 @@
+# This is Nova's trainer fight.
+
+[BACKGROUND]
+	assets/story/backgrounds/3.swf
+
+[FOREGROUND]
+	assets/story/letterbox.swf
+
+[SETTINGS]
+	USE_LEFT_ARROW					yes
+	ACTOR_STAYS_FOR_PLAYER_SPEECH	yes
+	ACTOR_STAYS_FOR_ANIM			yes
+	PLAYER_BUBBLE_X					0
+	PLAYER_BUBBLE_Y					510
+	NPC_BUBBLE_X					480
+	NPC_BUBBLE_Y					300
+
+[PLAYER]
+	NAME		You
+
+[CHARACTER - NOVA]
+	ASSET	assets/story/npc/nova.swf
+	NAME	Nova
+
+[STORY]
+
+NOVA IN
+
+NOVA    Looks like you've gotten a lot stronger since I first saw you--good job. I'd like to see how your Mogas are progressing with a little sparring.
+
+NOVA		When Moga tamers meet they'll often test each other with a Moga battle. Sometimes it's just for fun, like this. Other times it's deadly serious. 
+
+NOVA		When you fight other trainers they'll have several Mogas on their team, just like you do. See if you can use a little strategy to beat me! {ACCEPT}
+
+NOVA OUT
+
+

@@ -1,0 +1,37 @@
+  # This is the first part of Find Bruno, which sends you to the Otterdam at 51
+
+[BACKGROUND]
+	assets/story/backgrounds/98.swf
+
+[FOREGROUND]
+	assets/story/letterbox.swf
+
+[SETTINGS]
+	USE_LEFT_ARROW					yes
+	ACTOR_STAYS_FOR_PLAYER_SPEECH	yes
+	ACTOR_STAYS_FOR_ANIM			no
+	PLAYER_BUBBLE_X					0
+	PLAYER_BUBBLE_Y					510
+	NPC_BUBBLE_X					480
+	NPC_BUBBLE_Y					300
+
+[PLAYER]
+	NAME		You
+
+[CHARACTER - NOVA]
+	ASSET	assets/story/npc/nova.swf
+	NAME	Nova						
+
+[STORY]
+
+NOVA IN
+
+NOVA     Good to see you, tamer! Looks like the Cat Taxi gave you a smooth ride over Poseidon's Gorge.
+
+PLAYER    I'm afraid Bruno might have tried to raft over here. Have you seen him?
+
+NOVA    Not yet--but if he got spat out of the cave, the current would have washed him down this guy named {$GREEN Otto's House}. If I were you, I'd look for him there.
+
+NOVA    Be careful, tamer. You're a long way from home. It's dangerous out here, even for me. {ACCEPT}
+
+NOVA OUT

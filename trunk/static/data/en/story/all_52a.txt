@@ -1,0 +1,31 @@
+# General format for Catch them all
+
+[BACKGROUND]
+	assets/story/backgrounds/4.swf
+
+[FOREGROUND]
+	assets/story/letterbox.swf
+
+[SETTINGS]
+	USE_LEFT_ARROW					yes
+	ACTOR_STAYS_FOR_PLAYER_SPEECH	yes
+	ACTOR_STAYS_FOR_ANIM			no
+	PLAYER_BUBBLE_X					0
+	PLAYER_BUBBLE_Y					510
+	NPC_BUBBLE_X					480
+	NPC_BUBBLE_Y					300
+
+[PLAYER]
+	NAME		You
+
+[CHARACTER - NOVA]
+	ASSET	assets/story/npc/nova.swf
+	NAME	Nova
+
+[STORY]
+	
+	NOVA IN
+	
+	NOVA		There's a furry little Moga named {$RED Chuuchilla} that scurries across these roads. Look for it at {$GREEN Summer Field}. Capturing it will add some more depth to your bench.  Good luck! {ACCEPT}
+
+	NOVA OUT

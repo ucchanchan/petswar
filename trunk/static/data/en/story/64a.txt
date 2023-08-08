@@ -1,0 +1,38 @@
+
+# This is the first part of Leonard's Celestial Gatekeepers quest.
+
+[BACKGROUND]
+	assets/story/backgrounds/39.swf
+
+[FOREGROUND]
+	assets/story/letterbox.swf
+
+[SETTINGS]
+	USE_LEFT_ARROW					yes
+	ACTOR_STAYS_FOR_PLAYER_SPEECH	yes
+	ACTOR_STAYS_FOR_ANIM			no
+	PLAYER_BUBBLE_X					0
+	PLAYER_BUBBLE_Y					510
+	NPC_BUBBLE_X					480
+	NPC_BUBBLE_Y					300
+
+[PLAYER]
+	NAME		You
+
+[CHARACTER - LEONARD]
+	ASSET	assets/story/npc/leonard	
+	NAME	Leonard
+
+[STORY]
+
+LEONARD IN
+
+LEONARD			Back so soon! I saw your thief friend--so far she's behaving herself. Or maybe she just hasn't been caught yet.
+
+PLAYER			I've run out of leads for finding Celestial Gatekeepers. Any ideas? 
+
+LEONARD			Sorry, haven't heard anything. If you've got the time, though, could you do me a favor? 
+
+LEONARD			One of my hobbies is making dreamcatchers and I can always use more feathers. If you could knock out ten {$RED Muninns} and get me their feathers I'd really appreciate it. {ACCEPT}
+
+LEONARD OUT		

@@ -1,0 +1,34 @@
+
+# This is the second part of Leonard's Celestial Gatekeepers quest.
+
+[BACKGROUND]
+	assets/story/backgrounds/9.swf
+
+[FOREGROUND]
+	assets/story/letterbox.swf
+
+[SETTINGS]
+	USE_LEFT_ARROW					yes
+	ACTOR_STAYS_FOR_PLAYER_SPEECH	yes
+	ACTOR_STAYS_FOR_ANIM			no
+	PLAYER_BUBBLE_X					0
+	PLAYER_BUBBLE_Y					510
+	NPC_BUBBLE_X					480
+	NPC_BUBBLE_Y					300
+
+[PLAYER]
+	NAME		You
+
+[CHARACTER - LEONARD]
+	ASSET	assets/story/npc/leonard	
+	NAME	Leonard
+
+[STORY]
+
+LEONARD IN
+
+LEONARD		Thanks! You know what else would really top off this design I'm working on? Some purple pincers. Maybe you've seen them before--they're also used for making poison.
+
+LEONARD		I'd be much obliged if you can get me five {$BLUE Purple Pincers}. You can get them from {$RED Crabaos} and {$RED Yaras} down on the beach. {ACCEPT}  #specify with tobi
+
+LEONARD OUT

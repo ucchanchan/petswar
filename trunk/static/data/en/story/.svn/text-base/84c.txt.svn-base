@@ -1,0 +1,42 @@
+# This is Skylar's trainer fight if you win . 
+
+[BACKGROUND]
+	assets/story/backgrounds/22.swf
+
+[FOREGROUND]
+	assets/story/letterbox.swf
+
+[SETTINGS]
+	USE_LEFT_ARROW					yes
+	ACTOR_STAYS_FOR_PLAYER_SPEECH	yes
+	ACTOR_STAYS_FOR_ANIM			yes
+	PLAYER_BUBBLE_X					0
+	PLAYER_BUBBLE_Y					510
+	NPC_BUBBLE_X					480
+	NPC_BUBBLE_Y					300
+
+[PLAYER]
+	NAME		You
+
+[CHARACTER - SKYLAR]
+	ASSET	assets/story/npc/skylar.swf
+	NAME	Skylar
+
+[STORY]
+
+SKYLAR IN
+
+
+SKYLAR        Don't be too proud of yourself. Those were my wimpiest Mogas. I thought that would make it a fair fight--you know, since you're the wimpiest tamer.
+  
+SKYLAR        Look, past this bridge is Windhym. I heard the mayor there is looking for a tamer for some dangerous mission. Naturally, I'll be volunteering.
+
+SKYLAR        You really should scamper on home before you get hurt. I certainly wouldn't respect you any less. Later on, loser! HRRORORO!
+  
+SKYLAR OUT
+  
+PLAYER        Argh, Skylar...
+
+PLAYER        He's the worst guy. {OK}
+    
+SKYLAR OUT

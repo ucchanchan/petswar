@@ -1,0 +1,38 @@
+
+# This is the second part of Pierce's Celestial Gatekeepers quest. 
+
+[BACKGROUND]
+	assets/story/backgrounds/2.swf
+
+[FOREGROUND]
+	assets/story/letterbox.swf
+
+[SETTINGS]
+	USE_LEFT_ARROW					yes
+	ACTOR_STAYS_FOR_PLAYER_SPEECH	yes
+	ACTOR_STAYS_FOR_ANIM			no
+	PLAYER_BUBBLE_X					0
+	PLAYER_BUBBLE_Y					510
+	NPC_BUBBLE_X					480
+	NPC_BUBBLE_Y					300
+
+[PLAYER]
+	NAME		You
+
+[CHARACTER - PIERCE]
+	ASSET	assets/story/npc/pierce	
+	NAME	Pierce
+
+PIERCE IN
+
+PIERCE        You found it, eh? I knew you would. Nice job, kid.
+
+PIERCE        Now, I've got some good news and some bad news for you. Good news is that I've figured out who to ask about the next Celestial Gatekeeper.
+
+PIERCE        The bad news? Well, it seems logical that you'd have to talk to a powerful tamer-- and the only one left in these parts is that doofus, Skylar.
+
+PIERCE        I disliked him from the moment I met him, but if you can suffer through another conversation with him, he might have some useful info.
+
+PIERCE        Head out to {$GREEN Cortex} and pay him a visit, kid. {ACCEPT}
+
+PIERCE OUT

@@ -1,0 +1,35 @@
+# This is the first grant in the st patricks day quest 
+
+[BACKGROUND]
+	assets/story/backgrounds/cat_taxi_bg.swf
+
+[FOREGROUND]
+	assets/story/letterbox.swf
+
+[SETTINGS]
+	USE_LEFT_ARROW					yes
+	ACTOR_STAYS_FOR_PLAYER_SPEECH	yes
+	ACTOR_STAYS_FOR_ANIM			yes
+	PLAYER_BUBBLE_X					0
+	PLAYER_BUBBLE_Y					510
+	NPC_BUBBLE_X					480
+	NPC_BUBBLE_Y					300
+
+[PLAYER]
+	NAME		You
+
+[CHARACTER - PATTY_TOBI]
+	ASSET	assets/story/npc/patty_tobi.swf
+	NAME	Tobi
+
+[STORY]
+
+PATTY_TOBI IN
+
+PATTY_TOBI	Howdy, tamer-- I've got a little job for you. There's a strange rainbow that ends at {$GREEN Darkwood}. No matter what the weather's like, that rainbow stays fixed in the same spot. Pretty weird.
+ 
+PATTY_TOBI	What do I think's going on? Well, it sounds silly, but there's a story that says the forest Mogas throw a party each spring, and they use a rainbow to show their friends where it is. But that can't be true, can it? 
+
+PATTY_TOBI	Anyway, I'd love to know what's going on with that rainbow. And if there's a party, all the better! Think you can check it out? {ACCEPT}
+
+PATTY_TOBI OUT

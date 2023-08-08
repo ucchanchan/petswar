@@ -1,0 +1,32 @@
+
+[BACKGROUND]
+	assets/story/backgrounds/4.swf
+
+[FOREGROUND]
+	assets/story/letterbox.swf
+
+[SETTINGS]
+	USE_LEFT_ARROW					yes
+	ACTOR_STAYS_FOR_PLAYER_SPEECH	yes
+	ACTOR_STAYS_FOR_ANIM			no
+	PLAYER_BUBBLE_X					0
+	PLAYER_BUBBLE_Y					510
+	NPC_BUBBLE_X					480
+	NPC_BUBBLE_Y					300
+
+[PLAYER]
+	NAME		You
+
+[CHARACTER - NOVA]
+	ASSET	assets/story/npc/nova.swf
+	NAME	Nova
+
+[STORY]
+
+	NOVA IN
+		
+	NOVA		Hope you're wearing your taming pants today. Not all tamers can handle it, but I want to see how you do: see if you can catch a Zeit.
+	
+	NOVA		Look at {$GREEN Marshamarsha Marsh} to find one. {ACCEPT}
+
+	NOVA OUT

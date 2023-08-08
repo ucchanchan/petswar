@@ -1,0 +1,32 @@
+
+[BACKGROUND]
+	assets/story/backgrounds/4.swf
+
+[FOREGROUND]
+	assets/story/letterbox.swf
+
+[SETTINGS]
+	USE_LEFT_ARROW					yes
+	ACTOR_STAYS_FOR_PLAYER_SPEECH	yes
+	ACTOR_STAYS_FOR_ANIM			no
+	PLAYER_BUBBLE_X					0
+	PLAYER_BUBBLE_Y					510
+	NPC_BUBBLE_X					480
+	NPC_BUBBLE_Y					300
+
+[PLAYER]
+	NAME		You
+
+[CHARACTER - NOVA]
+	ASSET	assets/story/npc/nova.swf
+	NAME	Nova
+
+[STORY]
+
+	NOVA IN
+		
+	NOVA		Hope you're wearing your taming pants today. The next Moga I want you to catch is Buffant.
+	
+	NOVA		See if you can find one at {$GREEN Super Bazaar} or {$GREEN Parapets of Dawn}. {ACCEPT}
+
+	NOVA OUT

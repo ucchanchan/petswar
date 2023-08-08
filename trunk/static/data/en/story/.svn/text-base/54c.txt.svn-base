@@ -1,0 +1,32 @@
+# This the quest complete for their second quest and the grant to catch the Dungen Master
+[BACKGROUND]
+	assets/story/backgrounds/156.swf
+
+[FOREGROUND]
+	assets/story/letterbox.swf
+
+[SETTINGS]
+	USE_LEFT_ARROW					yes
+	ACTOR_STAYS_FOR_PLAYER_SPEECH	yes
+	ACTOR_STAYS_FOR_ANIM			no
+	PLAYER_BUBBLE_X					0
+	PLAYER_BUBBLE_Y					510
+	NPC_BUBBLE_X					480
+	NPC_BUBBLE_Y					300
+
+[PLAYER]
+	NAME		You
+
+[CHARACTER - BLACK_OPS]
+	ASSET	assets/story/npc/black_ops.swf
+	NAME	Retired Soldiers
+	
+[STORY]
+
+BLACK_OPS IN
+
+BLACK_OPS		Thanks for catching these crabs! They are truly the salve of the shattered soul. If you didn't get them, our back-up plan was to tear our shirts off and run around screaming! {OK}
+
+BLACK_OPS OUT
+
+#anim

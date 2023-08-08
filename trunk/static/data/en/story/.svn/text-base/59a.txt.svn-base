@@ -1,0 +1,38 @@
+# This is the second leg of Celestial Gatekeepers, in which you talk to Craig Sherman.
+[BACKGROUND]
+	assets/story/backgrounds/83.swf
+
+[FOREGROUND]
+	assets/story/letterbox.swf
+
+[SETTINGS]
+	USE_LEFT_ARROW					yes
+	ACTOR_STAYS_FOR_PLAYER_SPEECH	yes
+	ACTOR_STAYS_FOR_ANIM			no
+	PLAYER_BUBBLE_X					0
+	PLAYER_BUBBLE_Y					510
+	NPC_BUBBLE_X					480
+	NPC_BUBBLE_Y					300
+
+[PLAYER]
+	NAME		You
+
+[CHARACTER - CRAIG]
+	ASSET	assets/story/npc/craig	
+	NAME	Craig Sherman
+	
+[STORY]
+
+CRAIG IN
+
+CRAIG		Have you ever seen a Balled Watersquirrel? Fantastic creatures! Once a year they all gather in the south seas to mate and play water polo. Quite a sight! 
+
+CRAIG		The water polo gets broken up by the other stuff, but they're great sports about it! Truly a once in a lifetime sight--I'm going over to {$GREEN Sanctuary Isle} to watch it right now!
+
+PLAYER		Do you know anything about the Celestial Gatekeepers? I'm trying to catch them.
+
+CRAIG		Oh, wowzers, now there's a rare beast! Marvelous creatures, eh! I'd love to chat, but I have to leave right now to catch the Watersquirrels.
+
+		# give this info to Tobi: Meet Craig at {$GREEN Sanctuary Isle} to find out what he knows. {ACCEPT}
+
+CRAIG OUT

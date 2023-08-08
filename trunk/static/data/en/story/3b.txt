@@ -1,0 +1,31 @@
+# Returning to Mia before completing her quest. 
+
+[BACKGROUND]
+	assets/story/backgrounds/19.swf
+
+[FOREGROUND]
+	assets/story/letterbox.swf
+
+[SETTINGS]
+	USE_LEFT_ARROW					yes
+	ACTOR_STAYS_FOR_PLAYER_SPEECH	yes
+	ACTOR_STAYS_FOR_ANIM			no
+	PLAYER_BUBBLE_X					0
+	PLAYER_BUBBLE_Y					510
+	NPC_BUBBLE_X					480
+	NPC_BUBBLE_Y					300
+
+[PLAYER]
+	NAME		You
+
+[CHARACTER - MIA]
+	ASSET	assets/story/npc/mia.swf
+	NAME		Mia
+
+[STORY]
+
+	MIA		Those Twisters are tough, aren't they? Don't give up!
+
+	MIA		Remember: you can find them between Sandswirl Shrubwalk and Sandswirl Tidal Pool. Good luck! {OK}
+
+	MIA OUT

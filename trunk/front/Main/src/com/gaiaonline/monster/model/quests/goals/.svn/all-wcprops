@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/2/trunk/front/Main/src/com/gaiaonline/monster/model/quests/goals
+END
+QuestGoalsCaptureVO.as
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/2/trunk/front/Main/src/com/gaiaonline/monster/model/quests/goals/QuestGoalsCaptureVO.as
+END
+QuestGoalsLocationSetVO.as
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/2/trunk/front/Main/src/com/gaiaonline/monster/model/quests/goals/QuestGoalsLocationSetVO.as
+END
+QuestGoalsBattleSetVO.as
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/2/trunk/front/Main/src/com/gaiaonline/monster/model/quests/goals/QuestGoalsBattleSetVO.as
+END
+QuestGoalsKillSetVO.as
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/2/trunk/front/Main/src/com/gaiaonline/monster/model/quests/goals/QuestGoalsKillSetVO.as
+END
+QuestGoalsLocationVO.as
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/2/trunk/front/Main/src/com/gaiaonline/monster/model/quests/goals/QuestGoalsLocationVO.as
+END
+QuestGoalsItemSetVO.as
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/2/trunk/front/Main/src/com/gaiaonline/monster/model/quests/goals/QuestGoalsItemSetVO.as
+END
+QuestGoalsKillVO.as
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/2/trunk/front/Main/src/com/gaiaonline/monster/model/quests/goals/QuestGoalsKillVO.as
+END
+QuestGoalsItemVO.as
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/2/trunk/front/Main/src/com/gaiaonline/monster/model/quests/goals/QuestGoalsItemVO.as
+END
+QuestGoalsCaptureSetVO.as
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/2/trunk/front/Main/src/com/gaiaonline/monster/model/quests/goals/QuestGoalsCaptureSetVO.as
+END
+QuestGoalsVO.as
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/2/trunk/front/Main/src/com/gaiaonline/monster/model/quests/goals/QuestGoalsVO.as
+END

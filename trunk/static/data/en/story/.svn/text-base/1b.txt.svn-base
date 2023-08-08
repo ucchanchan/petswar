@@ -1,0 +1,32 @@
+# This is the player going back to Lyle before completing the package quest.
+
+[BACKGROUND]
+	assets/story/backgrounds/3.swf
+
+[FOREGROUND]
+	assets/story/letterbox.swf
+
+[SETTINGS]
+	USE_LEFT_ARROW					yes
+	ACTOR_STAYS_FOR_PLAYER_SPEECH	yes
+	ACTOR_STAYS_FOR_ANIM			no
+	PLAYER_BUBBLE_X					0
+	PLAYER_BUBBLE_Y					510
+	NPC_BUBBLE_X					480
+	NPC_BUBBLE_Y					300
+
+[PLAYER]
+	NAME		You
+
+[CHARACTER - LYLE]
+	ASSET	assets/story/npc/lyle.swf
+	NAME	Lyle
+	
+
+[STORY]
+
+	LYLE		Yeah, yeah. I'll clean up my yeard when you deliver that package. {OK}
+
+	LYLE OUT
+	
+

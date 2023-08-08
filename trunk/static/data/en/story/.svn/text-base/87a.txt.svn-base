@@ -1,0 +1,35 @@
+# cat rancher sale
+
+[BACKGROUND]
+	assets/story/backgrounds/3.swf
+
+[FOREGROUND]
+	assets/story/letterbox.swf
+
+[SETTINGS]
+	USE_LEFT_ARROW					yes
+	ACTOR_STAYS_FOR_PLAYER_SPEECH	yes
+	ACTOR_STAYS_FOR_ANIM			yes
+	PLAYER_BUBBLE_X					0
+	PLAYER_BUBBLE_Y					510
+	NPC_BUBBLE_X					480
+	NPC_BUBBLE_Y					300
+
+[PLAYER]
+	NAME		You
+
+[CHARACTER - TOBI]
+	ASSET	assets/story/npc/tobi.swf
+	NAME	Tobi
+
+[STORY]
+
+TOBI IN
+
+TOBI	Howdy tamer! I just wanted to let you know, the volleyball team at Sky Cat High School is trying to raise money for a big tournament by doing odd jobs around Sunshire.
+
+TOBI	For a limited time, you'll be able to get them to harvest all the whistlefruit at friends' homes for only five Star Coins--half the usual price. It's a great deal, and it's for a good cause! 
+
+TOBI	To hire them, just head home and click on the cat in overalls hanging out in your yard!
+
+TOBI OUT

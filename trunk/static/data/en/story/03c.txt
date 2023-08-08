@@ -1,0 +1,35 @@
+# Completing Mia's quest.
+
+[BACKGROUND]
+	assets/story/backgrounds/19.swf
+
+[FOREGROUND]
+	assets/story/letterbox.swf
+
+[SETTINGS]
+	USE_LEFT_ARROW					yes
+	ACTOR_STAYS_FOR_PLAYER_SPEECH	yes
+	ACTOR_STAYS_FOR_ANIM			no
+	PLAYER_BUBBLE_X					0
+	PLAYER_BUBBLE_Y					510
+	NPC_BUBBLE_X					480
+	NPC_BUBBLE_Y					300
+
+[PLAYER]
+	NAME		You
+
+[CHARACTER - MIA]
+	ASSET	assets/story/npc/mia.swf
+	NAME		Mia
+
+[STORY]
+
+	MIA		You did it! I know Lia will see the light now, thanks to you!
+		
+	MIA		I can't thank you enough!
+
+	PLAYER		I'm happy to help. {OK}
+
+	MIA OUT
+
+

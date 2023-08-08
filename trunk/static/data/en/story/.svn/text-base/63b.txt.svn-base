@@ -1,0 +1,45 @@
+# This is the second part of Jezabelle's Celestial Gatekeepers quest.
+
+[BACKGROUND]
+	assets/story/backgrounds/68.swf
+
+[FOREGROUND]
+	assets/story/letterbox.swf
+
+[SETTINGS]
+	USE_LEFT_ARROW					yes
+	ACTOR_STAYS_FOR_PLAYER_SPEECH	yes
+	ACTOR_STAYS_FOR_ANIM			no
+	PLAYER_BUBBLE_X					0
+	PLAYER_BUBBLE_Y					510
+	NPC_BUBBLE_X					480
+	NPC_BUBBLE_Y					300
+
+[PLAYER]
+	NAME		You
+
+[CHARACTER - RICKY]
+	ASSET	assets/story/npc/ricky
+	NAME	Ricky
+
+[STORY]
+
+RICKY IN
+
+RICKY			Whoah, hey, look everyone--it's the tamer who beat the sultan! Can I get your signature?
+
+PLAYER		Can you help me with something?
+
+RICKY			Sure, anything! You're kind of a huge deal around here--no one's ever beaten the sultan before. 
+
+PLAYER		I'm trying to help a former thief return to Pueblonia. 
+
+RICKY			Your name carries a lot of weight around here, so I'm pretty sure we can work it out. Who's this former thief?
+
+PLAYER		Jezabelle.
+
+RICKY			HER! No way. Nooooo way. Not cool.
+
+RICKY			Well...maybe for you. I'll talk to the other shopkeepers. If you help clean up the vermin in these streets, that would definitely help your case. #beat a bunch of mogas between 62 and 70.
+
+PLAYER		Thanks. {ACCEPT}

@@ -1,0 +1,41 @@
+# Capture Colibri
+
+[BACKGROUND]
+	assets/story/backgrounds/4.swf
+
+[FOREGROUND]
+	assets/story/letterbox.swf
+
+[SETTINGS]
+	USE_LEFT_ARROW					yes
+	ACTOR_STAYS_FOR_PLAYER_SPEECH	yes
+	ACTOR_STAYS_FOR_ANIM			yes
+	PLAYER_BUBBLE_X					0
+	PLAYER_BUBBLE_Y					510
+	NPC_BUBBLE_X					480
+	NPC_BUBBLE_Y					300
+
+[PLAYER]
+	NAME		You
+
+
+[CHARACTER - NOVA]
+	ASSET	assets/story/npc/nova.swf
+	NAME		Nova
+
+[ANIM - COLIBRI]
+	ASSET	assets/story/anim/colibri.swf
+
+[STORY]
+
+NOVA IN
+
+NOVA		Colibri is a beautiful, deadly bird. The hunt for this creature has been the downfall of many tamers, but I'm sure you'll do fine.
+
+COLIBRI
+
+NOVA		Their sharp beaks let them suck nectar from giant flowers and pierce the hearts of predators--but you've got an advantage.
+
+NOVA		That Alyx you captured a little while ago? It's a {$GOLD Leo}, a zodiac sign very strong against a {$GOLD Libra} like Colibri. Look at {$GREEN Miasma Depths}. {ACCEPT}
+
+NOVA OUT

@@ -1,0 +1,31 @@
+# Returning to Nova before completing her quest.
+
+[BACKGROUND]
+	assets/story/backgrounds/3.swf
+
+[FOREGROUND]
+	assets/story/letterbox.swf
+
+[SETTINGS]
+	USE_LEFT_ARROW					yes
+	ACTOR_STAYS_FOR_PLAYER_SPEECH	yes
+	ACTOR_STAYS_FOR_ANIM			no
+	PLAYER_BUBBLE_X					0
+	PLAYER_BUBBLE_Y					510
+	NPC_BUBBLE_X					480
+	NPC_BUBBLE_Y					300
+
+[PLAYER]
+	NAME		You
+
+[CHARACTER - NOVA]
+	ASSET	assets/story/npc/nova.swf
+	NAME	Nova
+
+[STORY]
+		
+NOVA		Something's got the Mogas spooked. I don't know; maybe you can feel it, too. I just can't shake the feeling that something big is on the way. 
+
+NOVA		Well, I didn't come here just to freak you out--I've got useful information. Since they're on edge, it'll be easier to capture ----- right now. Catching them might come in handy later on. {OK}
+	
+NOVA OUT

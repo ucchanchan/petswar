@@ -1,0 +1,33 @@
+# This is the completion of capturing the bait moga and the grant for capturing the surf moga. 
+
+[BACKGROUND]
+	assets/story/backgrounds/122.swf
+
+[FOREGROUND]
+	assets/story/letterbox.swf
+
+[SETTINGS]
+	USE_LEFT_ARROW					yes
+	ACTOR_STAYS_FOR_PLAYER_SPEECH	yes
+	ACTOR_STAYS_FOR_ANIM			no
+	PLAYER_BUBBLE_X					0
+	PLAYER_BUBBLE_Y					510
+	NPC_BUBBLE_X					480
+	NPC_BUBBLE_Y					300
+
+[PLAYER]
+	NAME		You
+
+[CHARACTER - RIP]
+	ASSET	assets/story/npc/rip.swf
+	NAME	Rip						
+
+[STORY]
+
+RIP IN
+
+RIP			Excellent! Your success bodes a future most gnarly.
+
+{ACCEPT}
+
+RIP OUT

@@ -1,0 +1,42 @@
+# Capture A.C.
+
+[BACKGROUND]
+	assets/story/backgrounds/4.swf
+
+[FOREGROUND]
+	assets/story/letterbox.swf
+
+[SETTINGS]
+	USE_LEFT_ARROW					yes
+	ACTOR_STAYS_FOR_PLAYER_SPEECH	yes
+	ACTOR_STAYS_FOR_ANIM			yes
+	PLAYER_BUBBLE_X					0
+	PLAYER_BUBBLE_Y					510
+	NPC_BUBBLE_X					480
+	NPC_BUBBLE_Y					300
+
+[PLAYER]
+	NAME		You
+
+
+[CHARACTER - NOVA]
+	ASSET	assets/story/npc/nova.swf
+	NAME		Nova
+
+[ANIM - BLACK_GOLD]
+	ASSET	assets/story/anim/blackgold.swf
+
+[STORY]
+
+NOVA IN
+
+NOVA        That's the last of the Moga Master taming sequence! Amazing work--you're part of an elite group now, and you'll be able to tame Mogas that few others can.
+
+NOVA			{$RED Black Gold} is a massive dragon that simply doesn't appear for lesser tamers. It's part of an ancient breed of Mogas that defies human understanding--but now you'll be able to capture one.
+
+BLACK_GOLD
+
+NOVA        Go to the {$GREEN Lobster Tornado}; there will be a {$RED Black Gold} waiting to test you in battle. {ACCEPT}
+
+
+NOVA OUT

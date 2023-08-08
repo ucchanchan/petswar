@@ -1,0 +1,31 @@
+# More Yugure spawning. 
+
+[BACKGROUND]
+	assets/story/backgrounds/9.swf
+
+[FOREGROUND]
+	assets/story/letterbox.swf
+
+[SETTINGS]
+	USE_LEFT_ARROW					yes
+	ACTOR_STAYS_FOR_PLAYER_SPEECH	yes
+	ACTOR_STAYS_FOR_ANIM			no
+	PLAYER_BUBBLE_X					0
+	PLAYER_BUBBLE_Y					510
+	NPC_BUBBLE_X					480
+	NPC_BUBBLE_Y					300
+
+[PLAYER]
+	NAME		You
+
+[CHARACTER - POE]
+	ASSET	assets/story/npc/poe.swf
+	NAME		Poe 
+
+[STORY]
+
+POE IN
+
+POE		Ah, you got one! Fantastic--though I will miss it around here. Their mournful howl sends shivers up my spine. Take good care of it, tamer.
+
+POE OUT

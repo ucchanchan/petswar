@@ -1,0 +1,39 @@
+# Capture Trolo
+
+[BACKGROUND]
+	assets/story/backgrounds/4.swf
+
+[FOREGROUND]
+	assets/story/letterbox.swf
+
+[SETTINGS]
+	USE_LEFT_ARROW					yes
+	ACTOR_STAYS_FOR_PLAYER_SPEECH	yes
+	ACTOR_STAYS_FOR_ANIM			yes
+	PLAYER_BUBBLE_X					0
+	PLAYER_BUBBLE_Y					510
+	NPC_BUBBLE_X					480
+	NPC_BUBBLE_Y					300
+
+[PLAYER]
+	NAME		You
+
+
+[CHARACTER - NOVA]
+	ASSET	assets/story/npc/nova.swf
+	NAME		Nova
+
+[ANIM - TROLO]
+	ASSET	assets/story/anim/trolo.swf
+
+[STORY]
+
+NOVA IN
+
+NOVA		The Trolo is one of the terrors of the forest. Less honorable tamers just destroy them for sport or to harvest their horns, but it's better training to capture one.
+
+TROLO
+
+NOVA		Looks pretty nasty, huh? Beefee might help you out--he's a {$GOLD Taurus}, the strongest sign against {$GOLD Capricorns} like the Trolo. A forest lover, you'll find them at {$GREEN Oakford Shade} and {$GREEN Darkwood Vault}. {ACCEPT}
+
+NOVA OUT

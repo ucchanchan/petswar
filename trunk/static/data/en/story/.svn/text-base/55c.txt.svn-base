@@ -1,0 +1,32 @@
+# Quest completion for capturing Shen at Rankwallow
+[BACKGROUND]
+	assets/story/backgrounds/168.swf
+
+[FOREGROUND]
+	assets/story/letterbox.swf
+
+[SETTINGS]
+	USE_LEFT_ARROW					yes
+	ACTOR_STAYS_FOR_PLAYER_SPEECH	yes
+	ACTOR_STAYS_FOR_ANIM			no
+	PLAYER_BUBBLE_X					0
+	PLAYER_BUBBLE_Y					510
+	NPC_BUBBLE_X					480
+	NPC_BUBBLE_Y					300
+
+[PLAYER]
+	NAME		You
+
+[CHARACTER - PIERCE]
+	ASSET	assets/story/npc/sgtPierce.swf
+	NAME	Pierce
+
+[STORY]
+
+PIERCE IN
+
+PIERCE    Y'know, kid, I don't say this very often, but you impressed me out there. I think you might be a real asset to the organization.
+
+PIERCE    I gotta hit the trail, but I'll be seeing you real soon. If you're heading toward Cortex, meet me up north by the {$GREEN Cerulean Pond}. {ACCEPT}
+
+PIERCE OUT

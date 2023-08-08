@@ -1,0 +1,42 @@
+[BACKGROUND]
+	assets/story/backgrounds/fireworks.swf
+
+[FOREGROUND]
+	assets/story/letterbox.swf
+
+[SETTINGS]
+	USE_LEFT_ARROW					yes
+	ACTOR_STAYS_FOR_PLAYER_SPEECH	yes
+	ACTOR_STAYS_FOR_ANIM			no
+	PLAYER_BUBBLE_X					0
+	PLAYER_BUBBLE_Y					510
+	NPC_BUBBLE_X					480
+	NPC_BUBBLE_Y					340
+
+[PLAYER]
+	NAME		You
+
+[ANIM - LEPUS]
+	ASSET	assets/story/anim/lepus.swf
+
+[CHARACTER - NEWYEAR_TOBI]
+	ASSET	assets/story/npc/newyear_tobi.swf
+	NAME	Tobi
+
+[STORY]
+
+NEWYEAR_TOBI IN
+NEWYEAR_TOBI        Oh, tamer! Thank goodness you're here! Those rascally Lepus are running wild!
+
+NEWYEAR_TOBI        Every dozen years or so, our Lunar New Year Festival seems to bring them a-hopping out of the woodwork... something about the strange forces of the moon, I suppose.
+
+NEWYEAR_TOBI        Rabbits have been brutally annoying the Sky Cats for generations. They're our greatest natural enemy! Don't ask why-- it's just the order of the universe.
+
+NEWYEAR_TOBI        Plus, I'm aller-- AH-CHOO! --allergic to them. Do you think you could help us get the Lepus under control?
+
+LEPUS        #anim of rabbit you hunt
+
+NEWYEAR_TOBI        You'll find them scurrying all over the place. If you captured one, you might better understand their strengths and weaknesses. {ACCEPT}
+
+NEWYEAR_TOBI OUT
+ 

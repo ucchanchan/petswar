@@ -1,0 +1,41 @@
+#Lombard when you're leaving Windhym 
+
+[BACKGROUND]
+	assets/story/backgrounds/44.swf
+
+[FOREGROUND]
+	assets/story/letterbox.swf
+
+[SETTINGS]
+	USE_LEFT_ARROW					yes
+	ACTOR_STAYS_FOR_PLAYER_SPEECH	yes
+	ACTOR_STAYS_FOR_ANIM			no
+	PLAYER_BUBBLE_X					0
+	PLAYER_BUBBLE_Y					510
+	NPC_BUBBLE_X					480
+	NPC_BUBBLE_Y					300
+
+[PLAYER]
+	NAME		You
+
+[CHARACTER - LOMBARD]
+	ASSET	assets/story/npc/lombard.swf
+	NAME	Lombard
+
+[STORY]
+
+LOMBARD IN
+
+LOMBARD		Hey there tamer! I was wondering when you'd arrive. 
+
+LOMBARD		Your friend Bruno was here not too long ago. Said you two were heading down river on your way to Cortex.
+
+PLAYER		Bruno was here? Where is he?
+
+LOMBARD		Can't quite tell you! I gave him a raft and sent him on his way. Odds are he wrecked in Poseidon's Gorge. That happens to everyone I send down the river.
+
+LOMBARD		If I were you, I'd hitch a ride on the Cat Taxi. That's the best way to travel long distances. Unless you want to die! Which you shouldn't. 
+
+LOMBARD		To get there, click the "travel" tab in the upper left corner, then click on Pueblonia. The Cat Taxi can take you home from Pueblonia using the same tab. Good luck! {OK}
+
+LOMBARD OUT

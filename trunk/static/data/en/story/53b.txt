@@ -1,0 +1,37 @@
+# This the quest complete for the scientists candy bar quest
+
+[BACKGROUND]
+	assets/story/backgrounds/158.swf
+
+[FOREGROUND]
+	assets/story/letterbox.swf
+
+[SETTINGS]
+	USE_LEFT_ARROW					yes
+	ACTOR_STAYS_FOR_PLAYER_SPEECH	yes
+	ACTOR_STAYS_FOR_ANIM			no
+	PLAYER_BUBBLE_X					0
+	PLAYER_BUBBLE_Y					510
+	NPC_BUBBLE_X					480
+	NPC_BUBBLE_Y					300
+
+[PLAYER]
+	NAME		You
+
+[CHARACTER - SCIENTISTS]
+	ASSET	assets/story/npc/scientists.swf
+	NAME	Cortex Scientists
+
+[STORY]
+
+SCIENTISTS IN
+
+SCIENTISTS		These look delicious! Actually...they look kind of like...well, never mind, anything other than canned beans is great. You want to hear about the dragon, right? 
+
+SCIENTISTS		We don't know how big it is, but it must be huge--maybe bigger than Cortex. Since it left these piles here, there must be some passage from the surface to its underground home. We can't seem to find it, though.
+
+SCIENTISTS		If you're trying to reach the dragon, you're going to have to find its entrance or some way to dig deep down. Or someone who's already started digging.
+
+SCIENTISTS		Wish we could tell you more, but that's about it. Big dragon, deep in the planet, no obvious way to reach it. Thanks for the candy! {OK}
+ 
+SCIENTISTS OUT

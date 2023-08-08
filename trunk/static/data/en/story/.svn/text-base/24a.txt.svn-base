@@ -1,0 +1,39 @@
+# Nova's quest. 
+
+[BACKGROUND]
+	assets/story/backgrounds/3.swf
+
+[FOREGROUND]
+	assets/story/letterbox.swf
+
+[SETTINGS]
+	USE_LEFT_ARROW					yes
+	ACTOR_STAYS_FOR_PLAYER_SPEECH	yes
+	ACTOR_STAYS_FOR_ANIM			no
+	PLAYER_BUBBLE_X					0
+	PLAYER_BUBBLE_Y					510
+	NPC_BUBBLE_X					480
+	NPC_BUBBLE_Y					300
+
+[PLAYER]
+	NAME		You
+
+[CHARACTER - NOVA]
+	ASSET	assets/story/npc/nova.swf
+	NAME	Nova
+
+[STORY]
+		
+	NOVA		This is crazy! I've never seen wild Mogas act so agitated-- I have a feeling the earthquake stirred up something big. You won't get far out there unless you become a Moga Ranger.
+	
+	NOVA		A Ranger is a serious tamer who builds a large team of Mogas and uses the power of the zodiac for the greater good.
+	
+	NOVA		Very few tamers have what it takes. But you've captured some Mogas already, and that usually takes months for a new tamer... you're a natural!
+
+	NOVA		The first step is building up your team. You can bring three Mogas into battle at a time, but you can keep as many as you want at home, so you can put together just the right team for any fight.
+
+	NOVA		Back in the last area, you'll find a Moga called Beefee. He's a wily little fella, and he'd make a great addition to your team. Try to capture him.
+	
+	NOVA		Remember: don't just defeat Beefee. Use a Star Seed to tame him! {OK}
+	
+	NOVA OUT

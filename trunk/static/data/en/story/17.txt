@@ -1,0 +1,8 @@
+# Completed Leonards quest. 
+
+[ANIM - LENORE]
+	ASSET	assets/story/anim/lenore_skeleton.swf
+
+[STORY]
+
+	LENORE

@@ -1,0 +1,33 @@
+# New node next to lobster torndao
+
+[BACKGROUND]
+	assets/story/backgrounds/190.swf
+
+[FOREGROUND]
+	assets/story/letterbox.swf
+
+[SETTINGS]
+	USE_LEFT_ARROW					yes
+	ACTOR_STAYS_FOR_PLAYER_SPEECH	yes
+	ACTOR_STAYS_FOR_ANIM			no
+	PLAYER_BUBBLE_X					0
+	PLAYER_BUBBLE_Y					510
+	NPC_BUBBLE_X					480
+	NPC_BUBBLE_Y					300
+
+[PLAYER]
+	NAME		You
+
+[CHARACTER - PIERCE]
+	ASSET	assets/story/npc/sgtPierce.swf
+	NAME		Sergeant Pierce
+
+[STORY]
+
+PIERCE IN
+
+PIERCE		Well hey there, shortpants. Come to see what all the ruckus is about? I know I'm mighty excited to see what's on these islands. 
+
+PIERCE		Tell you what--I'll let you lead the way. You clear out the mess of Mogas running rampant on this island, and I'll be right behind you. {ACCEPT}
+
+PIERCE OUT

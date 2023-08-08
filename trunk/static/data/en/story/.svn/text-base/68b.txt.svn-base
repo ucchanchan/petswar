@@ -1,0 +1,54 @@
+
+# This is the second part of Skylar's Celestial Gatekeepers quest. 
+
+[BACKGROUND]
+	assets/story/backgrounds/1.swf
+
+[FOREGROUND]
+	assets/story/letterbox.swf
+
+[SETTINGS]
+	USE_LEFT_ARROW					yes
+	ACTOR_STAYS_FOR_PLAYER_SPEECH	yes
+	ACTOR_STAYS_FOR_ANIM			no
+	PLAYER_BUBBLE_X					0
+	PLAYER_BUBBLE_Y					510
+	NPC_BUBBLE_X					480
+	NPC_BUBBLE_Y					300
+
+[PLAYER]
+	NAME		You
+
+[CHARACTER - ROSIE]
+	ASSET	assets/story/npc/rosie	
+	NAME	Rosie
+
+[ANIM - ]
+	ASSET	assets/story/		#prescription underpants
+
+
+ROSIE        Oh! It's the little neighbor! My, you've grown up so very fine and wonderful!
+
+PLAYER        Thank you. Uh, I'm actually here about Skylar...
+
+ROSIE        My precious little muffin! He's over in Cortex, being a big, grown-up tamer, but he'll always be my fancy little man.
+
+PLAYER        I need some help from him, but he refuses to talk to me. What should I do?
+
+ROSIE        You must be mistaken! That doesn't sound like the polite little boy I raised. Are you heading back to Cortex any time soon?
+
+PLAYER        I'm sure I'll be back that way.
+
+ROSIE        Oh, how lovely! Can you do me a favor? My little muffin-prince left home without his prescription safety underpants!
+
+PLAYER         His what?
+
+[image - prescription underpants]
+
+ROSIE        He'll get so chafed and grumpy without them! Would you please bring them to him? He'll be so happy!
+
+ROSIE        Oh, and tell him that his mother DEMANDS that he help you! He's the most powerful tamer in the world, and he should use his might for good!
+
+PLAYER        Thanks! {ACCEPT}
+
+ROSIE OUT

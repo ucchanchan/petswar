@@ -1,0 +1,48 @@
+# This is Lyle's package quest.  
+
+[BACKGROUND]
+	assets/story/backgrounds/4.swf
+
+[FOREGROUND]
+	assets/story/letterbox.swf
+
+[SETTINGS]
+	USE_LEFT_ARROW					yes
+	ACTOR_STAYS_FOR_PLAYER_SPEECH	yes
+	ACTOR_STAYS_FOR_ANIM			no
+	PLAYER_BUBBLE_X					0
+	PLAYER_BUBBLE_Y					510
+	NPC_BUBBLE_X					480
+	NPC_BUBBLE_Y					300
+
+[PLAYER]
+	NAME		You
+
+[ANIM - DISHES]						# This is the dishes
+	ASSET	assets/story/anim/dishes.swf
+
+[CHARACTER - LYLE]
+	ASSET	assets/story/npc/lyle.swf
+	NAME	Lyle
+	
+[STORY]
+		
+	LYLE		Aww, snap! Thank goodness it's you, neighbor. I just got my face rocked by these spazzed-out Mogas. When did they get so MEAN!?
+
+	PLAYER		Nova said it had something to do with the earthquakes.
+
+	LYLE		Who's Nova? Oh, was that the hot girl? I'd tell you to put in a good word for me, but I've already got a lady. Oh, speaking of which... can you help me out again?
+
+	PLAYER		What do you need?
+
+	LYLE		I was trying to get to Windhym to deliver this care package to Gertrude, my super-hot long distance girlfriend who loves me, but the Mogas out here keep beating on me.
+
+	LYLE		D'you think you could bring the package to her? Pretty please? I swear, I'll do anything. This is my big chance, buddy, and I can't blow it. Please? I'll even clean up my yard!
+
+	DISHES
+
+	PLAYER		OK, I'll bring the package to Windhym.
+
+	LYLE		Heck yeah! Thanks, pal! You're the best neighb-- AAAAUUUGH! Here comes another one! I'm outta here! {ACCEPT}
+	
+	LYLE OUT

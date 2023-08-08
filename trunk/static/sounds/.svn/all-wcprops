@@ -1,0 +1,365 @@
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/152/trunk/static/sounds
+END
+town_windhym.mp3
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/152/trunk/static/sounds/town_windhym.mp3
+END
+shopping.mp3
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/144/trunk/static/sounds/shopping.mp3
+END
+battle_dmg_med.mp3
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/2/trunk/static/sounds/battle_dmg_med.mp3
+END
+default_hit.mp3
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/19/trunk/static/sounds/default_hit.mp3
+END
+battle_start.mp3
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/2/trunk/static/sounds/battle_start.mp3
+END
+battle_win.mp3
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/2/trunk/static/sounds/battle_win.mp3
+END
+quest_complete.mp3
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/135/trunk/static/sounds/quest_complete.mp3
+END
+zodiacSoundGood.mp3
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/2/trunk/static/sounds/zodiacSoundGood.mp3
+END
+capture_success_music.mp3
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/2/trunk/static/sounds/capture_success_music.mp3
+END
+dex_drop_in_slot.mp3
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/54/trunk/static/sounds/dex_drop_in_slot.mp3
+END
+capture_fail.mp3
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/2/trunk/static/sounds/capture_fail.mp3
+END
+run_fail.mp3
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/2/trunk/static/sounds/run_fail.mp3
+END
+bgmusic_world.mp3
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/29/trunk/static/sounds/bgmusic_world.mp3
+END
+headbutt.mp3
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/48/trunk/static/sounds/headbutt.mp3
+END
+battle_intense.mp3
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/117/trunk/static/sounds/battle_intense.mp3
+END
+die.mp3
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/2/trunk/static/sounds/die.mp3
+END
+bgmusic_home.mp3
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/34/trunk/static/sounds/bgmusic_home.mp3
+END
+battle_attack.mp3
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/2/trunk/static/sounds/battle_attack.mp3
+END
+super_kick_hit.mp3
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/152/trunk/static/sounds/super_kick_hit.mp3
+END
+dex_click_valid.mp3
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/54/trunk/static/sounds/dex_click_valid.mp3
+END
+basic_tutorial.mp3
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/124/trunk/static/sounds/basic_tutorial.mp3
+END
+battle_miss.mp3
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/2/trunk/static/sounds/battle_miss.mp3
+END
+tackle_hit.mp3
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/46/trunk/static/sounds/tackle_hit.mp3
+END
+battle.mp3
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/2/trunk/static/sounds/battle.mp3
+END
+level_up.mp3
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/2/trunk/static/sounds/level_up.mp3
+END
+surprise.mp3
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/120/trunk/static/sounds/surprise.mp3
+END
+punch.mp3
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/43/trunk/static/sounds/punch.mp3
+END
+monster_in.mp3
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/2/trunk/static/sounds/monster_in.mp3
+END
+cave.mp3
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/123/trunk/static/sounds/cave.mp3
+END
+battle_jungle.mp3
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/116/trunk/static/sounds/battle_jungle.mp3
+END
+whistle_watering.mp3
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/79/trunk/static/sounds/whistle_watering.mp3
+END
+flying_shop.mp3
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/52/trunk/static/sounds/flying_shop.mp3
+END
+kick_hit.mp3
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/18/trunk/static/sounds/kick_hit.mp3
+END
+dex_clear_slot.mp3
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/54/trunk/static/sounds/dex_clear_slot.mp3
+END
+battle_dmg_light.mp3
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/2/trunk/static/sounds/battle_dmg_light.mp3
+END
+zodiacSoundBad.mp3
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/2/trunk/static/sounds/zodiacSoundBad.mp3
+END
+found_item.mp3
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/2/trunk/static/sounds/found_item.mp3
+END
+capture_success.mp3
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/2/trunk/static/sounds/capture_success.mp3
+END
+dex_click_invalid.mp3
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/54/trunk/static/sounds/dex_click_invalid.mp3
+END
+quest_calm.mp3
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/41/trunk/static/sounds/quest_calm.mp3
+END
+battle_lose.mp3
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/2/trunk/static/sounds/battle_lose.mp3
+END
+quest_generic.mp3
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/149/trunk/static/sounds/quest_generic.mp3
+END
+walk.mp3
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/2/trunk/static/sounds/walk.mp3
+END
+super_kick.mp3
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/152/trunk/static/sounds/super_kick.mp3
+END
+battle_dmg_hard.mp3
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/2/trunk/static/sounds/battle_dmg_hard.mp3
+END
+capture_attempt.mp3
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/2/trunk/static/sounds/capture_attempt.mp3
+END
+battle_boss.mp3
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/151/trunk/static/sounds/battle_boss.mp3
+END
+beach.mp3
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/149/trunk/static/sounds/beach.mp3
+END
+tackle.mp3
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/46/trunk/static/sounds/tackle.mp3
+END
+headbutt_hit.mp3
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/48/trunk/static/sounds/headbutt_hit.mp3
+END
+run.mp3
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/2/trunk/static/sounds/run.mp3
+END
+awaken.mp3
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/122/trunk/static/sounds/awaken.mp3
+END
+quest_creepy.mp3
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/150/trunk/static/sounds/quest_creepy.mp3
+END
+whistle_harvesting.mp3
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/77/trunk/static/sounds/whistle_harvesting.mp3
+END
+choose_zodiac.mp3
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/70/trunk/static/sounds/choose_zodiac.mp3
+END
+bonus_attack.mp3
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/2/trunk/static/sounds/bonus_attack.mp3
+END
+recharge.mp3
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/112/trunk/static/sounds/recharge.mp3
+END
+kick.mp3
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/2/trunk/static/sounds/kick.mp3
+END
+punch_hit.mp3
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/43/trunk/static/sounds/punch_hit.mp3
+END
+home_monster_rollover.mp3
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/34/trunk/static/sounds/home_monster_rollover.mp3
+END

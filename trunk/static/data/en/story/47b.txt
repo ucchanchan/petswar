@@ -1,0 +1,50 @@
+# This is after your real team battle with Sandman, at the end of which he gives you the family jewels quest. 
+
+[BACKGROUND]
+	assets/story/backgrounds/102.swf
+
+[FOREGROUND]
+	assets/story/letterbox.swf
+
+[SETTINGS]
+	USE_LEFT_ARROW					yes
+	ACTOR_STAYS_FOR_PLAYER_SPEECH	yes
+	ACTOR_STAYS_FOR_ANIM			yes
+	PLAYER_BUBBLE_X					0
+	PLAYER_BUBBLE_Y					510
+	NPC_BUBBLE_X					480
+	NPC_BUBBLE_Y					300
+
+[PLAYER]
+	NAME		You
+
+[CHARACTER - SANDMAN]
+	ASSET	assets/story/npc/sandman.swf
+	NAME	Sandman						
+
+[ANIM - JEWELS] # picture of the jewels you will be recovering
+	ASSET	assets/story/anim/jewels.swf
+
+[STORY]
+
+SANDMAN IN
+
+PLAYER				I'm afraid I don't understand.
+
+SANDMAN		You're here to steal my family's heirlooms, aren't you? 
+
+PLAYER				I'm not here to rob you. I'm just trying to get to Cortex.
+
+SANDMAN		Thank Poseidon! If you're not a foe, perhaps you can help my long-suffering civilization.
+
+SANDMAN		Since our sea began drying up, the once-submerged city of Sitnalta has been ruined, and land-beasts have been stealing our artifacts to build dams.
+
+SANDMAN		I must recover my family's precious treasures so we can move into a new ocean home, but the desert heat will boil me into a delicious bisque!
+
+SANDMAN		My family's jewel collection is the most valuable of our lost treasures. 
+
+JEWELS
+
+SANDMAN		Will you lend me a claw and retrieve them? You'll find my {$BLUE jewels} between the {$GREEN Portal o' Ruins} and {$GREEN Sitnalta Field}. {ACCEPT}
+
+SANDMAN OUT

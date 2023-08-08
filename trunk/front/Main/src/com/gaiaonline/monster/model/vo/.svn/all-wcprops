@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/2/trunk/front/Main/src/com/gaiaonline/monster/model/vo
+END
+UGCEventType.as
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/2/trunk/front/Main/src/com/gaiaonline/monster/model/vo/UGCEventType.as
+END
+NpcVO.as
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/2/trunk/front/Main/src/com/gaiaonline/monster/model/vo/NpcVO.as
+END
+WhistleReportMonsterVO.as
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/2/trunk/front/Main/src/com/gaiaonline/monster/model/vo/WhistleReportMonsterVO.as
+END
+WhistleReportItemDataVO.as
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/2/trunk/front/Main/src/com/gaiaonline/monster/model/vo/WhistleReportItemDataVO.as
+END
+AttackEstimatesVO.as
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/2/trunk/front/Main/src/com/gaiaonline/monster/model/vo/AttackEstimatesVO.as
+END
+ItemGrantType.as
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/2/trunk/front/Main/src/com/gaiaonline/monster/model/vo/ItemGrantType.as
+END
+BattleTutorialVO.as
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/2/trunk/front/Main/src/com/gaiaonline/monster/model/vo/BattleTutorialVO.as
+END
+QuestVO.as
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/2/trunk/front/Main/src/com/gaiaonline/monster/model/vo/QuestVO.as
+END
+WhistleReportFriendVO.as
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/2/trunk/front/Main/src/com/gaiaonline/monster/model/vo/WhistleReportFriendVO.as
+END
+AttackEstimateVO.as
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/2/trunk/front/Main/src/com/gaiaonline/monster/model/vo/AttackEstimateVO.as
+END
+CreateUGCEventVO.as
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/2/trunk/front/Main/src/com/gaiaonline/monster/model/vo/CreateUGCEventVO.as
+END
+FeedStoryVO.as
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/2/trunk/front/Main/src/com/gaiaonline/monster/model/vo/FeedStoryVO.as
+END
+RecurringPrizeType.as
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/2/trunk/front/Main/src/com/gaiaonline/monster/model/vo/RecurringPrizeType.as
+END
+ZodiacVO.as
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/2/trunk/front/Main/src/com/gaiaonline/monster/model/vo/ZodiacVO.as
+END
+StoreItemVO.as
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/2/trunk/front/Main/src/com/gaiaonline/monster/model/vo/StoreItemVO.as
+END

@@ -1,0 +1,40 @@
+# You meet the oracle and are introduced to the tower and a vague sense of things to come.
+
+[BACKGROUND]
+	assets/story/backgrounds/126.swf
+
+[FOREGROUND]
+	assets/story/letterbox.swf
+
+[SETTINGS]
+	USE_LEFT_ARROW					yes
+	ACTOR_STAYS_FOR_PLAYER_SPEECH	yes
+	ACTOR_STAYS_FOR_ANIM			no
+	PLAYER_BUBBLE_X					0
+	PLAYER_BUBBLE_Y					510
+	NPC_BUBBLE_X					460
+	NPC_BUBBLE_Y					270
+
+[PLAYER]
+	NAME		You
+
+[CHARACTER - ORACLE]
+	ASSET	assets/story/npc/oracle.swf
+	NAME	Oracle					
+
+[STORY]
+
+ORACLE IN
+
+ORACLE		You are the tamer. Yesss--we've foressseen your coming. 
+
+PLAYER				Really? Who are you?
+
+ORACLE		We are the oracle. We know many thingsss. Thingsss that have been, and thingsss that are yet to be. 
+
+PLAYER				Can you tell me anything about the earthquakes? 
+
+ORACLE		Oh, yesss. But not yet--perhaps when you have proven yourssself.{OK}
+
+ORACLE OUT
+

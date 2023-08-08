@@ -1,0 +1,47 @@
+# This is after you've been shut down at Cortex and Nova explains the Celestial Gatekeepers to you.	
+[BACKGROUND]
+	assets/story/backgrounds/87.swf
+
+[FOREGROUND]
+	assets/story/letterbox.swf
+
+[SETTINGS]
+	USE_LEFT_ARROW					yes
+	ACTOR_STAYS_FOR_PLAYER_SPEECH	yes
+	ACTOR_STAYS_FOR_ANIM			no
+	PLAYER_BUBBLE_X					0
+	PLAYER_BUBBLE_Y					510
+	NPC_BUBBLE_X					480
+	NPC_BUBBLE_Y					300
+
+[PLAYER]
+	NAME		You
+
+[CHARACTER - NOVA]
+	ASSET	assets/story/npc/nova
+	NAME	Nova
+	
+[STORY]
+
+NOVA IN
+
+NOVA			I saw what happened back at Cortex. Tough break. 
+
+YOU				Does it matter? Even if Skylar hadn't beaten me there, Cortex doesn't have a way to stop the earthquakes.
+
+NOVA			To be honest, I never thought they'd be able to. They're dealing with forces more powerful than all their science. They told you about the world dragon, right?
+
+YOU				Yeah. They said there's no way to stop it.
+
+NOVA			No way for THEM to stop it. I don't think I could, either. But you-- at the rate your powers have grown since we met, you may be our best hope.
+
+NOVA			There's a legendary string of islands that appears to heroic tamers in times of disaster. It's called the Zodiac Islands--if there's any way to defeat the dragon, you'll find it there.
+ 
+NOVA			These aren't any normal islands, though. They'll only appear once you've captured the twelve {$RED Celestial Gatekeepers}. If you catch them all, you'll know that the zodiac has chosen you.
+
+NOVA			I tried to find them years ago, back when I thought I was pretty hot stuff. I could only find one; it was in the {$GREEN Cerulean Pool}--take a {$GOLD Leo} team there and you should be able to draw it out.
+ 
+NOVA 			To find the rest of the Celestial Gatekeepers, talk to the people you've helped. Try Craig Sherman at {$ GREEN Adventure Island}--he's a master of rare Mogas.  
+
+NOVA OUT
+

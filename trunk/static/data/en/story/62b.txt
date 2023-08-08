@@ -1,0 +1,50 @@
+
+# This is the second part of Serene's Celestial Gatekeepers quest.
+
+[BACKGROUND]
+	assets/story/backgrounds/66.swf
+
+[FOREGROUND]
+	assets/story/letterbox.swf
+
+[SETTINGS]
+	USE_LEFT_ARROW					yes
+	ACTOR_STAYS_FOR_PLAYER_SPEECH	yes
+	ACTOR_STAYS_FOR_ANIM			no
+	PLAYER_BUBBLE_X					0
+	PLAYER_BUBBLE_Y					510
+	NPC_BUBBLE_X					480
+	NPC_BUBBLE_Y					300
+
+[PLAYER]
+	NAME		You
+
+[CHARACTER - SERENE]
+	ASSET	assets/story/npc/serene	
+	NAME	Serene
+	
+[STORY]
+
+SERENE IN
+
+PLAYER		I'm sorry, I couldn't find him. 
+
+SERENE		Oh, that's ok. It turns out he was in the bathroom. My mistake!
+
+PLAYER		Oh, ok. As long as he's safe. 
+
+SERENE		I wish someone would get rid of that darn lobster tornao. It's a real public nuisance, but everyone who's gotten to the bottom of it has gone made, raving about a giant star-covered crab.
+
+PLAYER		Really? That sounds like a Celestial Gatekeeper. 
+
+SERENE		Don't fight it! You'll go crazy!
+
+PLAYER		That's a risk I'll have to take.
+
+SERENE		At least do some mental training. There's this guy Poe--I've some of his poems in "Night Terrors." Just completely insane stuff. I bet talking to him will toughen you up.
+
+PLAYER		I know Poe. He likes your poems, too. I think he's moving to Pueblonia. 
+
+SERENE		Really?! Awesome! Wait, you know Poe? I guess you're cooler than I thought. If you bring a {$GOLD Pisces} team into the {$GREEN Lobster Tornado} you should see the crab. Good luck! {ACCEPT}
+
+SERENE OUT

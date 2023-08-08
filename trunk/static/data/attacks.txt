@@ -1,0 +1,1948 @@
+# Physical Attacks
+
+[ATTACK - Headbutt]			
+	IDS			2..6
+	CHARGE		generic_charge
+	ANIM		headbutt	
+	HIT			headbutt_hit
+
+[ATTACK - Head Slam]			
+	IDS			8..12
+	CHARGE		generic_charge
+	ANIM		super_headbutt
+	HIT			super_headbutt_hit
+
+[ATTACK - Punch]			
+	IDS			14..18
+	CHARGE		generic_charge
+	ANIM		punch	
+	HIT			punch_hit
+
+[ATTACK - Uppercut]			
+	IDS			20..24
+	CHARGE		generic_charge
+	ANIM		super_punch
+	HIT			super_punch_hit
+
+[ATTACK - Kick]			
+	IDS			26..30
+	CHARGE		generic_charge
+	ANIM		kick	
+	HIT			kick_hit
+
+[ATTACK - Roundhouse]			
+	IDS			32..36
+	CHARGE		generic_charge
+	ANIM		super_kick	
+	HIT			super_kick_hit
+
+[ATTACK - Bodyslam]			
+	IDS			38..42
+	CHARGE		generic_charge
+	ANIM		tackle	
+	HIT			tackle_hit
+
+[ATTACK - Piledriver]			
+	IDS			44..48
+	CHARGE		generic_charge
+	ANIM		super_tackle
+	HIT			super_tackle_hit
+
+# Debuffs				
+
+[ATTACK - Confuse]			
+	IDS			50..60
+	CHARGE		generic_charge
+	ANIM		default	
+	BUFF		debuff	
+	HIT			stunned
+
+[ATTACK - Stun]			
+	IDS			62..72
+	CHARGE		generic_charge
+	ANIM		default	
+	BUFF		debuff	
+	HIT			stunned
+
+[ATTACK - Disease]			
+	IDS			74..84
+	CHARGE		generic_charge
+	ANIM		default	
+	BUFF		debuff	
+	HIT			disease
+
+[ATTACK - Poison]			
+	IDS			86..96
+	CHARGE		generic_charge
+	ANIM		default	
+	BUFF		debuff	
+	HIT			poison
+
+[ATTACK - Cripple]			
+	IDS			98..108
+	CHARGE		generic_charge
+	ANIM		default	
+	BUFF		debuff	
+	HIT			plasma
+
+[ATTACK - Vulnerability]		
+	IDS			110..120
+	CHARGE		generic_charge
+	ANIM		default	
+	BUFF		debuff	
+	HIT			poison
+
+[ATTACK - Weakness]			
+	IDS			122..132
+	CHARGE		generic_charge
+	ANIM		default	
+	BUFF		debuff	
+
+[ATTACK - Zodiac Vulnerability]		
+	IDS			134..144
+	CHARGE		generic_charge
+	ANIM		default	
+	BUFF		debuff	
+
+[ATTACK - Zodiac Weakness]		
+	IDS			146..156
+	CHARGE		generic_charge
+	ANIM		default	
+	BUFF		debuff	
+
+[ATTACK - Clumsy]			
+	IDS			158..168
+	CHARGE		generic_charge
+	ANIM		default	
+	BUFF		debuff	
+
+[ATTACK - Vampire Embrace]		
+	IDS			170..180
+	CHARGE		generic_charge
+	ANIM		default	
+	BUFF		debuff	
+	HIT			plasma
+
+[ATTACK - Life Tap]			
+	IDS			182..192
+	CHARGE		generic_charge
+	ANIM		default	
+	BUFF		debuff	
+	HIT			plasma
+
+[ATTACK - Slow]			
+	IDS			194..204
+	CHARGE		generic_charge
+	ANIM		default	
+	BUFF		debuff	
+	HIT			stunned
+
+[ATTACK - Blind]			
+	IDS			218..228
+	CHARGE		generic_charge
+	ANIM		default	
+	BUFF		debuff	
+	HIT			energy
+
+[ATTACK - Deaden]			
+	IDS			230..240
+	CHARGE		generic_charge
+	ANIM		default	
+	BUFF		debuff	
+	HIT			quake
+
+[ATTACK - Shield of Thorns]		
+	IDS			266..276
+	CHARGE		generic_charge
+	ANIM		default	
+	BUFF		debuff	
+	HIT			bramble
+
+# Buffs				
+
+[ATTACK - Healing Shield]		
+	IDS			278..288
+	CHARGE		generic_charge
+	ANIM		default	
+	BUFF		buff	
+
+[ATTACK - Time Warp]			
+	IDS			254..264
+	CHARGE		generic_charge
+	ANIM		default	
+	BUFF		buff	
+
+[ATTACK - Poison Trap]		
+	IDS			290..300
+	CHARGE		generic_charge
+	ANIM		default	
+	BUFF		debuff	
+	HIT			poison
+
+[ATTACK - Stoneskin]			
+	IDS			302..312
+	CHARGE		generic_charge
+	ANIM		default	
+	BUFF		buff	
+	HIT			plasma
+
+[ATTACK - Armor]			
+	IDS			314..324
+	CHARGE		generic_charge
+	ANIM		default	
+	BUFF		buff	
+
+[ATTACK - Strength]			
+	IDS			326..336
+	CHARGE		generic_charge
+	ANIM		default	
+	BUFF		buff	
+
+[ATTACK - Zodiac Armor]		
+	IDS			338..348
+	CHARGE		generic_charge
+	ANIM		default	
+	BUFF		buff	
+
+[ATTACK - Zodiac Strength]		
+	IDS			350..360
+	CHARGE		generic_charge
+	ANIM		default	
+	BUFF		buff	
+
+[ATTACK - Happy Feet]			
+	IDS			362..372
+	CHARGE		generic_charge
+	ANIM		default	
+	BUFF		buff	
+
+[ATTACK - Swiftness]			
+	IDS			374..384
+	CHARGE		generic_charge
+	ANIM		default	
+	BUFF		buff	
+
+[ATTACK - Deadeye]			
+	IDS			386..396
+	CHARGE		generic_charge
+	ANIM		default	
+	BUFF		buff	
+
+[ATTACK - Precision]			
+	IDS			398..408
+	CHARGE		generic_charge
+	ANIM		default	
+	BUFF		buff	
+
+
+[ATTACK - Regenerate]			
+	IDS			410..420
+	CHARGE		generic_charge
+	ANIM		default	
+	BUFF		buff	
+	HIT			plasma
+
+[ATTACK - Regrowth]			
+	IDS			422..432
+	CHARGE		generic_charge
+	ANIM		default	
+	BUFF		buff	
+	HIT			plasma
+
+# Aries				
+
+[ATTACK - Razor Bite]			
+	IDS			446..450
+	CHARGE		generic_charge
+	ANIM		kick	
+	HIT			kick_hit
+
+[ATTACK - Triple Chomp]		
+	IDS			452..456
+	CHARGE		generic_charge
+	ANIM		super_kick	
+	HIT			flame
+
+[ATTACK - Ticklefight]		
+	IDS			458..462
+	CHARGE		generic_charge
+	ANIM		punch	
+	HIT			flame
+
+[ATTACK - Tickletackle]		
+	IDS			464..468
+	CHARGE		generic_charge
+	ANIM		super_punch
+	HIT			flame
+
+[ATTACK - Ram Horns]			
+	IDS			434..438
+	CHARGE		generic_charge
+	ANIM		tackle	
+	HIT			flame
+
+[ATTACK - Ram Charge]			
+	IDS			440..444
+	CHARGE		generic_charge
+	ANIM		super_tackle
+	HIT			flame
+
+# Aquarius				
+
+[ATTACK - Zephyr]			
+	IDS			494..498
+	CHARGE		generic_charge
+	ANIM		tackle	
+	HIT			wind
+
+[ATTACK - Tornado]			
+	IDS			500..504
+	CHARGE		generic_charge
+	ANIM		super_tackle
+	HIT			wind
+
+[ATTACK - Snap]			
+	IDS			506..510
+	CHARGE		generic_charge
+	ANIM		headbutt	
+	HIT			wind
+
+[ATTACK - Aquarius Bite]		
+	IDS			512..516
+	CHARGE		generic_charge
+	ANIM		super_headbutt
+	HIT			wind
+
+[ATTACK - Starstream]			
+	IDS			542..546
+	CHARGE		generic_charge
+	ANIM		tackle	
+	HIT			wind
+
+[ATTACK - Starcrash]			
+	IDS			548..552
+	CHARGE		generic_charge
+	ANIM		super_tackle
+	HIT			wind
+
+# Cancer				
+
+[ATTACK - Deadly Pinch]		
+	IDS			578..582
+	CHARGE		generic_charge
+	ANIM		tackle	
+	HIT			plasma
+
+[ATTACK - Claw of the Grave]		
+	IDS			584..588
+	CHARGE		generic_charge
+	ANIM		super_tackle
+	HIT			plasma
+
+[ATTACK - Snufflethump]		
+	IDS			590..594
+	CHARGE		generic_charge
+	ANIM		punch	
+	HIT			punch_hit
+
+[ATTACK - Tromple]			
+	IDS			596..600
+	CHARGE		generic_charge
+	ANIM		super_punch
+	HIT			punch_hit
+
+[ATTACK - Flametongue]		
+	IDS			602..606
+	CHARGE		generic_charge
+	ANIM		kick	
+	HIT			plasma
+
+[ATTACK - Firebreath]			
+	IDS			608..612
+	CHARGE		generic_charge
+	ANIM		super_kick	
+	HIT			plasma
+
+# Capricorn			
+
+[ATTACK - Ravenous Bite]		
+	IDS			554..558
+	CHARGE		generic_charge
+	ANIM		headbutt	
+	HIT			poison
+
+[ATTACK - Ferocious Bark]		
+	IDS			560..564
+	CHARGE		generic_charge
+	ANIM		super_headbutt
+	HIT			poison
+
+[ATTACK - Searing Bite]		
+	IDS			650..654
+	CHARGE		generic_charge
+	ANIM		headbutt	
+	HIT			poison
+
+[ATTACK - Scorching Bark]		
+	IDS			656..660
+	CHARGE		generic_charge
+	ANIM		super_headbutt
+	HIT			poison
+
+[ATTACK - Chewy Chomp]		
+	IDS			662..666
+	CHARGE		generic_charge
+	ANIM		punch	
+	HIT			poison
+
+[ATTACK - Pachewy Chomp]		
+	IDS			668..672
+	CHARGE		generic_charge
+	ANIM		super_punch
+	HIT			poison
+
+[ATTACK - Mindbend]			
+	IDS			674..678
+	CHARGE		generic_charge
+	ANIM		tackle	
+	HIT			poison
+
+[ATTACK - Psychic Spear]		
+	IDS			680..684
+	CHARGE		generic_charge
+	ANIM		super_tackle
+	HIT			poison
+
+# Gemini				
+
+[ATTACK - Crankle]			
+	IDS			710..714
+	CHARGE		generic_charge
+	ANIM		tackle	
+	HIT			lightning
+
+[ATTACK - Scrumple]			
+	IDS			716..720
+	CHARGE		generic_charge
+	ANIM		super_tackle
+	HIT			lightning
+
+[ATTACK - Static Shock]		
+	IDS			1910..1914
+	CHARGE		generic_charge
+	ANIM		headbutt	
+	HIT			lightning
+	
+[ATTACK - Ball Lightning]		
+	IDS			1916..1920
+	CHARGE		generic_charge
+	ANIM		headbutt	
+	HIT			lightning
+
+[ATTACK - Sky Shot]		
+	IDS			722..726
+	CHARGE		generic_charge
+	ANIM		punch	
+	HIT			lightning
+
+[ATTACK - Fox Flight]		
+	IDS			728..732
+	CHARGE		generic_charge
+	ANIM		super_punch
+	HIT			lightning
+
+[ATTACK - Glare]			
+	IDS			734..738
+	CHARGE		generic_charge
+	ANIM		headbutt	
+	HIT			lightning
+
+[ATTACK - Stonegaze]			
+	IDS			740..744
+	CHARGE		generic_charge
+	ANIM		super_headbutt
+	HIT			lightning
+
+# Leo				
+
+[ATTACK - Buffet]			
+	IDS			524..528
+	CHARGE		generic_charge
+	ANIM		headbutt	
+	HIT			scratch
+
+[ATTACK - Batter]			
+	IDS			776..780
+	CHARGE		generic_charge
+	ANIM		super_headbutt
+	HIT			scratch
+
+[ATTACK - Nightshade]			
+	IDS			782..786
+	CHARGE		generic_charge
+	ANIM		punch	
+	HIT			scratch
+
+[ATTACK - Duskfall]			
+	IDS			788..792
+	CHARGE		generic_charge
+	ANIM		super_punch
+	HIT			scratch
+
+[ATTACK - Jostle]			
+	IDS			794..798
+	CHARGE		generic_charge
+	ANIM		kick	
+	HIT			scratch
+
+[ATTACK - Rattle]			
+	IDS			800..804
+	CHARGE		generic_charge
+	ANIM		super_kick	
+	HIT			scratch
+
+# Libra				
+
+[ATTACK - Flygore]			
+	IDS			842..846
+	CHARGE		generic_charge
+	ANIM		tackle	
+	HIT			flight
+
+[ATTACK - Grumple]			
+	IDS			848..852
+	CHARGE		generic_charge
+	ANIM		super_tackle
+	HIT			flight
+
+[ATTACK - Grapple]			
+	IDS			854..858
+	CHARGE		generic_charge
+	ANIM		headbutt	
+	HIT			flight
+
+[ATTACK - Headlock]			
+	IDS			860..864
+	CHARGE		generic_charge
+	ANIM		super_headbutt
+	HIT			flight
+
+[ATTACK - Acid Breath]		
+	IDS			866..870
+	CHARGE		generic_charge
+	ANIM		kick	
+	HIT			flight
+
+[ATTACK - Corrosive Cough]		
+	IDS			872..876
+	CHARGE		generic_charge
+	ANIM		super_kick	
+	HIT			flight
+
+# Pisces				
+
+[ATTACK - Tiny Barb]			
+	IDS			902..906
+	CHARGE		generic_charge
+	ANIM		tackle	
+	HIT			water
+
+[ATTACK - Toxic Shock]		
+	IDS			908..912
+	CHARGE		generic_charge
+	ANIM		super_tackle
+	HIT			water
+
+[ATTACK - Smothering Paws]		
+	IDS			914..918
+	CHARGE		generic_charge
+	ANIM		kick	
+	HIT			water
+
+[ATTACK - Strangulation]		
+	IDS			920..924
+	CHARGE		generic_charge
+	ANIM		super_kick	
+	HIT			water
+
+[ATTACK - Fin Surge]			
+	IDS			926..930
+	CHARGE		generic_charge
+	ANIM		headbutt	
+	HIT			water
+
+[ATTACK - Scaled Charge]		
+	IDS			932..936
+	CHARGE		generic_charge
+	ANIM		headbutt	
+	HIT			water
+
+# Sagittarius			
+
+[ATTACK - Brilliant Beam]		
+	IDS			962..966
+	CHARGE		generic_charge
+	ANIM		punch	
+	HIT			energy
+
+[ATTACK - Glowing Rainbow]		
+	IDS			968..972
+	CHARGE		generic_charge
+	ANIM		super_punch
+	HIT			energy
+
+[ATTACK - Agile Dash]			
+	IDS			974..978
+	CHARGE		generic_charge
+	ANIM		kick	
+	HIT			energy
+
+[ATTACK - Frisky Bounding]		
+	IDS			980..984
+	CHARGE		generic_charge
+	ANIM		super_kick	
+	HIT			energy
+
+[ATTACK - Violent Trampling]		
+	IDS			986..990
+	CHARGE		generic_charge
+	ANIM		headbutt	
+	HIT			energy
+
+[ATTACK - Hooves of Doom]		
+	IDS			992..996
+	CHARGE		generic_charge
+	ANIM		super_headbutt
+	HIT			energy
+
+# Scorpio				
+
+[ATTACK - Solar Flare]		
+	IDS			1022..1026
+	CHARGE		generic_charge
+	ANIM		kick	
+	HIT			ice
+
+[ATTACK - Supernova]			
+	IDS			1028..1032
+	CHARGE		generic_charge
+	ANIM		super_kick	
+	HIT			ice
+
+[ATTACK - Playful Bite]		
+	IDS			1034..1038
+	CHARGE		generic_charge
+	ANIM		punch	
+	HIT			ice
+
+[ATTACK - Naughty Gnawing]		
+	IDS			1040..1044
+	CHARGE		generic_charge
+	ANIM		super_punch
+	HIT			ice
+
+[ATTACK - Snow Blow]			
+	IDS			1046..1050
+	CHARGE		generic_charge
+	ANIM		headbutt	
+	HIT			ice
+
+[ATTACK - Blizzard]			
+	IDS			1052..1056
+	CHARGE		generic_charge
+	ANIM		super_headbutt
+	HIT			ice
+
+# Taurus				
+
+[ATTACK - Fox Paw]			
+	IDS			1082..1086
+	CHARGE		generic_charge
+	ANIM		punch	
+	HIT			quake
+
+[ATTACK - Clever Feint]		
+	IDS			1088..1092
+	CHARGE		generic_charge
+	ANIM		super_punch
+	HIT			quake
+
+[ATTACK - Tireless Rush]		
+	IDS			1094..1098
+	CHARGE		generic_charge
+	ANIM		tackle	
+	HIT			quake
+
+[ATTACK - Kinetic Blitz]		
+	IDS			1100..1104
+	CHARGE		generic_charge
+	ANIM		super_tackle
+	HIT			quake
+
+[ATTACK - Stone Horns]		
+	IDS			1106..1110
+	CHARGE		generic_charge
+	ANIM		headbutt	
+	HIT			quake
+
+[ATTACK - Impaling Earth]		
+	IDS			1112..1116
+	CHARGE		generic_charge
+	ANIM		super_headbutt
+	HIT			quake
+
+# Virgo				
+
+[ATTACK - Gusting Wind]		
+	IDS			1154..1158
+	CHARGE		generic_charge
+	ANIM		kick	
+	HIT			bramble
+
+[ATTACK - Swirling Gale]		
+	IDS			1160..1164
+	CHARGE		generic_charge
+	ANIM		super_kick	
+	HIT			bramble
+
+[ATTACK - Puncture]			
+	IDS			1166..1170
+	CHARGE		generic_charge
+	ANIM		punch	
+	HIT			bramble
+
+[ATTACK - Spine Shot]			
+	IDS			1172..1176
+	CHARGE		generic_charge
+	ANIM		super_punch
+	HIT			bramble
+
+[ATTACK - Swirl of Leaves]		
+	IDS			1178..1182
+	CHARGE		generic_charge
+	ANIM		tackle	
+	HIT			bramble
+
+[ATTACK - Earthen Blast]		
+	IDS			1184..1188
+	CHARGE		generic_charge
+	ANIM		super_tackle
+	HIT			bramble
+
+# Aries				
+
+[ATTACK - Spin Kick]			
+	IDS			470..474
+	CHARGE		generic_charge
+	ANIM		kick	
+	HIT			flame
+
+[ATTACK - Helicopter Kick]		
+	IDS			476..480
+	CHARGE		generic_charge
+	ANIM		super_kick	
+	HIT			flame
+
+[ATTACK - Clip]			
+	IDS			482..486
+	CHARGE		generic_charge
+	ANIM		punch	
+	HIT			flame
+
+[ATTACK - Shear]			
+	IDS			488..492
+	CHARGE		generic_charge
+	ANIM		super_punch
+	HIT			flame
+
+[ATTACK - Cyclonic Flame]		
+	IDS			1238..1242
+	CHARGE		generic_charge
+	ANIM		tackle	
+	HIT			flame
+
+[ATTACK - Fiery Tornado]		
+	IDS			1244..1248
+	CHARGE		generic_charge
+	ANIM		super_tackle
+	HIT			flame
+
+[ATTACK - Harming Halo]		
+	IDS			1250..1254
+	CHARGE		generic_charge
+	ANIM		tackle	
+	HIT			flame
+
+[ATTACK - Circlet of Chaos]		
+	IDS			1256..1260
+	CHARGE		generic_charge
+	ANIM		super_tackle
+	HIT			flame
+
+[ATTACK - Planted Charge]		
+	IDS			1262..1266
+	CHARGE		generic_charge
+	ANIM		tackle	
+	HIT			flame
+
+[ATTACK - Uproot]			
+	IDS			1268..1272
+	CHARGE		generic_charge
+	ANIM		super_tackle
+	HIT			flame
+
+[ATTACK - Monkey Paw]			
+	IDS			1274..1278
+	CHARGE		generic_charge
+	ANIM		punch	
+	HIT			flame
+
+[ATTACK - Furious Fists]		
+	IDS			1280..1284
+	CHARGE		generic_charge
+	ANIM		super_punch
+	HIT			flame
+
+[ATTACK - Sonic Bark]			
+	IDS			1286..1290
+	CHARGE		generic_charge
+	ANIM		kick	
+	HIT			flame
+
+[ATTACK - Acoustic Growl]		
+	IDS			1292..1296
+	CHARGE		generic_charge
+	ANIM		super_kick	
+	HIT			flame
+
+# Aquarius				
+
+[ATTACK - Thump]			
+	IDS			530..534
+	CHARGE		generic_charge
+	ANIM		kick	
+	HIT			wind
+
+[ATTACK - Pound]			
+	IDS			536..540
+	CHARGE		generic_charge
+	ANIM		super_punch
+	HIT			wind
+
+[ATTACK - Nosedive]			
+	IDS			1226..1230
+	CHARGE		generic_charge
+	ANIM		punch	
+	HIT			wind
+
+[ATTACK - Divebomb]			
+	IDS			1232..1236
+	CHARGE		generic_charge
+	ANIM		super_punch
+	HIT			wind
+
+[ATTACK - Jetstream]			
+	IDS			1898..1902
+	CHARGE		generic_charge
+	ANIM		headbutt	
+	HIT			wind
+
+[ATTACK - Sonic Scream]		
+	IDS			1904..1908
+	CHARGE		generic_charge
+	ANIM		super_headbutt
+	HIT			wind
+
+[ATTACK - Quack]			
+	IDS			1298..1302
+	CHARGE		generic_charge
+	ANIM		punch	
+	HIT			wind
+
+[ATTACK - Beak Attack]		
+	IDS			1304..1308
+	CHARGE		generic_charge
+	ANIM		super_punch
+	HIT			wind
+
+[ATTACK - Chatter]			
+	IDS			1310..1314
+	CHARGE		generic_charge
+	ANIM		tackle	
+	HIT			wind
+
+[ATTACK - Backtalk]			
+	IDS			1316..1320
+	CHARGE		generic_charge
+	ANIM		super_tackle
+	HIT			wind
+
+[ATTACK - Splash]			
+	IDS			1322..1326
+	CHARGE		generic_charge
+	ANIM		kick	
+	HIT			wind
+
+[ATTACK - Stream]			
+	IDS			1328..1332
+	CHARGE		generic_charge
+	ANIM		super_kick	
+	HIT			wind
+
+[ATTACK - Seedbeat]			
+	IDS			1826..1830
+	CHARGE		generic_charge
+	ANIM		headbutt	
+	HIT			wind
+
+[ATTACK - Chirrup]			
+	IDS			1832..1836
+	CHARGE		generic_charge
+	ANIM		super_headbutt
+	HIT			wind
+
+# Cancer				
+
+[ATTACK - Pinch]			
+	IDS			614..618
+	CHARGE		generic_charge
+	ANIM		kick	
+	HIT			plasma
+
+[ATTACK - Crush]			
+	IDS			620..624
+	CHARGE		generic_charge
+	ANIM		super_kick	
+	HIT			plasma
+
+[ATTACK - Hammerbite]			
+	IDS			566..570
+	CHARGE		generic_charge
+	ANIM		headbutt	
+	HIT			plasma
+
+[ATTACK - Hammerlash]			
+	IDS			572..576
+	CHARGE		generic_charge
+	ANIM		super_headbutt
+	HIT			plasma
+
+[ATTACK - Crabslap]			
+	IDS			626..630
+	CHARGE		generic_charge
+	ANIM		punch	
+	HIT			plasma
+
+[ATTACK - Crabsalad]			
+	IDS			632..636
+	CHARGE		generic_charge
+	ANIM		super_punch
+	HIT			plasma
+
+[ATTACK - Aquastream]			
+	IDS			638..642
+	CHARGE		generic_charge
+	ANIM		tackle	
+	HIT			plasma
+
+[ATTACK - Aquajet]			
+	IDS			644..648
+	CHARGE		generic_charge
+	ANIM		super_tackle
+	HIT			plasma
+
+[ATTACK - Sprinkles]			
+	IDS			1334..1338
+	CHARGE		generic_charge
+	ANIM		kick	
+	HIT			plasma
+
+[ATTACK - Cake Walk]			
+	IDS			1340..1344
+	CHARGE		generic_charge
+	ANIM		super_kick	
+	HIT			plasma
+
+[ATTACK - Lavender Currents]		
+	IDS			1346..1350
+	CHARGE		generic_charge
+	ANIM		headbutt	
+	HIT			plasma
+
+[ATTACK - Sea of Purple]		
+	IDS			1352..1356
+	CHARGE		generic_charge
+	ANIM		super_headbutt
+	HIT			plasma
+
+[ATTACK - Scuttle]			
+	IDS			1838..1842
+	CHARGE		generic_charge
+	ANIM		punch	
+	HIT			plasma
+
+[ATTACK - Gadgetwalk]			
+	IDS			1844..1848
+	CHARGE		generic_charge
+	ANIM		super_punch
+	HIT			plasma
+
+# Capricorn			
+
+[ATTACK - Affection]			
+	IDS			1358..1362
+	CHARGE		generic_charge
+	ANIM		punch	
+	HIT			poison
+
+[ATTACK - Devotion]			
+	IDS			1364..1368
+	CHARGE		generic_charge
+	ANIM		super_punch
+	HIT			poison
+
+[ATTACK - Hairnet]			
+	IDS			686..690
+	CHARGE		generic_charge
+	ANIM		headbutt	
+	HIT			poison
+
+[ATTACK - Hairweb]			
+	IDS			692..696
+	CHARGE		generic_charge
+	ANIM		super_headbutt
+	HIT			poison
+
+[ATTACK - Close Shave]		
+	IDS			698..702
+	CHARGE		generic_charge
+	ANIM		tackle	
+	HIT			poison
+
+[ATTACK - Razorface]			
+	IDS			704..708
+	CHARGE		generic_charge
+	ANIM		super_tackle
+	HIT			poison
+
+[ATTACK - Chompers]			
+	IDS			1370..1374
+	CHARGE		generic_charge
+	ANIM		headbutt	
+	HIT			poison
+
+[ATTACK - Ivory Bite]			
+	IDS			1376..1380
+	CHARGE		generic_charge
+	ANIM		super_headbutt
+	HIT			poison
+
+[ATTACK - Firetail]			
+	IDS			1382..1386
+	CHARGE		generic_charge
+	ANIM		kick	
+	HIT			poison
+
+[ATTACK - Emberblast]			
+	IDS			1388..1392
+	CHARGE		generic_charge
+	ANIM		super_kick	
+	HIT			poison
+
+[ATTACK - Strawberry Cream]		
+	IDS			1394..1398
+	CHARGE		generic_charge
+	ANIM		punch	
+	HIT			poison
+
+[ATTACK - Frothy Delight]		
+	IDS			1400..1404
+	CHARGE		generic_charge
+	ANIM		super_punch
+	HIT			poison
+
+[ATTACK - Frothy Whip]		
+	IDS			1850..1854
+	CHARGE		generic_charge
+	ANIM		kick	
+	HIT			poison
+
+[ATTACK - Handle Crunch]		
+	IDS			1856..1860
+	CHARGE		generic_charge
+	ANIM		super_kick	
+	HIT			poison
+
+# Gemini				
+
+[ATTACK - Double Slap]		
+	IDS			746..750
+	CHARGE		generic_charge
+	ANIM		tackle	
+	HIT			lightning
+
+[ATTACK - Double Whip]		
+	IDS			752..756
+	CHARGE		generic_charge
+	ANIM		super_tackle
+	HIT			lightning
+
+[ATTACK - Flutterflip]		
+	IDS			1406..1410
+	CHARGE		generic_charge
+	ANIM		headbutt	
+	HIT			lightning
+
+[ATTACK - Leafstorm]			
+	IDS			1412..1416
+	CHARGE		generic_charge
+	ANIM		super_headbutt
+	HIT			lightning
+
+[ATTACK - Deep Sting]			
+	IDS			1418..1422
+	CHARGE		generic_charge
+	ANIM		kick	
+	HIT			lightning
+
+[ATTACK - Puncture Wound]		
+	IDS			1424..1428
+	CHARGE		generic_charge
+	ANIM		super_kick	
+	HIT			lightning
+
+[ATTACK - Zap]			
+	IDS			1430..1434
+	CHARGE		generic_charge
+	ANIM		punch	
+	HIT			lightning
+
+[ATTACK - Super Shock]		
+	IDS			1436..1440
+	CHARGE		generic_charge
+	ANIM		super_punch
+	HIT			lightning
+
+[ATTACK - Tail Thrash]		
+	IDS			1442..1446
+	CHARGE		generic_charge
+	ANIM		tackle	
+	HIT			lightning
+
+[ATTACK - Golden Flog]		
+	IDS			1448..1452
+	CHARGE		generic_charge
+	ANIM		super_tackle
+	HIT			lightning
+
+[ATTACK - Coordinated Attack]		
+	IDS			1454..1458
+	CHARGE		generic_charge
+	ANIM		kick	
+	HIT			lightning
+
+[ATTACK - Bait and Switch]		
+	IDS			1460..1464
+	CHARGE		generic_charge
+	ANIM		super_kick	
+	HIT			lightning
+
+[ATTACK - Batty Bite]			
+	IDS			1466..1470
+	CHARGE		generic_charge
+	ANIM		punch	
+	HIT			lightning
+
+[ATTACK - Nightmare Wing]		
+	IDS			1472..1476
+	CHARGE		generic_charge
+	ANIM		super_punch
+	HIT			lightning
+
+# Leo				
+
+[ATTACK - Timid Leap]			
+	IDS			1478..1482
+	CHARGE		generic_charge
+	ANIM		tackle	
+	HIT			scratch
+
+[ATTACK - Ball of Fur]		
+	IDS			1484..1488
+	CHARGE		generic_charge
+	ANIM		super_tackle
+	HIT			scratch
+
+[ATTACK - Lion Claw]			
+	IDS			806..810
+	CHARGE		generic_charge
+	ANIM		kick	
+	HIT			scratch
+
+[ATTACK - Maul]			
+	IDS			812..816
+	CHARGE		generic_charge
+	ANIM		punch	
+	HIT			scratch
+
+[ATTACK - Catapault]			
+	IDS			818..822
+	CHARGE		generic_charge
+	ANIM		punch	
+	HIT			scratch
+
+[ATTACK - Feral Fire]			
+	IDS			824..828
+	CHARGE		generic_charge
+	ANIM		super_punch
+	HIT			scratch
+
+[ATTACK - Whisker Bristle]		
+	IDS			830..834
+	CHARGE		generic_charge
+	ANIM		tackle	
+	HIT			scratch
+
+[ATTACK - Hairball]			
+	IDS			836..840
+	CHARGE		generic_charge
+	ANIM		super_tackle
+	HIT			scratch
+
+[ATTACK - String Catch]		
+	IDS			1490..1494
+	CHARGE		generic_charge
+	ANIM		kick	
+	HIT			scratch
+
+[ATTACK - Ball of String]		
+	IDS			1496..1500
+	CHARGE		generic_charge
+	ANIM		super_kick	
+	HIT			scratch
+
+[ATTACK - Regal Roar]			
+	IDS			1502..1506
+	CHARGE		generic_charge
+	ANIM		headbutt	
+	HIT			scratch
+
+[ATTACK - Call of the Lion]		
+	IDS			1508..1512
+	CHARGE		generic_charge
+	ANIM		super_headbutt
+	HIT			scratch
+
+[ATTACK - Screaming Streak]		
+	IDS			1862..1866
+	CHARGE		generic_charge
+	ANIM		punch	
+	HIT			scratch
+
+[ATTACK - Blazing Beak]		
+	IDS			1868..1872
+	CHARGE		generic_charge
+	ANIM		super_punch
+	HIT			scratch
+
+# Libra				
+
+[ATTACK - Flipperjab]			
+	IDS			878..882
+	CHARGE		generic_charge
+	ANIM		headbutt	
+	HIT			flight
+
+[ATTACK - Headhook]			
+	IDS			884..888
+	CHARGE		generic_charge
+	ANIM		super_headbutt
+	HIT			flight
+
+[ATTACK - Dazzle]			
+	IDS			890..894
+	CHARGE		generic_charge
+	ANIM		kick	
+	HIT			flight
+
+[ATTACK - Nosespike]			
+	IDS			896..900
+	CHARGE		generic_charge
+	ANIM		super_kick	
+	HIT			flight
+
+[ATTACK - Drumstick]			
+	IDS			1514..1518
+	CHARGE		generic_charge
+	ANIM		tackle	
+	HIT			flight
+
+[ATTACK - Gobble Gobble]		
+	IDS			1520..1524
+	CHARGE		generic_charge
+	ANIM		super_tackle
+	HIT			flight
+
+[ATTACK - Balancing Act]		
+	IDS			1526..1530
+	CHARGE		generic_charge
+	ANIM		headbutt	
+	HIT			flight
+
+[ATTACK - Scales of Equity]		
+	IDS			1532..1536
+	CHARGE		generic_charge
+	ANIM		super_headbutt
+	HIT			flight
+
+[ATTACK - Transmit]			
+	IDS			1538..1542
+	CHARGE		generic_charge
+	ANIM		kick	
+	HIT			flight
+
+[ATTACK - Spectrum Wave]		
+	IDS			1544..1548
+	CHARGE		generic_charge
+	ANIM		super_kick	
+	HIT			flight
+
+[ATTACK - Dark Swoop]			
+	IDS			1874..1878
+	CHARGE		generic_charge
+	ANIM		punch	
+	HIT			flight
+
+[ATTACK - Silent Stalking]		
+	IDS			1880..1884
+	CHARGE		generic_charge
+	ANIM		super_punch
+	HIT			flight
+
+[ATTACK - Duck Bill]			
+	IDS			950..954
+	CHARGE		generic_charge
+	ANIM		kick	
+	HIT			flight
+
+[ATTACK - Beak jam]			
+	IDS			
+	CHARGE		generic_charge
+	ANIM		super_kick	
+	HIT			flight
+
+# Pisces				
+
+[ATTACK - Sludge]			
+	IDS			938..942
+	CHARGE		generic_charge
+	ANIM		tackle	
+	HIT			water
+
+[ATTACK - Slime]			
+	IDS			944..948
+	CHARGE		generic_charge
+	ANIM		super_tackle
+	HIT			water
+
+[ATTACK - Squiggle]			
+	IDS			1550..1554
+	CHARGE		generic_charge
+	ANIM		punch	
+	HIT			water
+
+[ATTACK - Wriggle]			
+	IDS			1556..1560
+	CHARGE		generic_charge
+	ANIM		super_punch
+	HIT			water
+
+[ATTACK - Fish Sandwich]		
+	IDS			1562..1566
+	CHARGE		generic_charge
+	ANIM		tackle	
+	HIT			water
+
+[ATTACK - Bip Bop Pop]		
+	IDS			1568..1572
+	CHARGE		generic_charge
+	ANIM		super_tackle
+	HIT			water
+
+[ATTACK - Ink Blot]			
+	IDS			1586..1590
+	CHARGE		generic_charge
+	ANIM		kick	
+	HIT			water
+
+[ATTACK - Inky Shot]			
+	IDS			1592..1596
+	CHARGE		generic_charge
+	ANIM		super_kick	
+	HIT			water
+
+[ATTACK - Sushi Roll]			
+	IDS			1574..1578
+	CHARGE		generic_charge
+	ANIM		kick	
+	HIT			water
+
+[ATTACK - Sake Bomb]			
+	IDS			1580..1584
+	CHARGE		generic_charge
+	ANIM		super_kick	
+	HIT			water
+
+[ATTACK - Soggy Monkey]		
+	IDS			1598..1602
+	CHARGE		generic_charge
+	ANIM		punch	
+	HIT			water
+
+[ATTACK - Waterlogged]		
+	IDS			1604..1608
+	CHARGE		generic_charge
+	ANIM		super_punch
+	HIT			water
+
+[ATTACK - Octo-bomb]			
+	IDS			1886..1890
+	CHARGE		generic_charge
+	ANIM		headbutt	
+	HIT			water
+
+[ATTACK - ESP]			
+	IDS			1892..1896
+	CHARGE		generic_charge
+	ANIM		super_headbutt
+	HIT			water
+
+# Sagittarius			
+
+[ATTACK - Claw Rake]			
+	IDS			998..1002
+	CHARGE		generic_charge
+	ANIM		kick	
+	HIT			energy
+
+[ATTACK - Back Slash]			
+	IDS			956..960
+	CHARGE		generic_charge
+	ANIM		super_kick	
+	HIT			energy
+
+[ATTACK - Claw Dig]			
+	IDS			1004..1008
+	CHARGE		generic_charge
+	ANIM		super_kick	
+	HIT			energy
+
+[ATTACK - Archery]			
+	IDS			1010..1014
+	CHARGE		generic_charge
+	ANIM		punch	
+	HIT			energy
+
+[ATTACK - Heart Shot]			
+	IDS			1016..1020
+	CHARGE		generic_charge
+	ANIM		super_punch
+	HIT			energy
+
+[ATTACK - Hornstab]			
+	IDS			1610..1614
+	CHARGE		generic_charge
+	ANIM		headbutt	
+	HIT			energy
+
+[ATTACK - Corkscrew]			
+	IDS			1616..1620
+	CHARGE		generic_charge
+	ANIM		super_headbutt
+	HIT			energy
+
+[ATTACK - Spitstream]			
+	IDS			1622..1626
+	CHARGE		generic_charge
+	ANIM		tackle	
+	HIT			energy
+
+[ATTACK - Power Loogie]		
+	IDS			1628..1632
+	CHARGE		generic_charge
+	ANIM		super_tackle
+	HIT			energy
+
+[ATTACK - Penalty Kick]		
+	IDS			1634..1638
+	CHARGE		generic_charge
+	ANIM		punch	
+	HIT			energy
+
+[ATTACK - Slide Tackle]		
+	IDS			1640..1644
+	CHARGE		generic_charge
+	ANIM		super_punch
+	HIT			energy
+
+[ATTACK - Ninja Strike]		
+	IDS			1646..1650
+	CHARGE		generic_charge
+	ANIM		kick	
+	HIT			energy
+
+[ATTACK - Assassinate]		
+	IDS			1652..1656
+	CHARGE		generic_charge
+	ANIM		super_kick	
+	HIT			energy
+
+[ATTACK - Tail Whip]			
+	IDS			1658..1662
+	CHARGE		generic_charge
+	ANIM		headbutt	
+	HIT			energy
+
+[ATTACK - Tail Scythe]		
+	IDS			1664..1668
+	CHARGE		generic_charge
+	ANIM		super_headbutt
+	HIT			energy
+
+# Scorpio				
+
+[ATTACK - Stinger]			
+	IDS			1058..1062
+	CHARGE		generic_charge
+	ANIM		punch	
+	HIT			ice
+
+[ATTACK - Poison Strike]		
+	IDS			1064..1068
+	CHARGE		generic_charge
+	ANIM		super_punch
+	HIT			ice
+
+[ATTACK - Claw Crusher]		
+	IDS			1070..1074
+	CHARGE		generic_charge
+	ANIM		headbutt	
+	HIT			ice
+
+[ATTACK - Pincher Panic]		
+	IDS			1076..1080
+	CHARGE		generic_charge
+	ANIM		super_headbutt
+	HIT			ice
+
+[ATTACK - Multisting]			
+	IDS			1670..1674
+	CHARGE		generic_charge
+	ANIM		kick	
+	HIT			ice
+
+[ATTACK - Doublestab]			
+	IDS			1676..1680
+	CHARGE		generic_charge
+	ANIM		super_kick	
+	HIT			ice
+
+[ATTACK - Iceblock]			
+	IDS			1682..1686
+	CHARGE		generic_charge
+	ANIM		tackle	
+	HIT			ice
+
+[ATTACK - Icepick]			
+	IDS			1688..1692
+	CHARGE		generic_charge
+	ANIM		super_tackle
+	HIT			ice
+
+[ATTACK - Freezeram]			
+	IDS			1694..1698
+	CHARGE		generic_charge
+	ANIM		tackle	
+	HIT			ice
+
+[ATTACK - Snowbash]			
+	IDS			1700..1704
+	CHARGE		generic_charge
+	ANIM		super_tackle
+	HIT			ice
+
+[ATTACK - Handsnake]			
+	IDS			1706..1710
+	CHARGE		generic_charge
+	ANIM		punch	
+	HIT			ice
+
+[ATTACK - Cobra Hand]			
+	IDS			1712..1716
+	CHARGE		generic_charge
+	ANIM		super_punch
+	HIT			ice
+
+[ATTACK - Wee Nibble]			
+	IDS			1718..1722
+	CHARGE		generic_charge
+	ANIM		kick	
+	HIT			ice
+
+[ATTACK - Ferocious Bite]		
+	IDS			1724..1728
+	CHARGE		generic_charge
+	ANIM		super_kick	
+	HIT			ice
+
+# Taurus				
+
+[ATTACK - Power Sit]			
+	IDS			1730..1734
+	CHARGE		generic_charge
+	ANIM		punch	
+	HIT			quake
+
+[ATTACK - Power Squat]		
+	IDS			1736..1740
+	CHARGE		generic_charge
+	ANIM		super_punch
+	HIT			quake
+
+[ATTACK - Head Chew]			
+	IDS			1118..1122
+	CHARGE		generic_charge
+	ANIM		headbutt	
+	HIT			quake
+
+[ATTACK - Brain Graze]		
+	IDS			1124..1128
+	CHARGE		generic_charge
+	ANIM		super_headbutt
+	HIT			quake
+
+[ATTACK - Pinching Beak]		
+	IDS			1130..1134
+	CHARGE		generic_charge
+	ANIM		kick	
+	HIT			quake
+
+[ATTACK - Horn Surge]			
+	IDS			1136..1140
+	CHARGE		generic_charge
+	ANIM		super_kick	
+	HIT			quake
+
+[ATTACK - Ooze Blast]			
+	IDS			1142..1146
+	CHARGE		generic_charge
+	ANIM		tackle	
+	HIT			quake
+
+[ATTACK - Slime Surge]		
+	IDS			1148..1152
+	CHARGE		generic_charge
+	ANIM		super_tackle
+	HIT			quake
+
+[ATTACK - Loping Lavender]		
+	IDS			1742..1746
+	CHARGE		generic_charge
+	ANIM		headbutt	
+	HIT			quake
+
+[ATTACK - Yak Attack]			
+	IDS			1748..1752
+	CHARGE		generic_charge
+	ANIM		super_headbutt
+	HIT			quake
+
+[ATTACK - Off Balance]		
+	IDS			1754..1758
+	CHARGE		generic_charge
+	ANIM		tackle	
+	HIT			quake
+
+[ATTACK - Tumble]			
+	IDS			1760..1764
+	CHARGE		generic_charge
+	ANIM		super_tackle
+	HIT			quake
+
+[ATTACK - Grill Marks]		
+	IDS			1766..1770
+	CHARGE		generic_charge
+	ANIM		headbutt	
+	HIT			quake
+
+[ATTACK - Flame Broiled]		
+	IDS			1772..1776
+	CHARGE		generic_charge
+	ANIM		super_headbutt
+	HIT			quake
+
+# Virgo				
+
+[ATTACK - Spinning Blade]		
+	IDS			1190..1194
+	CHARGE		generic_charge
+	ANIM		headbutt	
+	HIT			bramble
+
+[ATTACK - Twisting Edge]		
+	IDS			1196..1200
+	CHARGE		generic_charge
+	ANIM		super_headbutt
+	HIT			bramble
+
+[ATTACK - Petal Fall]			
+	IDS			1202..1206
+	CHARGE		generic_charge
+	ANIM		punch	
+	HIT			bramble
+
+[ATTACK - Flowing Bud]		
+	IDS			1208..1212
+	CHARGE		generic_charge
+	ANIM		super_punch
+	HIT			bramble
+
+[ATTACK - Clumsy Embrace]		
+	IDS			1214..1218
+	CHARGE		generic_charge
+	ANIM		tackle	
+	HIT			bramble
+
+[ATTACK - Enveloping Grasp]		
+	IDS			1220..1224
+	CHARGE		generic_charge
+	ANIM		super_tackle
+	HIT			bramble
+
+[ATTACK - Glorious Vision]		
+	IDS			1778..1782
+	CHARGE		generic_charge
+	ANIM		kick	
+	HIT			bramble
+
+[ATTACK - Grandeur]			
+	IDS			1784..1788
+	CHARGE		generic_charge
+	ANIM		super_kick	
+	HIT			bramble
+
+[ATTACK - Yumilicious]		
+	IDS			1790..1794
+	CHARGE		generic_charge
+	ANIM		tackle	
+	HIT			bramble
+
+[ATTACK - OMNOMNOM]			
+	IDS			1796..1800
+	CHARGE		generic_charge
+	ANIM		super_tackle
+	HIT			bramble
+
+[ATTACK - Promise Ring]		
+	IDS			1802..1806
+	CHARGE		generic_charge
+	ANIM		punch	
+	HIT			bramble
+
+[ATTACK - Lover's Bond]		
+	IDS			1808..1812
+	CHARGE		generic_charge
+	ANIM		super_punch
+	HIT			bramble
+
+[ATTACK - Spirit Tap]			
+	IDS			1814..1818
+	CHARGE		generic_charge
+	ANIM		kick	
+	HIT			bramble
+
+[ATTACK - Vanishing Form]		
+	IDS			1820..1824
+	CHARGE		generic_charge
+	ANIM		super_kick	
+	HIT			bramble
+
+[ATTACK - Coldbear Bump]			
+	IDS			1922..1926
+	CHARGE		generic_charge
+	ANIM		punch	
+	HIT			quake
+
+[ATTACK - Frost Bite]		
+	IDS			1928..1932
+	CHARGE		generic_charge
+	ANIM		super_punch
+	HIT			quake
+
+[ATTACK - Missile Toe]			
+	IDS			1934..1938
+	CHARGE		generic_charge
+	ANIM		punch	
+	HIT			quake
+
+[ATTACK - Slaying Song]		
+	IDS			1940..1944
+	CHARGE		generic_charge
+	ANIM		super_punch
+	HIT			quake
+
+[ATTACK - Power Pellet]			
+	IDS			1946..1950
+	CHARGE		generic_charge
+	ANIM		punch	
+	HIT			quake
+
+[ATTACK - Hopping Mad]		
+	IDS			1952..1956
+	CHARGE		generic_charge
+	ANIM		super_punch
+	HIT			quake
+
+[ATTACK - Doom Nibble]			
+	IDS			1958..1962
+	CHARGE		generic_charge
+	ANIM		kick	
+	HIT			quake
+
+[ATTACK - Mortal Thump]		
+	IDS			1964..1968
+	CHARGE		generic_charge
+	ANIM		super_kick
+	HIT			quake
+
+[ATTACK - Gilded Fury]			
+	IDS			1970..1974
+	CHARGE		generic_charge
+	ANIM		kick	
+	HIT			quake
+
+[ATTACK - Shining Death]		
+	IDS			1976..1980
+	CHARGE		generic_charge
+	ANIM		super_kick
+	HIT			quake
+
+[ATTACK - Golden Glove]			
+	IDS			1982..1986
+	CHARGE		generic_charge
+	ANIM		kick	
+	HIT			quake
+
+[ATTACK - Luck Bomb]		
+	IDS			1988..1992
+	CHARGE		generic_charge
+	ANIM		super_kick
+	HIT			quake
+
+[ATTACK - Fire Dive]			
+	IDS			1994..1998
+	CHARGE		generic_charge
+	ANIM		kick	
+	HIT			quake
+
+[ATTACK - Flying Inferno]		
+	IDS			2000..2004
+	CHARGE		generic_charge
+	ANIM		super_kick
+	HIT			quake
+	
+[ATTACK - Bellyflop]			
+	IDS			2006..2010
+	CHARGE		generic_charge
+	ANIM		tackle	
+	HIT			water
+
+[ATTACK - Headstab]		
+	IDS			2012..2016
+	CHARGE		generic_charge
+	ANIM		super_tackle
+	HIT			water
+
+[ATTACK - Sandswipe]			
+	IDS			2018..2022
+	CHARGE		generic_charge
+	ANIM		punch	
+	HIT			energy
+
+[ATTACK - Earthstorm]		
+	IDS			2024..2028
+	CHARGE		generic_charge
+	ANIM		super_punch
+	HIT			energy
+
+[ATTACK - Puff Ball]			
+	IDS			2030..2034
+	CHARGE		generic_charge
+	ANIM		kick	
+	HIT			poison
+
+[ATTACK - Spore Cloud]		
+	IDS			2036..2040
+	CHARGE		generic_charge
+	ANIM		super_kick
+	HIT			poison
+
+[ATTACK - Glitter Pinch]			
+	IDS			2042..2046
+	CHARGE		generic_charge
+	ANIM		punch	
+	HIT			quake
+
+[ATTACK - Sparkle Punch]		
+	IDS			2048..2052
+	CHARGE		generic_charge
+	ANIM		super_punch
+	HIT			quake
+
+[ATTACK - Night Cap]			
+	IDS			2054..2058
+	CHARGE		generic_charge
+	ANIM		headbutt	
+	HIT			bramble
+
+[ATTACK - Blackout]		
+	IDS			2060..2064
+	CHARGE		generic_charge
+	ANIM		super_headbutt
+	HIT			bramble
+
+[ATTACK - Bear-handed]			
+	IDS			2066..2070
+	CHARGE		generic_charge
+	ANIM		punch	
+	HIT			ice
+
+[ATTACK - Rule of Claw]		
+	IDS			2072..2076
+	CHARGE		generic_charge
+	ANIM		super_punch
+	HIT			ice
+
+[ATTACK - Sneak Attack]			
+	IDS			2078..2082
+	CHARGE		generic_charge
+	ANIM		kick	
+	HIT			quake
+
+[ATTACK - Stealth Bomb]		
+	IDS			2084..2088
+	CHARGE		generic_charge
+	ANIM		super_kick
+	HIT			quake
+
+[ATTACK - Flap]			
+	IDS			518..522
+	CHARGE		generic_charge
+	ANIM		punch	
+	HIT			punch_hit
+
+[ATTACK - Flare]			
+	IDS			770..774
+	CHARGE		generic_charge
+	ANIM		punch	
+	HIT			punch_hit

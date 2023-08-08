@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/2/trunk/front/Main/src/com/gaiaonline/monster/view/components/battle/vo
+END
+BuffVO.as
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/2/trunk/front/Main/src/com/gaiaonline/monster/view/components/battle/vo/BuffVO.as
+END
+BuffFunction.as
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/2/trunk/front/Main/src/com/gaiaonline/monster/view/components/battle/vo/BuffFunction.as
+END
+AttackResponseVO.as
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/2/trunk/front/Main/src/com/gaiaonline/monster/view/components/battle/vo/AttackResponseVO.as
+END
+AttackResultVO.as
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/2/trunk/front/Main/src/com/gaiaonline/monster/view/components/battle/vo/AttackResultVO.as
+END
+BuffCountVO.as
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/2/trunk/front/Main/src/com/gaiaonline/monster/view/components/battle/vo/BuffCountVO.as
+END
+BuffAction.as
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/2/trunk/front/Main/src/com/gaiaonline/monster/view/components/battle/vo/BuffAction.as
+END
+BuffResult.as
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/2/trunk/front/Main/src/com/gaiaonline/monster/view/components/battle/vo/BuffResult.as
+END
+BuffAppliesTo.as
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/2/trunk/front/Main/src/com/gaiaonline/monster/view/components/battle/vo/BuffAppliesTo.as
+END
+BuffType.as
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/2/trunk/front/Main/src/com/gaiaonline/monster/view/components/battle/vo/BuffType.as
+END
+BuffResultVO.as
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/2/trunk/front/Main/src/com/gaiaonline/monster/view/components/battle/vo/BuffResultVO.as
+END

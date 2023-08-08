@@ -1,0 +1,38 @@
+
+# This is the first part of Victoria's Celestial Gatekeepers quest.
+
+[BACKGROUND]
+	assets/story/backgrounds/38.swf
+
+[FOREGROUND]
+	assets/story/letterbox.swf
+
+[SETTINGS]
+	USE_LEFT_ARROW					yes
+	ACTOR_STAYS_FOR_PLAYER_SPEECH	yes
+	ACTOR_STAYS_FOR_ANIM			no
+	PLAYER_BUBBLE_X					0
+	PLAYER_BUBBLE_Y					510
+	NPC_BUBBLE_X					480
+	NPC_BUBBLE_Y					300
+
+[PLAYER]
+	NAME		You
+
+[CHARACTER - VICTORIA]
+	ASSET	assets/story/npc/victoria	
+	NAME	Victoria
+
+VICTORIA IN
+
+VICTORIA    Aww, gosh dang it! How did you beat me? That's stupid! I hate it!
+
+VICTORIA    I guess maybe your Mogas just like you better... all these tea parties and snuggle naps for nothing!
+
+VICTORIA    Fine... maybe I'm not the best tamer. I guess I gotta tell you where the sparkly Moga is now, huh?
+
+VICTORIA    I've seen it at {$GREEN Windhym Gardens} a few times, but only when I went there with just {$GOLD Scorpio} Mogas on my team...
+
+VICTORIA    Now get outta here! Time to whip these dang lazy Mogas into shape. {ACCEPT}
+
+VICTORIA OUT

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tips>
+	<tip id="TOP_WHISTLES">Whistles call in friends for powerful Bonus Attacks.</tip>
+	<tip id="TOP_RECHARGE">Blue Coffee restores a Moga to full health and can be used anytime.</tip>
+	<tip id="TOP_SEEDS">Star Seeds are used to capture a wild Moga. The weaker they are, the higher the chance of capture.</tip>
+	<tip id="TOP_QUEST">The Quest Log keeps you updated on your quest progress and what to do next.</tip>
+	<tip id="TOP_STORE">The Sky Shop has useful goodies to help you out. Call us anytime, anywhere.</tip>
+	<tip id="TOP_PREMIUM">Use Star Coins to purchase Blue Coffee and Star Seeds in the Sky Shop.</tip>
+	
+	<tip id="MENU_TRAVEL_TITLE">Travel</tip>
+	<tip id="MENU_TRAVEL">Go straight home or travel to different regions of Monster Galaxy.</tip>
+	<tip id="MENU_QUEST_TITLE">Quests</tip>
+	<tip id="MENU_QUEST">Earn rewards by completing tasks for the people you meet.</tip>
+	<tip id="MENU_DEX_TITLE">Team</tip>
+	<tip id="MENU_DEX">The Team tab lets you choose your battle team, check out your Moga collection, and see all the other Mogas you've yet to capture.</tip>
+	<tip id="MENU_SETTINGS_TITLE">Settings</tip>
+	<tip id="MENU_SETTINGS">Settings lets you change the volume, skip the intro and more stuff like that.</tip>
+	<tip id="MENU_COLLECTIONS_TITLE">Collections</tip>
+	<tip id="MENU_COLLECTIONS">Manage your collections of items dropped after battle. Turn in completed collections for rewards!</tip>
+	
+	<tip id="WHISTLE_TREE_LADEN">This tree is ripe with whistles. Whistles call friends to help you during battle. Click to harvest these whistles now.</tip>
+	<tip id="WHISTLE_TREE_WATERED">This healthy whistle tree will soon be ripe with whistles. Come back soon to harvest them!</tip>
+	<tip id="WHISTLE_TREE_THIRSTY">This whistle tree is thirsty. Click to water the tree so that it can grow whistles that you can use during battle.</tip>
+	<tip id="WHISTLE_TREE_WITHERED">This whistle tree has withered away. Click to water the tree and restore it to health. A healthy whistle tree will grow whistles that you can use in battle.</tip>
+	
+	<tip id="BATTLE_HP">Health Points (HP): When this drops to 0, your monster is defeated. Restore HP by napping or drinking Blue Coffee.</tip>
+	<tip id="BATTLE_ENEMY">This is your enemy's health. Knock it down to 0 to defeat them and gain experience.  Drain it low enough and you can capture them with a Star Seed.</tip>
+	<tip id="BATTLE_TEAM">Your Team: This is all the monsters on your team (up to 6) and their current status.</tip>
+	<tip id="BATTLE_MONSTER">This is your currently selected monster - the one doin' all your fighting right now.</tip>
+	<tip id="BATTLE_PHYSICAL">Physical attack. You can only use this attack so many times before running out. Nap or drink Blue Coffee to recharge.</tip>
+	<tip id="BATTLE_MODIFIER">Use a special buff or de-buff skill to increase your powers or weaken those of your enemy.  You can only use this attack so many times before running out. Nap or drink Blue Coffee to recharge.</tip>
+	<tip id="BATTLE_ZODIAC">Use your Zodiac Attack. You can only use this attack so many times before running out. Nap or drink Blue Coffee to recharge.</tip>
+	<tip id="BATTLE_WHISTLE">Need a hand? Use a Whistle Fruit to summon a friend's monster to help you.</tip>
+	<tip id="BATTLE_ITEM">Spend your turn using an item from your inventory.</tip>
+	<tip id="BATTLE_RUN">Run! Use your turn attempting to escape the battle. If you don't make it, you'll lose a turn and get hit.</tip>
+		
+	<tip id="PHYSICAL_ATTACK_TITLE">Physical Attack</tip>
+	<tip id="PHYSICAL_ATTACK_MAIN">&lt;font color='#65C6B8'&gt;Damage: &lt;/font&gt;#MIN-#MAX&lt;br&gt;&lt;font color='#65C6B8'&gt;Accuracy: &lt;/font&gt; #CHANCE%</tip>
+	<tip id="PHYSICAL_ATTACK_OUT">&lt;font color='#65C6B8'&gt;Out of uses. Use Coffee or nap at home to recharge.&lt;/font&gt;</tip>
+	<tip id="PHYSICAL_ATTACK_CRIT">&lt;font color='#65C6B8'&gt;Critical: &lt;/font&gt;#CRITPERCENT%</tip>
+	
+	<tip id="ZODIAC_ATTACK_TITLE">Zodiac Attack</tip>
+	<tip id="ZODIAC_ATTACK_MAIN">&lt;font color='#65C6B8'&gt;Damage: &lt;/font&gt;#MIN-#MAX&lt;br&gt;&lt;font color='#65C6B8'&gt;Accuracy: &lt;/font&gt; #CHANCE%</tip>
+	<tip id="ZODIAC_ATTACK_OUT">&lt;font color='#65C6B8'&gt;Out of uses. Use coffee or nap at home to recharge.&lt;/font&gt;</tip>
+	<tip id="ZODIAC_ATTACK_CRIT">&lt;br&gt;&lt;font color='#65C6B8'&gt;Critical: &lt;/font&gt;#CRITPERCENT%</tip>
+	<tip id="ZODIAC_ATTACK_PROC">&lt;font color='#65C6B8'&gt;#PROCNAME: &lt;/font&gt;#PROCPERCENT%</tip>
+	
+	<tip id="BONUS_ATTACK_TITLE">Bonus Attack</tip>
+	<tip id="BONUS_ATTACK_MAIN">&lt;font color='#65C6B8'&gt;Damage: &lt;/font&gt;#MIN-#MAX&lt;br&gt;&lt;font color='#65C6B8'&gt;Accuracy: &lt;/font&gt; #CHANCE%</tip>
+	<tip id="BONUS_ATTACK_OUT">&lt;font color='#65C6B8'&gt;Out of whistles. Harvest at home and from friends.&lt;/font&gt;</tip>
+	
+	<tip id="BUFF_ATTACK_TITLE">Special Attack</tip>
+	<tip id="BUFF_ATTACK_MAIN">&lt;font size='11'&gt;#DESCRIPTION&lt;/font&gt;</tip>
+	<tip id="BUFF_ATTACK_OUT">&lt;font color='#65C6B8'&gt;Out of uses. Use coffee or nap at home to recharge.&lt;/font&gt;</tip>
+	
+	<tip id="ZODIAC_2">Aries, The Ram - Fire Sign</tip>
+	<tip id="ZODIAC_2_LONG">Aries - Arians have what psychologists call "belly fire"-- they are outgoing, energetic, ambitious, excitable and easily angered, though they rarely hold grudges.  Like their element, fire, Aries can burn those around them, but their heated nature also makes them generous and affectionate.</tip>
+	
+	<tip id="ZODIAC_4">Taurus, The Bull - Earth Sign</tip>
+	<tip id="ZODIAC_4_LONG">Taurus - Taureans have a strong taste for earthly pleasures. Though demanding, Taureans can be peaceful, loyal friends when satisfied.  But like their symbol, the bull, Taurans have the capacity for deep anger-- and like the earth, sometimes they are just plain stubborn.</tip>
+	
+	<tip id="ZODIAC_6">Gemini, The Twins - Air Sign</tip>
+	<tip id="ZODIAC_6_LONG">Gemini - Geminis change in a flash, like their element, lightning. Their carefree attitude is both charming and frustrating. Long, emotional relationships are not a strength of Geminis, but their flirtations crackle with electricity.</tip>
+
+	<tip id="ZODIAC_8">Cancer, The Crab - Water Sign</tip>
+	<tip id="ZODIAC_8_LONG">Cancer - Cancers desire strong, intense relationships. The powerful claws of the crab symbolize their grasping emotional needs. Elementally, they are associated with poison because of the toxic effects of their emotional intensity, but this also their greatest strength.</tip>
+
+	<tip id="ZODIAC_10">Leo, The Lion - Fire Sign</tip>
+	<tip id="ZODIAC_10_LONG">Leo - Leos have a fiery nature, but one specifically attuned to the element of plasma. They are warm, loyal, strong and energetic, but also have the ability to control their creative fire, like the noble lion, king of the beast. Their self-reflection can also turn to pride, and then they get burned.</tip>
+
+	<tip id="ZODIAC_12">Virgo, The Virgin - Earth Sign</tip>
+	<tip id="ZODIAC_12_LONG">Virgo - The elemental force of the Virgo is the power of wood. Virgos are calm, dependable and careful, capable of resisting attacks well and avoiding dangers. Like the tree that will not bend, however, the fortitude of the Virgo is sometimes mistaken for pride.</tip>
+
+	<tip id="ZODIAC_14">Libra, The Scales - Air Sign</tip>
+	<tip id="ZODIAC_14_LONG">Libra - Librans are known for their even-headed fairness and are associated with the symbol of the scales of justice. Their elemental group is the air, in which the scales of justice hang true, and they have the power of the wind to help them enforce its rule.</tip>
+
+	<tip id="ZODIAC_16">Scorpio, The Scorpion - Water Sign</tip>
+	<tip id="ZODIAC_16_LONG">Scorpio - Scorpios have intense, passionate feelings but can lose interest instantly in an emotional flash freeze.  Their icy element makes them both solid in their loyalties and brittle in their feelings.  Like a blizzard, their revenge is unrelenting against those who hurt or betray them.</tip>
+
+	<tip id="ZODIAC_18">Sagittarius, The Archer - Fire Sign</tip>
+	<tip id="ZODIAC_18_LONG">Sagittarius - The symbol of Sagittarius is the Archer. Like his arrows, they are always headed for new targets, and have the elemental forces of energy and quick movement. Sagittarians move quickly on to new projects, leaving it to others to tend the fires they start.</tip>
+
+	<tip id="ZODIAC_20">Capricorn, The Sea-Goat - Earth Sign</tip>
+	<tip id="ZODIAC_20_LONG">Capricorn - Capricorns desire social recognition and, like their goat symbol, are not afraid to butt heads to get to the top of the mountain.  Like the earth, their elemental power, their determination and force of will makes them difficult to move.</tip>
+
+	<tip id="ZODIAC_22">Aquarius, The Water Bearer - Air Sign</tip>
+	<tip id="ZODIAC_22_LONG">Aquarius - The symbol of Aquarius is a woman pouring water from a jug. Aquarians are the water, always in flight. They love socializing and are known to dream on a grand scale. Always with their head in the clouds, they are also susceptible to unrealistic fantasies.</tip>
+
+	<tip id="ZODIAC_24">Pisces, The Fish - Water Sign</tip>
+	<tip id="ZODIAC_24_LONG">Pisces - Love is the water in which Pisces swim. Their world is soaked in romance, and no one moves better in that medium than them.  While they may not be the most logical, their strong, idealistic feelings give them the strength and propulsion of a fish's tail.</tip>
+		
+</tips>

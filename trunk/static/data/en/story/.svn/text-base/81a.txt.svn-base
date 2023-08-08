@@ -1,0 +1,43 @@
+# This is Lyle's mushroom quest. 
+
+[BACKGROUND]
+	assets/story/backgrounds/3.swf
+
+[FOREGROUND]
+	assets/story/letterbox.swf
+
+[SETTINGS]
+	USE_LEFT_ARROW					yes
+	ACTOR_STAYS_FOR_PLAYER_SPEECH	yes
+	ACTOR_STAYS_FOR_ANIM			yes
+	PLAYER_BUBBLE_X					0
+	PLAYER_BUBBLE_Y					510
+	NPC_BUBBLE_X					480
+	NPC_BUBBLE_Y					300
+
+[PLAYER]
+	NAME		You
+
+[CHARACTER - LYLE]
+	ASSET	assets/story/npc/lyle.swf
+	NAME	Lyle
+
+[ANIM - FLOWERS]						# This is the flowers
+	ASSET	assets/story/anim/flowers.swf
+
+[STORY]
+LYLE IN
+
+LYLE	Uuuuuggghhh... I feel terrible, man. My uncle Norman came by and gave me some mushrooms he picked, but I don't think they were the kind you can eat. Uncle Norman's eyes aren't so good, you know.
+ 
+LYLE	Don't get me wrong, they were delicious. But now I feel like I'm floating in a tin can high above the night sky, and it's making it kind of hard to do normal stuff.
+ 
+LYLE	Norman told me that if this happens, there's an herbal tea that would get my head right. All I need are some Bluebottom flowers to make it. I think there's a patch over at {$GREEN Oakford Shade}.
+ 
+FLOWERS
+
+LYLE	It woulod be awesome if you could get those. Until you get back, I'll just be wandering around in the woods. {ACCEPT}
+
+LYLE OUT
+
+

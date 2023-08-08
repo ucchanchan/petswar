@@ -1,0 +1,47 @@
+ # Lobster tornado quest complete
+
+[BACKGROUND]
+	assets/story/backgrounds/140.swf
+
+[FOREGROUND]
+	assets/story/letterbox.swf
+
+[SETTINGS]
+	USE_LEFT_ARROW					yes
+	ACTOR_STAYS_FOR_PLAYER_SPEECH	yes
+	ACTOR_STAYS_FOR_ANIM			yes
+	PLAYER_BUBBLE_X					0
+	PLAYER_BUBBLE_Y					510
+	NPC_BUBBLE_X					480
+	NPC_BUBBLE_Y					300
+
+[PLAYER]
+	NAME		You
+
+[CHARACTER - SERENE]
+	ASSET	assets/story/npc/serene.swf
+	NAME	Serene					
+
+[ANIM - SKELETON_KITTY] # skeleton kitty leaping sadly
+	ASSET	assets/story/anim/skeleton_kitty.swf
+
+[ANIM - SKELETON_KITTY_HEART] # skeleton kitty leaping joyously
+	ASSET	assets/story/anim/skeleton_kitty_heart.swf
+
+[STORY]
+
+SERENE IN
+
+PLAYER			I'm sorry, it looks like the lobster tornado got to your kitty before I could.
+
+SKELETON_KITTY		#anim of skeleton kitty leaping sadly
+
+SERENE	 Yay, skeleton kitty! 
+
+SKELETON_KITTY_HEART
+
+PLAYER			What?
+
+SERENE	Skeleton kitty has always been a skeleton! That's what makes him so cute. Thanks so much for rescuing him! {OK}
+
+SERENE OUT

@@ -1,0 +1,41 @@
+# Capture Muninn
+
+[BACKGROUND]
+	assets/story/backgrounds/3.swf
+
+[FOREGROUND]
+	assets/story/letterbox.swf
+
+[SETTINGS]
+	USE_LEFT_ARROW					yes
+	ACTOR_STAYS_FOR_PLAYER_SPEECH	yes
+	ACTOR_STAYS_FOR_ANIM			yes
+	PLAYER_BUBBLE_X					0
+	PLAYER_BUBBLE_Y					510
+	NPC_BUBBLE_X					480
+	NPC_BUBBLE_Y					300
+
+[PLAYER]
+	NAME		You
+
+
+[CHARACTER - NOVA]
+	ASSET	assets/story/npc/nova.swf
+	NAME		Nova
+
+[ANIM - MUNINN]
+	ASSET	assets/story/anim/muninn.swf
+
+[STORY]
+
+NOVA IN
+
+NOVA		I'm proud of you, tamer--you've captured every type of Moga near your village. Time to move on to bigger game. 
+
+NOVA		Your next challenge: capture a Muninn. You'll find them several places in the forest, but especially at {$GREEN Shadowmire Edge} and {$GREEN Mourningwood Pass}. 
+
+MUNINN
+
+NOVA		Muninn is an {$GOLD Aquarius} so bringing a {$GOLD Gemini} like Wasabee or Huey will give you an edge. {ACCEPT}
+
+NOVA OUT

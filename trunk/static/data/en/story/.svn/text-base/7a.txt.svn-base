@@ -1,0 +1,58 @@
+# Poe's quest. 
+
+[BACKGROUND]
+	assets/story/backgrounds/9.swf
+
+[FOREGROUND]
+	assets/story/letterbox.swf
+
+[SETTINGS]
+	USE_LEFT_ARROW					yes
+	ACTOR_STAYS_FOR_PLAYER_SPEECH	yes
+	ACTOR_STAYS_FOR_ANIM			no
+	PLAYER_BUBBLE_X					0
+	PLAYER_BUBBLE_Y					510
+	NPC_BUBBLE_X					480
+	NPC_BUBBLE_Y					300
+
+[PLAYER]
+	NAME		You
+
+[CHARACTER - POE]
+	ASSET	assets/story/npc/poe.swf
+	NAME		Poe 
+
+[STORY]
+
+	POE		What.
+
+	POE		Oh, you're a Moga tamer. What do you want?
+
+	PLAYER		Wow, this place is crawling with Mogas.
+
+	POE		Yes, there are Mogas here. Too many... I have to contend with them constantly to keep the graves neat. Oh yes, I'm the caretaker.
+
+	POE		Oh woe, I just want to write letters to my beautiful Lenore in peace! She's my true love... I think of her and I just have to write poetry!
+
+	POE		Would you like to hear something I've just written about her?
+
+	PLAYER		No thanks.
+
+	POE		Oh Lenore, my eternally cherished, She haunts the shadows behind my eyes, And this strangled blood and pallid skin, These wretched bones and the breath within, She will, until all things have perished, And all that lingers of love are sighs.
+
+	PLAYER		Yeah...
+
+	POE		Listen, normally I wouldn't ask, but you seem like a strong tamer. Do you think you could take some letters to Lenore for me? I don't want her to forget for a moment how dearly I love her!
+
+	PLAYER		OK, just no more poetry.
+
+	POE		She lives up ahead in the thorn forest. You'll recognize her! She's very thin and pale, and she loves lilies.
+
+	
+	POE		I would go myself, but the Mogas in the forest are tougher than the ones lurking around here. I can defeat all but one of them. It's powerful and has a murderous look in its eyes. All I can do is run when I see it!
+
+	POE		With that thing growing stronger every day, it's become impossible to visit my dearest Lenore. Brrr, thinking about it gives me chills. You should be OK, though. Just keep your eyes open.
+
+	PLAYER		Sure. {ACCEPT}
+
+	POE OUT

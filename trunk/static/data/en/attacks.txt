@@ -1,0 +1,1601 @@
+# Syntax:
+#
+# [ATTACK - {name of the attack}]
+#	NAME			{optionally visually rename the attack}
+#	DESCRIPTION		{describe the attack}
+#	DAMAGE			{what the combat log will report when attack lands damage}
+#	MISS			{what the combat log will report when attack misses}
+#	CRITICAL		{optionally what the combat log will report if attack is critical}
+#
+#	CAST			{what the combat log will report when a buff that does no damage is cast successfully}
+#	FADE			{optionally what the combat log will report when the cast fades}
+#
+
+# PHYSICAL ATTACKS
+	
+[ATTACK - Headbutt]
+	DESCRIPTION		A very accurate attack with moderate damage and average likelihood for a critical hit.
+	DAMAGE			$agent headbutts $target for {$RED $x damage}.
+	MISS			$agent attempted to headbutt $target but missed.
+
+[ATTACK - Head Slam]
+	DESCRIPTION		A very accurate attack with moderate damage and good likelihood for a critical hit.
+	DAMAGE			$agent slams $target's head for {$RED $x damage}.
+	MISS			$agent tried to head slam $target but missed.
+
+[ATTACK - Punch]
+	DESCRIPTION		An extremely accurate attack with lower damage and good likelihood for a critical hit.
+	DAMAGE			$agent punches $target for {$RED $x damage}.
+	MISS			$agent tried to punch $target but missed.
+
+[ATTACK - Uppercut]
+	DESCRIPTION		An extremely accurate attack with lower damage and high likelihood for a critical hit.
+	DAMAGE			$agent uppercuts $target for {$RED $x damage}.
+	MISS			$agent tried to uppercut $target but missed.
+
+[ATTACK - Kick]
+	DESCRIPTION		A moderately accurate attack with good damage and low chance for a critical hit.
+	DAMAGE			$agent kicks $target for {$RED $x damage}.
+	MISS			$agent tried to kick $target but missed
+
+[ATTACK - Roundhouse]
+	DESCRIPTION		A moderately accurate attack with good damage and moderate chance for a critical hit.
+	DAMAGE			$agent hits $target with a roundhouse for {$RED $x damage}.
+	MISS			$agent tried to roundhouse $target but missed.
+
+[ATTACK - Bodyslam]
+	DESCRIPTION		A somewhat accurate attack with high damage and poor chance for a critical hit
+	DAMAGE			$agent bodyslams to $target for {$RED $x damage}.
+	MISS			$agent attempted to bodyslam $target but missed.
+
+[ATTACK - Piledriver]
+	DESCRIPTION		A somewhat accurate attack with high damage and low chance for a critical hit.
+	DAMAGE			$agent hits $target with a piledriver for {$RED $x damage}.
+	MISS			$agent tried a piledriver on $target but missed.
+
+# DEBUFFS
+	
+[ATTACK - Confuse]
+	DESCRIPTION		Befuddle your enemy, increasing the chance they forget to take a turn.
+	CAST			$agent casts {$ORANGE Confuse} on $target.
+	MISS			$agent tried to {$ORANGE Confuse} $target but missed.
+
+[ATTACK - Stun]
+	DESCRIPTION		Stun DESCRIPTION
+	CAST			{$ORANGE Stun} by $agent on $target for {$RED $x damage}.
+	MISS			$agent tried to {$ORANGE Stun} $target but missed.
+
+[ATTACK - Disease]
+	DESCRIPTION		Inflict an awful disease on your enemy, increasing the chance they take damage every turn.
+	CAST			$agent uses {$ORANGE Disease} on $target.
+	MISS			$agent tried to {$ORANGE Disease} $target but missed.
+
+[ATTACK - Poison]
+	DESCRIPTION		Inflicts light damage every turn.
+	CAST			$agent uses {$ORANGE Poison} on $target.
+	MISS			$agent tried to {$ORANGE Poison} $target but missed.
+
+[ATTACK - Cripple]
+	DESCRIPTION		Reduce your enemy's max HP during battle.
+	CAST			$agent casts {$ORANGE Cripple} on $target.
+	MISS			$agent tried to {$ORANGE Cripple} $target but missed.
+
+[ATTACK - Vulnerability]
+	DESCRIPTION		Lower your enemy's defense against physical attacks.
+	CAST			$agent casts {$ORANGE Vulnerability} on $target.
+	MISS			$agent tried to cast {$ORANGE Vulnerability} on $target but missed.
+
+[ATTACK - Weakness]
+	DESCRIPTION		Reduce the strength of your enemy's physical attacks.
+	CAST			$agent casts {$ORANGE Weakness} on $target
+	MISS			$agent attempted {$ORANGE Weakness} on $target but missed.
+
+[ATTACK - Zodiac Vulnerability]
+	DESCRIPTION		Lower your opponent's defense against Zodiac attacks.
+	CAST			$agent uses {$ORANGE Zodiac Vulnerability} on $target.
+	MISS			$agent tried {$ORANGE Zodiac Vulnerability} on $target but missed.
+
+[ATTACK - Zodiac Weakness]
+	DESCRIPTION		Lower the strength of your enemy's Zodiac attack.
+	CAST			$agent casts {$ORANGE Zodiac Weakness} on $target.
+	MISS			$agent attempted {$ORANGE Zodiac Weakness} on $target but missed.
+
+[ATTACK - Clumsy]
+	DESCRIPTION		Reduces your enemy's ability to dodge attacks.
+	CAST			$agent casts on {$ORANGE Clumsy} $target.
+	MISS			$agent casts {$ORANGE Clumsy} on $target but missed.
+
+[ATTACK - Vampire Embrace]
+	DESCRIPTION		Gain health from successfully attacking your enemy.
+	CAST			$agent uses {$ORANGE Vampire Embrace}.
+	MISS			$agent tried {$ORANGE Vampire Embrace} but failed.
+
+[ATTACK - Life Tap]
+	DESCRIPTION		Chance of stealing health from enemy when you land a successful attack.
+	CAST			$agent casts {$ORANGE Life Tap}.
+	MISS			$agent attempted {$ORANGE Life Tap} but failed.
+
+[ATTACK - Slow]
+	DESCRIPTION		Decreases your enemy's speed, making it easier for you to run away.
+	CAST			$agent uses {$ORANGE Slow} on $target.
+	MISS			$agent attempt to {$ORANGE Slow} $target missed.
+
+[ATTACK - Blind]
+	DESCRIPTION		Reduce your enemy's accuracy, causing them to miss more often.
+	CAST			$agent attempts {$ORANGE Blind} on $target.
+	MISS			$agent's attempt to {$ORANGE Blind} $target missed.
+
+[ATTACK - Deaden]
+	DESCRIPTION		Reduce your opponent's chance of scoring Critical Hits.
+	CAST			$agent casts {$ORANGE Deaden} on $target.
+	MISS			$agent's attempt to {$ORANGE Deaden} $target missed.
+
+	
+# BUFFS
+	
+[ATTACK - Time Warp]
+	DESCRIPTION		Increases your chance of altering the timeline to gain an extra turn.
+	CAST			$agent uses {$BLUE Time Warp}.
+	MISS			$agent's attempt at {$BLUE Time Warp} failed.
+
+[ATTACK - Shield of Thorns]
+	DESCRIPTION		Chance of damaging your enemy when you get attacked.
+	CAST			$agent applies {$BLUE Shield of Thorns}.
+	MISS			$agent tried to apply {$BLUE Shield of Thorns} but failed.
+
+[ATTACK - Healing Shield]
+	DESCRIPTION		Increases your chance of recovering some HP back when you get attacked.
+	CAST			$agent applied {$BLUE Healing Shield}.
+	MISS			$agent tried to apply {$BLUE Healing Shield} but failed.
+
+[ATTACK - Poison Trap]
+	DESCRIPTION		Chance of inflicting Poison when attacked.
+	CAST			$agent applies {$BLUE Poison Trap}.
+	MISS			$agent tried to apply {$BLUE Poison Trap} but failed.
+
+[ATTACK - Stoneskin]
+	DESCRIPTION		Stay in the fight longer by increasing your max HP.
+	CAST			$agent applies {$BLUE Stoneskin}.
+	MISS			$agent tried to apply {$BLUE Stoneskin} but failed.
+
+[ATTACK - Armor]
+	DESCRIPTION		Increase your defense against physical attacks.
+	CAST			$agent puts on {$BLUE Armor}.
+	MISS			$agent tried to apply {$BLUE Armor} but failed.
+
+[ATTACK - Strength]
+	DESCRIPTION		Beef up the strength of your physical attacks.
+	CAST			$agent applies {$BLUE Strength}.
+	MISS			$agent tried to gain {$BLUE Strength} but failed.
+
+[ATTACK - Zodiac Armor]
+	DESCRIPTION		Increased defense against Zodiac attacks.
+	CAST			$agent puts on {$BLUE Zodiac Armor}.
+	MISS			$agent tried to put on {$BLUE Zodiac Armor} but failed.
+
+[ATTACK - Zodiac Strength]
+	DESCRIPTION		Boost the strength of your Zodiac attack.
+	CAST			$agent applies {$BLUE Zodiac Strength}.
+	MISS			$agent attempted to gain {$BLUE Zodiac Strength} but failed.
+
+[ATTACK - Happy Feet]
+	DESCRIPTION		Increase your ability to dodge attacks.
+	CAST			$agent applies {$BLUE Happy Feet}.
+	MISS			$agent attempted to apply {$BLUE Happy Feet} but failed.
+
+[ATTACK - Swiftness]
+	DESCRIPTION		Increase your speed, enabling you to run away faster.
+	CAST			$agent applies {$BLUE Swiftness}.
+	MISS			$agent tried to apply {$BLUE Swiftness} but failed.
+
+[ATTACK - Deadeye]
+	DESCRIPTION		Reduce your chance of missing attacks.
+	CAST			$agent applies {$BLUE Deadeye}.
+	MISS			$agent tried to apply {$BLUE Deadeye} but failed.
+
+[ATTACK - Precision]
+	DESCRIPTION		Increased chance of scoring more Critical Hits.
+	CAST			$agent applies {$BLUE Precision}.
+	MISS			$agent tried to apply {$BLUE Precision} but failed.
+
+[ATTACK - Regenerate]
+	DESCRIPTION		Regenerate lost HP each turn.
+	CAST			$agent applies {$BLUE Regenerate}.
+	MISS			$agent tried to apply {$BLUE Regenerate} but failed.
+
+[ATTACK - Regrowth]
+	DESCRIPTION		Chance of recovering a lot of HP each turn.
+	CAST			$agent applies {$BLUE Regrowth}.
+	MISS			$agent tried to apply {$BLUE Regrowth} but failed.
+
+# ZODIAC ATTACKS
+
+[ATTACK - Ram Horns]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Ram Horns! $target takes {$RED $x damage}.
+	MISS			$agent attempted Ram Horns but missed.
+
+[ATTACK - Ram Charge]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Ram Charge! $target takes {$RED $x damage}.
+	MISS			$agent attempted Ram Charge but missed.
+
+[ATTACK - Razor Bite]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$target unleashes Razor Bite! $target takes {$RED $x damage}.
+	MISS			Razor Bite by $agent on $target but missed.
+
+[ATTACK - Triple Chomp]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Triple Chomp! $target takes {$RED $x damage}.
+	MISS			$agent tried Triple Chomp but missed.
+
+[ATTACK - Ticklefight]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Ticklefight! $target takes {$RED $x damage}.
+	MISS			$agent tried Ticklefight but missed.
+
+[ATTACK - Tickletackle]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Tickletackle! $target takes {$RED $x damage}.
+	MISS			Tickletackle by $agent on $target but missed.
+
+[ATTACK - Spin Kick]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Spin Kick! $target takes {$RED $x damage}.
+	MISS			$agent attempted Spin Kick but missed.
+
+[ATTACK - Helicopter Kick]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Helicopter Kick! $target takes {$RED $x damage}.
+	MISS			$agent tried Helicopter Kick but missed.
+
+[ATTACK - Clip]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Clip!$target takes {$RED $x damage}.
+	MISS			$agent tried Clip but missed.
+
+[ATTACK - Shear]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Shear! $target takes {$RED $x damage}.
+	MISS			$agent tried Shear but missed.
+
+[ATTACK - Zephyr]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Zephyr! $target takes {$RED $x damage}.
+	MISS			$agent tried Zephyr but missed.
+
+[ATTACK - Tornado]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Tornado! $target takes {$RED $x damage}.
+	MISS			$agent tried Tornado but missed.
+
+[ATTACK - Snap]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Snap! $target takes {$RED $x damage}.
+	MISS			$agent attempted Snap but missed.
+
+[ATTACK - Aquarius Bite]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Aquarius Bite! $target takes {$RED $x damage}.
+	MISS			$agent attempted Aquarius Bite but missed.
+
+[ATTACK - Flap]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Flap! $target takes {$RED $x damage}.
+	MISS			$agent tried Flap but missed.
+
+[ATTACK - Buffet]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Buffet! $target takes {$RED $x damage}.
+	MISS			$agent attempted Buffet but missed.
+
+[ATTACK - Thump]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			Thump by $agent on $target for {$RED $x}
+	MISS			Thump by $agent on $target but missed.
+
+[ATTACK - Pound]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Pound! $target takes {$RED $x damage}.
+	MISS			$agent attempted Pound but missed.
+
+[ATTACK - Starstream]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Starstream! $target takes {$RED $x damage}.
+	MISS			$agent tried Starstream, but missed.
+
+[ATTACK - Starcrash]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Starcrash! $target takes {$RED $x damage}.
+	MISS			$agent attempted Starcrash but missed.
+
+[ATTACK - Searing Bite]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Searing Bite! $target takes {$RED $x damage}.
+	MISS			$agent attempted Searing Bite but missed.
+	
+[ATTACK - Sky Shot]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Sky Shot! $target takes {$RED $x damage}.
+	MISS			$agent attempted Sky Shot but missed.
+
+[ATTACK - Fox Flight]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Fox Flight! $target takes {$RED $x damage}.
+	MISS			$agent attempted Fox Flight but missed.
+
+[ATTACK - Scorching Bark]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Scorching Bark! $target takes {$RED $x damage}.
+	MISS			Scorching Bark by $agent on $target but missed.
+
+[ATTACK - Ravenous Bite]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Scorching Bark! $target takes {$RED $x damage}.
+	MISS			Scorching Bark by $agent on $target but missed.
+
+[ATTACK - Ferocious Bark]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Ferocious Bark! $target takes {$RED $x damage}.
+	MISS			Ferocious Bark by $agent on $target but missed.
+
+[ATTACK - Hammerbite]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Hammerbite! $target takes {$RED $x damage}.
+	MISS			$agent attempted Hammerbite but missed.
+
+[ATTACK - Hammerlash]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Hammerlash! $target takes {$RED $x damage}.
+	MISS			$agent attempted Hammerlash but missed.
+
+[ATTACK - Deadly Pinch]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Deadly Pinch! $target takes {$RED $x damage}.
+	MISS			$agent attempted a Deadly Pinch but missed.
+
+[ATTACK - Claw of the Grave]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Grave Claw! $target takes {$RED $x damage}.
+	MISS			$agent's Grave Claw missed!
+
+[ATTACK - Snufflethump]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Snufflethump! $target takes {$RED $x damage}.
+	MISS			$agent tried to Snufflethump but missed.
+
+[ATTACK - Tromple]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Tromple! $target takes {$RED $x damage}.
+	MISS			$agent tried to Tromple but missed.
+
+[ATTACK - Flametongue]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Flametongue! $target takes {$RED $x damage}.
+	MISS			$agent's attempt at Flametongue missed.
+
+[ATTACK - Firebreath]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Firebreath! $target takes {$RED $x damage}.
+	MISS			$agent attempted Firebreath but missed.
+
+[ATTACK - Pinch]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Pinch! $target takes {$RED $x damage}.
+	MISS			$agent tried to Pinch but missed.
+
+[ATTACK - Crush]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Crush! $target takes {$RED $x damage}.
+	MISS			$agent's attempt to Crush missed.
+
+[ATTACK - Crabslap]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Crabslap! $target takes {$RED $x damage}.
+	MISS			$agent tried to Crabslap but missed.
+
+[ATTACK - Crabsalad]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Crabsalad! $target takes {$RED $x damage}.
+	MISS			$agent's delicious Crabsalad missed.
+
+[ATTACK - Aquastream]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Aquastream! $target takes {$RED $x damage}.
+	MISS			$agent attempted Aquastream but missed.
+
+[ATTACK - Aquajet]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Aquajet! $target takes {$RED $x damage}.
+	MISS			$agent's Aquajet missed.
+
+[ATTACK - Searing Bite]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Searing Bite! $target takes {$RED $x damage}.
+	MISS			$agent's Searing Bite missed.
+
+[ATTACK - Scorching Bark]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Scorching Bark! $target takes {$RED $x damage}.
+	MISS			$agent's Scorching Bark missed.
+
+[ATTACK - Chewy Chomp]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			Chewy Chomp by $agent on $target for {$RED $x}
+	MISS			Chewy Chomp by $agent on $target but missed.
+
+[ATTACK - Pachewy Chomp]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Pachewy Chomp! $target takes {$RED $x damage}.
+	MISS			$agent's deadly Pachewy Chomp missed.
+
+[ATTACK - Mindbend]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Mindbend! $target takes {$RED $x damage}.
+	MISS			$agent's attempt to Mindbend missed.
+
+[ATTACK - Psychic Spear]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Psychic Spear! $target takes {$RED $x damage}.
+	MISS			$agent's Psychic Spear missed.
+
+[ATTACK - Hairnet]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Hairnet! $target takes {$RED $x damage}.
+	MISS			$agent attempted Hairnet but missed.
+
+[ATTACK - Hairweb]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Hairweb! $target takes {$RED $x damage}.
+	MISS			$agent's messy Hairweb missed.
+
+[ATTACK - Close Shave]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Close Shave! $target takes {$RED $x damage}.
+	MISS			$agent attempted a Close Shave but missed.
+
+[ATTACK - Razorface]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Razorface! $target takes {$RED $x damage}.
+	MISS			$agent tried Razorface but missed.
+
+[ATTACK - Crankle]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Crankle! $target takes {$RED $x damage}.
+	MISS			Crankle by $agent on $target but missed.
+
+[ATTACK - Scrumple]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Scrumple! $target takes {$RED $x damage}.
+	MISS			$agent's attempt at a Scrumple missed.
+
+[ATTACK - Static Shock]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Static Shock! $target takes {$RED $x damage}.
+	MISS			$agent tried to Static Shock but missed.
+
+[ATTACK - Ball Lightning]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Ball Lightning! $target takes {$RED $x damage}.
+	MISS			$agent attempted Ball Lightning but missed.
+
+[ATTACK - Glare]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Glare! $target takes {$RED $x damage}.
+	MISS			$agent's deadly Glare missed.
+
+[ATTACK - Stonegaze]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Stonegaze! $target takes {$RED $x damage}.
+	MISS			$agent tried Stonegaze but missed.
+
+[ATTACK - Double Slap]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Double Slap! $target takes {$RED $x damage}.
+	MISS			$agent tried to Double Slap but missed.
+
+[ATTACK - Double Whip]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Double Whip! $target takes {$RED $x damage}.
+	MISS			$agent tried to Double Whip but missed.
+
+[ATTACK - Hairnet]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Hairnet! $target takes {$RED $x damage}.
+	MISS			$agent attempted Hairnet but missed.
+
+[ATTACK - Hairweb]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Hairweb! $target takes {$RED $x damage}.
+	MISS			$agent's messy Hairweb missed.
+
+[ATTACK - Flare]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Flare! $target takes {$RED $x damage}.
+	MISS			$agent attempted Flare but missed.
+
+[ATTACK - Batter]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Batter! $target takes {$RED $x damage}.
+	MISS			$agent's attempt to Batter missed.
+
+[ATTACK - Nightshade]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Nightshade! $target takes {$RED $x damage}.
+	MISS			$agent attempted Nightshade but missed.
+
+[ATTACK - Duskfall]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Duskfall! $target takes {$RED $x damage}.
+	MISS			$agent tried to use Duskfall but missed.
+
+[ATTACK - Jostle]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Jostle! $target takes {$RED $x damage}.
+	MISS			$agent's attempt to Jostle missed.
+
+[ATTACK - Rattle]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Rattle! $target takes {$RED $x damage}.
+	MISS			$agent's attempt to Rattle missed.
+
+[ATTACK - Lion Claw]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Lion Claw! $target takes {$RED $x damage}.
+	MISS			$agent's fierce Lion Claw missed!
+
+[ATTACK - Maul]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Maul! $target takes {$RED $x damage}.
+	MISS			$agent's attempt to Maul missed.
+
+[ATTACK - Catapault]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Catapault! $target takes {$RED $x damage}.
+	MISS			$agent's attempt to Catapault missed.
+
+[ATTACK - Feral Fire]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Feral Fire! $target takes {$RED $x damage}.
+	MISS			$agent's Feral Fire missed.
+
+[ATTACK - Whisker Bristle]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Whisker Bristle! $target takes {$RED $x damage}.
+	MISS			$agent's itchy Whisker Bristle missed.
+
+[ATTACK - Hairball]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Hairball! $target takes {$RED $x damage}.
+	MISS			$agent's tangled Hairball missed.
+
+[ATTACK - Flygore]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Flygore! $target takes {$RED $x damage}.
+	MISS			$agent's tried to Flygore but missed.
+
+[ATTACK - Grumple]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Grumple! $target takes {$RED $x damage}.
+	MISS			$agent tried to Grumple but missed.
+
+[ATTACK - Grapple]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Grapple! $target takes {$RED $x damage}.
+	MISS			$agent's attempt to Grapple missed.
+
+[ATTACK - Headlock]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Headlock! $target takes {$RED $x damage}.
+	MISS			$agent tried to Headlock but missed.
+
+[ATTACK - Acid Breath]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Acid Breath! $target takes {$RED $x damage}.
+	MISS			$agent's awful Acid Breath missed.
+
+[ATTACK - Corrosive Cough]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Corrosive Cough! $target takes {$RED $x damage}.
+	MISS			$agent's sickly Corrosive Cough missed.
+
+[ATTACK - Flipperjab]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Flipperjab! $target takes {$RED $x damage}.
+	MISS			$agent attempted a Flipperjab but missed.
+
+[ATTACK - Headhook]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Headhook! $target takes {$RED $x damage}.
+	MISS			$agent's attempt at a Headhook missed.
+
+[ATTACK - Dazzle]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Dazzle! $target takes {$RED $x damage}.
+	MISS			$agent's valiant attempt to Dazzle missed.
+
+[ATTACK - Nosespike]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Nosespike! $target takes {$RED $x damage}.
+	MISS			$agent's attempt at a Nosespike misses.
+
+[ATTACK - Tiny Barb]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Tiny Barb! $target takes {$RED $x damage}.
+	MISS			$agent's adorable Tiny Barb missed.
+
+[ATTACK - Toxic Shock]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Toxic Shock! $target takes {$RED $x damage}.
+	MISS			agent's horrible Toxic Shock attempt missed.
+
+[ATTACK - Smothering Paws]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Smothering Paws! $target takes {$RED $x damage}.
+	MISS			$agent tried to use Smother Paws but missed.
+
+[ATTACK - Strangulation]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Strangulation! $target takes {$RED $x damage}.
+	MISS			$agent's Strangulation attempt missed.
+
+[ATTACK - Fin Surge]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Fin Surge! $target takes {$RED $x damage}.
+	MISS			$agent tried Fin Surge but missed.
+
+[ATTACK - Scaled Charge]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Scaled Charge! $target takes {$RED $x damage}.
+	MISS			$agent's Scaled Charge missed.
+
+[ATTACK - Sludge]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			Sludge by $agent on $target for {$RED $x}
+	MISS			Sludge by $agent on $target but missed.
+
+[ATTACK - Slime]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Slime! $target takes {$RED $x damage}.
+	MISS			$agent tried to use Slime but missed.
+
+[ATTACK - Duck Bill]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Duck Bill! $target takes {$RED $x damage}.
+	MISS			$agent tried to use Duck Bill but missed.
+
+[ATTACK - Back Slash]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Back Slash! $target takes {$RED $x damage}.
+	MISS			$agent attempted Back Slash but missed.
+
+[ATTACK - Brilliant Beam]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Brilliant Beam! $target takes {$RED $x damage}.
+	MISS			$agent's Brilliant Beam missed.
+
+[ATTACK - Glowing Rainbow]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Glowing Rainbow! $target takes {$RED $x damage}.
+	MISS			$agent's Glowing Rainbow missed.
+
+[ATTACK - Agile Dash]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Agile Dash! $target takes {$RED $x damage}.
+	MISS			$agent tried to Agile Dash but missed.
+
+[ATTACK - Frisky Bounding]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Frisky Bounding! $target takes {$RED $x damage}.
+	MISS			$agent's Frisky Bounding missed.
+
+[ATTACK - Violent Trampling]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Violent Trampling! $target takes {$RED $x damage}.
+	MISS			$agent's Violent Trampling missed.
+
+[ATTACK - Hooves of Doom]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Hooves of Doom! $target takes {$RED $x damage}.
+	MISS			$agent's Hooves of Doom missed.
+
+[ATTACK - Claw Rake]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Claw Rake! $target takes {$RED $x damage}.
+	MISS			$agent's pointy Claw Rake missed.
+
+[ATTACK - Claw Dig]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Claw Dig! $target takes {$RED $x damage}.
+	MISS			$agent's spirited Claw Dig missed.
+
+[ATTACK - Archery]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Archery! $target takes {$RED $x damage}.
+	MISS			$agent's attempt at Archery missed.
+
+[ATTACK - Heart Shot]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Heart Shot! $target takes {$RED $x damage}.
+	MISS			$agent tried a Heart Shot but missed.
+
+[ATTACK - Solar Flare]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes a Solar Flare! $target takes {$RED $x damage}.
+	MISS			$agent's shiny Solar Flare missed.
+
+[ATTACK - Supernova]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes a Supernova! $target takes {$RED $x damage}.
+	MISS			$agent tried to Supernova but missed.
+
+[ATTACK - Playful Bite]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes a Playful Bite! $target takes {$RED $x damage}.
+	MISS			$agent's attempt at a Playful Bite missed.
+
+[ATTACK - Naughty Gnawing]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Naughty Gnawing! $target takes {$RED $x damage}.
+	MISS			$agent's attempt at Naughty Gnawing missed.
+
+[ATTACK - Snow Blow]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Snow Blow! $target takes {$RED $x damage}.
+	MISS			$agent tried a Snow Blow but missed.
+
+[ATTACK - Blizzard]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes a Blizzard! $target takes {$RED $x damage}.
+	MISS			$agent's snowy Blizzard missed.
+
+[ATTACK - Stinger]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Stinger! $target takes {$RED $x damage}.
+	MISS			$agent's deadly Stinger missed.
+
+[ATTACK - Poison Strike]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Poison Strike! $target takes {$RED $x damage}.
+	MISS			$agent tried to Poison Strike but missed.
+
+[ATTACK - Claw Crusher]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Claw Crusher! on $target for {$RED $x}
+	MISS			$agent tried to use Claw Crusher but missed.
+
+[ATTACK - Pincher Panic]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Pincher Panic! $target takes {$RED $x damage}.
+	MISS			$agent's Pincher Panic attempt missed.
+
+[ATTACK - Fox Paw]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Fox Paw! $target takes {$RED $x damage}.
+	MISS			$agent's attempt at Fox Paw missed.
+
+[ATTACK - Clever Feint]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Clever Feint! $target takes {$RED $x damage}.
+	MISS			$agent tried to use Clever Feint but missed.
+
+[ATTACK - Tireless Rush]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Tireless Rush! $target takes {$RED $x damage}.
+	MISS			$agent's Tireless Rush attempt missed..
+
+[ATTACK - Kinetic Blitz]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Kinetic Blitz! $target takes {$RED $x damage}.
+	MISS			$agent's Kinetic Blitz barrage missed.
+
+[ATTACK - Stone Horns]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Stone Horns! $target takes {$RED $x damage}.
+	MISS			$agent's fierce Stone Horns missed.
+
+[ATTACK - Impaling Earth]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Impaling Earth! $target takes {$RED $x damage}.
+	MISS			Impaling Earth by $agent on $target but missed.
+
+[ATTACK - Head Chew]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Head Chew! $target takes {$RED $x damage}.
+	MISS			$agent tried to Head Chew but missed.
+
+[ATTACK - Brain Graze]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Brain Graze! $target takes {$RED $x damage}.
+	MISS			$agent tried to Brain Graze but missed.
+
+[ATTACK - Pinching Beak]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Pinching Beak! $target takes {$RED $x damage}.
+	MISS			$agent's Pinching Beak barrage missed.
+
+[ATTACK - Horn Surge]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Horn Surge! $target takes {$RED $x damage}.
+	MISS			$agent's mighty Horn Surge missed.
+
+[ATTACK - Ooze Blast]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Ooze Blast! $target takes {$RED $x damage}.
+	MISS			$agent's delicious Ooze Blast missed.
+
+[ATTACK - Slime Surge]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Slime Surge on $target for {$RED $x}
+	MISS			$agent's gross Slime Surge missed.
+
+[ATTACK - Gusting Wind]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Gusting Wind! $target takes {$RED $x damage}.
+	MISS			$agent tried to use Gusting Wind but missed.
+
+[ATTACK - Swirling Gale]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Swirling Gale! $target takes {$RED $x damage}.
+	MISS			$agent tried to use a Swirling Gale but missed.
+
+[ATTACK - Puncture]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			Puncture! $target takes {$RED $x damage}.
+	MISS			$agent's attempt to Puncture missed.
+
+[ATTACK - Spine Shot]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Spine Shot! $target takes {$RED $x damage}.
+	MISS			$agent tried a Spine Shot but missed.
+
+[ATTACK - Swirl of Leaves]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Swirl of Leaves! $target takes {$RED $x damage}.
+	MISS			$agent's big ol' Swirl of Leaves missed.
+
+[ATTACK - Earthen Blast]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Earthen Blast! $target takes {$RED $x damage}.
+	MISS			$agent tried to use a Earthen Blast but missed.
+
+[ATTACK - Spinning Blade]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Spinning Blade! $target takes {$RED $x damage}.
+	MISS			$agent tried to use Spinning Blade but missed.
+
+[ATTACK - Twisting Edge]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Twisting Edge! $target takes {$RED $x damage}.
+	MISS			$agent attempted Twisting Edge but missed.
+
+[ATTACK - Petal Fall]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Petal Fall! $target takes {$RED $x damage}.
+	MISS			$agent's breezy attempt at a Petal Fall missed.
+
+[ATTACK - Flowing Bud]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Flowing Bud! $target takes {$RED $x damage}.
+	MISS			$agent tried to use a Flowing Bud but missed.
+
+[ATTACK - Clumsy Embrace]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Clumsy Embrace! $target takes {$RED $x damage}.
+	MISS			$agent's Clumsy Embrace missed... awkwardly.
+
+[ATTACK - Enveloping Grasp]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes an Enveloping Grasp! $target takes {$RED $x damage}.
+	MISS			$agent attempted an Enveloping Grasp but missed.
+
+[ATTACK - Nosedive]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes a Nosedive! $target takes {$RED $x damage}.
+	MISS			$agent's dizzying Nosedive missed.
+
+[ATTACK - Divebomb]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes a Divebomb! $target takes {$RED $x damage}.
+	MISS			$agent tried to Divebomb but missed.
+
+[ATTACK - Cyclonic Flame]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes a Cyclonic Flame! $target takes {$RED $x damage}.
+	MISS			$agent's attempt at a Cyclonic Flame missed.
+
+[ATTACK - Fiery Tornado]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Fiery Tornado! $target takes {$RED $x damage}.
+	MISS			$agent attempted a Fiery Tornado but missed.
+
+[ATTACK - Harming Halo]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Harming Halo! $target takes {$RED $x damage}.
+	MISS			$agent attempted a Harming Halo but missed.
+
+[ATTACK - Circlet of Chaos]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Circlet of Chaos! $target takes {$RED $x damage}.
+	MISS			Circlet of Chaos by $agent on $target but missed.
+
+[ATTACK - Planted Charge]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Planted Charge! $target takes {$RED $x damage}.
+	MISS			$agent's attempt at a Planted Charge missed.
+
+[ATTACK - Uproot]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Uproot! $target takes {$RED $x damage}.
+	MISS			$agent's tried to Uproot but missed.
+
+[ATTACK - Monkey Paw]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Monkey Paw! $target takes {$RED $x damage}.
+	MISS			$agent's fancy Monkey Paw missed.
+
+[ATTACK - Furious Fists]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Furious Fists! $target takes {$RED $x damage}.
+	MISS			$agent's Furious Fists barrage missed.
+
+[ATTACK - Sonic Bark]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Sonic Bark! $target takes {$RED $x damage}.
+	MISS			$agent tried a Sonic Bark but missed.
+
+[ATTACK - Acoustic Growl]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes an Acoustic Growl! $target takes {$RED $x damage}.
+	MISS			$agent's mighty Acoustic Growl missed.
+
+[ATTACK - Quack]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Quack! $target takes {$RED $x damage}.
+	MISS			$agent's furious Quack barrage missed.
+
+[ATTACK - Beak Attack]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Beak Attack! $target takes {$RED $x damage}.
+	MISS			$agent's furious Beak Attack missed.
+
+[ATTACK - Chatter]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Chatter! $target takes {$RED $x damage}.
+	MISS			$agent tried to Chatter you up but missed.
+
+[ATTACK - Backtalk]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Backtalk! $target takes {$RED $x damage}.
+	MISS			$agent tried to Backtalk but missed.
+
+[ATTACK - Splash]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes a Splash! $target takes {$RED $x damage}.
+	MISS			$agent's frothy Splash missed.
+
+[ATTACK - Stream]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes a Stream! $target takes {$RED $x damage}.
+	MISS			$agent attempted a Stream but missed.
+
+[ATTACK - Sprinkles]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Sprinkles! $target takes {$RED $x damage}.
+	MISS			$agent's sweet, sweet Sprinkles missed.
+
+[ATTACK - Cake Walk]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes a Cake Walk! $target takes {$RED $x damage}.
+	MISS			$agent's attempt at a Cake Walk missed.
+
+[ATTACK - Lavender Currents]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Lavender Currents! $target takes {$RED $x damage}.
+	MISS			$agent's fragrant Lavender Currents missed.
+
+[ATTACK - Sea of Purple]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Sea of Purple! $target takes {$RED $x damage}.
+	MISS			$agent's fearsome Sea of Purple missed.
+
+[ATTACK - Affection]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Affection! $target takes {$RED $x damage}.
+	MISS			$agent tried to use Affection but missed.
+
+[ATTACK - Devotion]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Devotion! $target takes {$RED $x damage}.
+	MISS			$agent's attempt at Devotion missed.
+
+[ATTACK - Chompers]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Chompers! $target takes {$RED $x damage}.
+	MISS			$agent's fierce Chompers missed.
+
+[ATTACK - Ivory Bite]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Ivory Bite! $target takes {$RED $x damage}.
+	MISS			$agent tried to Ivory Bite but missed.
+
+[ATTACK - Firetail]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Firetail! $target takes {$RED $x damage}.
+	MISS			$agent's fierce Firetail missed.
+
+[ATTACK - Emberblast]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Emberblast! $target takes {$RED $x damage}.
+	MISS			$agent's tried to Emberblast but missed.
+
+[ATTACK - Strawberry Cream]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Strawberry Cream! $target takes {$RED $x damage}.
+	MISS			$agent's attempt to Strawberry Cream missed.
+
+[ATTACK - Frothy Delight]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Frothy Delight! $target takes {$RED $x damage}.
+	MISS			$agent tried Frothy Delight but missed.
+
+[ATTACK - Flutterflip]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Flutterflip! $target takes {$RED $x damage}.
+	MISS			$agent's dramatic Flutterflip missed.
+
+[ATTACK - Leafstorm]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Leafstorm! $target takes {$RED $x damage}.
+	MISS			$agent tried Leafstorm but missed.
+
+[ATTACK - Deep Sting]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Deep Sting! $target takes {$RED $x damage}.
+	MISS			$agent's attempt to Deep Sting missed.
+
+[ATTACK - Puncture Wound]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Puncture Wound! $target takes {$RED $x damage}.
+	MISS			$agent's attempt to Puncture Wound missed.
+
+[ATTACK - Zap]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Zap! $target takes {$RED $x damage}.
+	MISS			$agent's attempt to Zap missed.
+
+[ATTACK - Super Shock]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Super Shock! $target takes {$RED $x damage}.
+	MISS			$agent tried to Super Shock but missed.
+
+[ATTACK - Tail Thrash]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Tail Thrash! $target takes {$RED $x damage}.
+	MISS			$agent's Tail Thrash missed.
+
+[ATTACK - Golden Flog]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Golden Flog! $target takes {$RED $x damage}.
+	MISS			$agent tried to Golden Flog but missed.
+
+[ATTACK - Coordinated Attack]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Coordinated Attack! $target takes {$RED $x damage}.
+	MISS			$agent's Coordinated Attack missed.
+
+[ATTACK - Bait and Switch]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Bait and Switch! $target takes {$RED $x damage}.
+	MISS			$agent tried the ol' Bait and Switch but missed.
+
+[ATTACK - Batty Bite]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Batty Bite! $target takes {$RED $x damage}.
+	MISS			$agent tried to Batty Bite but missed.
+
+[ATTACK - Nightmare Wing]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			Nightmare Wing by $agent on $target for {$RED $x}
+	MISS			Nightmare Wing by $agent on $target but missed.
+
+[ATTACK - Timid Leap]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Timid Leap! $target takes {$RED $x damage}.
+	MISS			$agent's Timid Leap missed.
+
+[ATTACK - Ball of Fur]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Ball of Fur! $target takes {$RED $x damage}.
+	MISS			$agent's chunky Ball of Fur missed.
+
+[ATTACK - String Catch]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			String Catch by $agent on $target for {$RED $x}
+	MISS			String Catch by $agent on $target but missed.
+
+[ATTACK - Ball of String]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Ball of String! $target takes {$RED $x damage}.
+	MISS			$agent's tangled Ball of String missed.
+
+[ATTACK - Regal Roar]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes a Regal Roar! $target takes {$RED $x damage}.
+	MISS			$agent's attempt at a Regal Roar missed.
+
+[ATTACK - Call of the Lion]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Call of the Lion! $target takes {$RED $x damage}.
+	MISS			$agent's Call of the Lion missed.
+
+[ATTACK - Drumstick]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			Drumstick by $agent on $target for {$RED $x}
+	MISS			Drumstick by $agent on $target but missed.
+
+[ATTACK - Gobble Gobble]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Gobble Gobble! $target takes {$RED $x damage}.
+	MISS			$agent's attempt to Gobble Gobble missed.
+
+[ATTACK - Balancing Act]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Balancing Act! $target takes {$RED $x damage}.
+	MISS			$agent tried a Balancing Act but missed.
+
+[ATTACK - Scales of Equity]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Scales of Equity! $target takes {$RED $x damage}.
+	MISS			$agent attempted Scales of Equity but missed.
+
+[ATTACK - Transmit]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Transmit! $target takes {$RED $x damage}.
+	MISS			$agent's attempt to Transmit missed.
+
+[ATTACK - Spectrum Wave]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			Spectrum Wave by $agent on $target for {$RED $x}
+	MISS			Spectrum Wave by $agent on $target but missed.
+
+[ATTACK - Squiggle]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Squiggle! $target takes {$RED $x damage}.
+	MISS			$agent tried to Squiggle but missed.
+
+[ATTACK - Wriggle]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Wriggle! $target takes {$RED $x damage}.
+	MISS			$agent tried to Wriggle but missed.
+
+[ATTACK - Fish Sandwich]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Fish Sandwich! $target takes {$RED $x damage}.
+	MISS			$agent's delicious Fish Sandwich missed.
+
+[ATTACK - Bip Bop Pop]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Bip Bop Pop! $target takes {$RED $x damage}.
+	MISS			$agent tried to Bip Bop Pop but missed.
+
+[ATTACK - Sushi Roll]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Sushi Roll! $target takes {$RED $x damage}.
+	MISS			$agent tried to Sushi Roll but missed.
+
+[ATTACK - Sake Bomb]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes a Sake Bomb! $target takes {$RED $x damage}.
+	MISS			$agent attempted to Sake Bomb but missed.
+
+[ATTACK - Ink Blot]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Ink Blot! $target takes {$RED $x damage}.
+	MISS			$agent's messy Ink Blot missed.
+
+[ATTACK - Inky Shot]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Inky Shot! $target takes {$RED $x damage}.
+	MISS			$agent tried to Inky Shot but missed.
+
+[ATTACK - Soggy Monkey]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Soggy Monkey! $target takes {$RED $x damage}.
+	MISS			$agent's Soggy Monkey barrage missed.
+
+[ATTACK - Waterlogged]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Waterlogged! $target takes {$RED $x damage}.
+	MISS			$agent tried Waterlogged but missed.
+
+[ATTACK - Hornstab]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Hornstab! $target takes {$RED $x damage}.
+	MISS			$agent's dramatic Hornstab attempt missed.
+
+[ATTACK - Corkscrew]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Corkscrew! $target takes {$RED $x damage}.
+	MISS			$agent tried to Corkscrew but missed.
+
+[ATTACK - Spitstream]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Spitstream! $target takes {$RED $x damage}.
+	MISS			$agent's gross Spitstream missed.
+
+[ATTACK - Power Loogie]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Power Loogie! $target takes {$RED $x damage}.
+	MISS			$agent's thick and chunky Power Loogie missed.
+
+[ATTACK - Penalty Kick]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Penalty Kick! $target takes {$RED $x damage}.
+	MISS			$agent's powerful Penalty Kick missed.
+
+[ATTACK - Slide Tackle]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Slide Tackle! $target takes {$RED $x damage}.
+	MISS			$agent tried a Slide Tackle but missed.
+
+[ATTACK - Ninja Strike]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Ninja Strike! $target takes {$RED $x damage}.
+	MISS			$agent's stealthy Ninja Strike missed.
+
+[ATTACK - Assassinate]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Assassinate! $target takes {$RED $x damage}.
+	MISS			$agent's Assassinate attempt missed.
+
+[ATTACK - Tail Whip]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Tail Whip! $target takes {$RED $x damage}.
+	MISS			$agent tried to Tail Whip but missed.
+
+[ATTACK - Tail Scythe]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Tail Scythe! $target takes {$RED $x damage}.
+	MISS			$agent's deadly Tail Scythe missed.
+
+[ATTACK - Multisting]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Multisting! $target takes {$RED $x damage}.
+	MISS			$agent tried to Multisting but missed.
+
+[ATTACK - Doublestab]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Doublestab! $target takes {$RED $x damage}.
+	MISS			$agent's attempt to Doublestab missed.
+
+[ATTACK - Iceblock]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Iceblock! $target takes {$RED $x damage}.
+	MISS			$agent's frosty Iceblock missed.
+
+[ATTACK - Icepick]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Icepick! $target takes {$RED $x damage}.
+	MISS			$agent tried to Icepick but missed.
+
+[ATTACK - Freezeram]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Freezeram! $target takes {$RED $x damage}.
+	MISS			$agent's ice-cold Freezeram missed.
+
+[ATTACK - Snowbash]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Snowbash! $target takes {$RED $x damage}.
+	MISS			$agent tried to Snowbash but missed.
+
+[ATTACK - Handsnake]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Handsnake! $target takes {$RED $x damage}.
+	MISS			$agent's attempt at a Handsnake missed.
+
+[ATTACK - Cobra Hand]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Cobra Hand! $target takes {$RED $x damage}.
+	MISS			$agent's deadly Cobra Hand attack missed.
+
+[ATTACK - Wee Nibble]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Wee Nibble! $target takes {$RED $x damage}.
+	MISS			$agent's Wee Nibble barrage missed.
+
+[ATTACK - Ferocious Bite]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes a Ferocious Bite! $target takes {$RED $x damage}.
+	MISS			$agent attempt to Ferocious Bite but missed.
+
+[ATTACK - Power Sit]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Power Sit! $target takes {$RED $x damage}.
+	MISS			$agent tried to Power Sit but missed.
+
+[ATTACK - Power Squat]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Power Squat! $target takes {$RED $x damage}.
+	MISS			$agent tried to Power Squat but missed.
+
+[ATTACK - Loping Lavender]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Loping Lavender! $target takes {$RED $x damage}.
+	MISS			$agent's aromatic Loping Lavender attack missed.
+
+[ATTACK - Yak Attack]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Yak Attack! $target takes {$RED $x damage}.
+	MISS			$agent tried Yak Attack but missed.
+
+[ATTACK - Off Balance]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Off Balance! $target takes {$RED $x damage}.
+	MISS			$agent's Off Balance attack missed.
+
+[ATTACK - Tumble]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Tumble! $target takes {$RED $x damage}.
+	MISS			$agent tried a Tumble attack but missed.
+
+[ATTACK - Grill Marks]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Grill Marks! $target takes {$RED $x damage}.
+	MISS			$agent's searing Grill Marks attack missed.
+
+[ATTACK - Flame Broiled]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent uleashes Flame Broiled! $target takes {$RED $x damage}.
+	MISS			$agent's attempt at Flame Broiled but missed.
+
+[ATTACK - Glorious Vision]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Glorious Vision! $target takes {$RED $x damage}.
+	MISS			$agent's Glorious Vision missed.
+
+[ATTACK - Grandeur]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Grandeur! $target takes {$RED $x damage}.
+	MISS			$agent tried to use Grandeur but missed.
+
+[ATTACK - Yumilicious]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Yumilicious! $target takes {$RED $x damage}.
+	MISS			$agent's Yumilicious barrage missed.
+
+[ATTACK - OMNOMNOM]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes OMNOMNOM! $target takes {$RED $x damage}.
+	MISS			$agent's spirited OMNOMNOM attack missed.
+
+[ATTACK - Promise Ring]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Promise Ring! $target takes {$RED $x damage}.
+	MISS			$agent tried to plant a Promise Ring but missed.
+
+[ATTACK - Lover's Bond]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Lover's Bond! $target takes {$RED $x damage}.
+	MISS			$agent's attempt at a Lover's Bond missed.
+
+[ATTACK - Spirit Tap]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Spirit Tap! $target takes {$RED $x damage}.
+	MISS			$agent tried to Spirit Tap but missed.
+
+[ATTACK - Vanishing Form]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Vanishing Form! $target takes {$RED $x damage}.
+	MISS			$agent tried a Vanishing Form but missed.
+
+[ATTACK - Seedbeat]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Seedbeat! $target takes {$RED $x damage}.
+	MISS			$agent's Seedbeat barrage missed.
+
+[ATTACK - Chirrup]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Chirrup! $target takes {$RED $x damage}.
+	MISS			$agent's attempt to Chirrup missed.
+
+[ATTACK - Scuttle]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Scuttle! $target takes {$RED $x damage}.
+	MISS			$agent tried to Scuttle but missed.
+
+[ATTACK - Gadgetwalk]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Gadgetwalk! $target takes {$RED $x damage}.
+	MISS			Gadgetwalk by $agent on $target but missed.
+
+[ATTACK - Frothy Whip]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Frothy Whip! $target takes {$RED $x damage}.
+	MISS			$agent tried to Frothy Whip but missed.
+
+[ATTACK - Handle Crunch]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes a Handle Crunch! $target takes {$RED $x damage}.
+	MISS			$agent's Handle Crunch attack missed.
+
+[ATTACK - Screaming Streak]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Screaming Streak! $target takes {$RED $x damage}.
+	MISS			$agent's Screaming Streak attack missed.
+
+[ATTACK - Blazing Beak]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Blazing Beak! $target takes {$RED $x damage}.
+	MISS			$agent's Blazing Beak on $target missed.
+
+[ATTACK - Dark Swoop]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Dark Swoop! $target takes {$RED $x damage}.
+	MISS			$agent tried a Dark Swoop but missed.
+
+[ATTACK - Silent Stalking]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Silent Stalking! $target takes {$RED $x damage}.
+	MISS			$agent's Silent Stalking attempt missed.
+
+[ATTACK - Octo-bomb]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Octo-bomb! $target takes {$RED $x damage}.
+	MISS			$agent tried an Octo-bomb but missed.
+
+[ATTACK - ESP]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes ESP! $target takes {$RED $x damage}.
+	MISS			$agent's ESP mind games missed.
+
+[ATTACK - Jetstream]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Jetstream! $target takes {$RED $x damage}.
+	MISS			$agent's Jetstream attack missed.
+
+[ATTACK - Sonic Scream]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Sonic Scream! $target takes {$RED $x damage}.
+	MISS			$agent tried to Sonic Scream but missed.
+	
+[ATTACK - Coldbear Bump]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Coldbear Bump! $target takes {$RED $x damage}.
+	MISS			$agent tried to Coldbear Bump but missed.
+
+[ATTACK - Frost Bite]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Stocking Stuffer! $target takes {$RED $x damage}.
+	MISS			$agent tried to Stocking Stuffer but missed.
+	
+[ATTACK - Missile Toe]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Missile Toe! $target takes {$RED $x damage}.
+	MISS			$agent tried to Missile Toe but missed.
+
+[ATTACK - Slaying Song]
+	DESCRIPTION		A magical attack that varies depending on how the Mogas' zodiac signs compare.
+	DAMAGE			$agent unleashes Slaying Song! $target takes {$RED $x damage}.
+	MISS			$agent tried to Slaying Song but missed.
+	
+[ATTACK - Power Pellet]
+	DESCRIPTION		A magical attack that varies in damage depending on your enemy's zodiac sign.
+	DAMAGE			$agent unleashes Power Pellet! $target takes {$RED $x damage}.
+	MISS			$agent tried to Power Pellet but missed.
+
+[ATTACK - Hopping Mad]
+	DESCRIPTION		A magical attack that varies in damage depending on your enemy's zodiac sign.
+	DAMAGE			$agent unleashes Hopping Mad! $target takes {$RED $x damage}.
+	MISS			$agent tried to Hopping Mad but missed.
+	
+[ATTACK - Doom Nibble]
+	DESCRIPTION		A magical attack that varies in damage depending on your enemy's zodiac sign.
+	DAMAGE			$agent unleashes Doom Nibble! $target takes {$RED $x damage}.
+	MISS			$agent tried to Doom Nibble but missed.
+
+[ATTACK - Mortal Thump]
+	DESCRIPTION		A magical attack that varies in damage depending on your enemy's zodiac sign.
+	DAMAGE			$agent unleashes Mortal Thump! $target takes {$RED $x damage}.
+	MISS			$agent tried to Mortal Thump but missed.
+	
+[ATTACK - Golden Glove]
+	DESCRIPTION		A magical attack that varies in damage depending on your enemy's zodiac sign.
+	DAMAGE			$agent unleashes Golden Glove! $target takes {$RED $x damage}.
+	MISS			$agent tried to Golden Glove but missed.
+
+[ATTACK - Luck Bomb]
+	DESCRIPTION		A magical attack that varies in damage depending on your enemy's zodiac sign.
+	DAMAGE			$agent unleashes Luck Bomb! $target takes {$RED $x damage}.
+	MISS			$agent tried to Luck Bomb but missed.
+	
+[ATTACK - Fire Dive]
+	DESCRIPTION		A magical attack that varies in damage depending on your enemy's zodiac sign.
+	DAMAGE			$agent unleashes Fire Dive! $target takes {$RED $x damage}.
+	MISS			$agent tried to Fire Dive but missed.
+
+[ATTACK - Flying Inferno]
+	DESCRIPTION		A magical attack that varies in damage depending on your enemy's zodiac sign.
+	DAMAGE			$agent unleashes Flying Inferno! $target takes {$RED $x damage}.
+	MISS			$agent tried to Flying Inferno but missed.
+	
+[ATTACK - Gilded Fury]
+	DESCRIPTION		A magical attack that varies in damage depending on your enemy's zodiac sign.
+	DAMAGE			$agent unleashes Gilded Fury! $target takes {$RED $x damage}.
+	MISS			$agent tried to Gilded Fury but missed.
+
+[ATTACK - Shining Death]
+	DESCRIPTION		A magical attack that varies in damage depending on your enemy's zodiac sign.
+	DAMAGE			$agent unleashes Shining Death! $target takes {$RED $x damage}.
+	MISS			$agent tried to Shining Death but missed.
+
+[ATTACK - Bellyflop]			
+	DESCRIPTION		A magical attack that varies in damage depending on your enemy's zodiac sign.
+	DAMAGE			$agent unleashes Bellyflop! $target takes {$RED $x damage}.
+	MISS			$agent tried to Bellyflop but missed.
+
+[ATTACK - Headstab]		
+	DESCRIPTION		A magical attack that varies in damage depending on your enemy's zodiac sign.
+	DAMAGE			$agent unleashes Headstab! $target takes {$RED $x damage}.
+	MISS			$agent tried to Headstab but missed.
+
+[ATTACK - Sandswipe]			
+	DESCRIPTION		A magical attack that varies in damage depending on your enemy's zodiac sign.
+	DAMAGE			$agent unleashes Sandswipe! $target takes {$RED $x damage}.
+	MISS			$agent tried to Sandswipe but missed.
+
+[ATTACK - Earthstorm]		
+	DESCRIPTION		A magical attack that varies in damage depending on your enemy's zodiac sign.
+	DAMAGE			$agent unleashes Earthstorm! $target takes {$RED $x damage}.
+	MISS			$agent tried to Earthstorm but missed.
+
+[ATTACK - Puff Ball]			
+	DESCRIPTION		A magical attack that varies in damage depending on your enemy's zodiac sign.
+	DAMAGE			$agent unleashes Puff Ball! $target takes {$RED $x damage}.
+	MISS			$agent tried to Puff Ball but missed.
+
+[ATTACK - Spore Cloud]		
+	DESCRIPTION		A magical attack that varies in damage depending on your enemy's zodiac sign.
+	DAMAGE			$agent unleashes Spore Cloud! $target takes {$RED $x damage}.
+	MISS			$agent tried to Spore Cloud but missed.
+
+[ATTACK - Glitter Pinch]			
+	DESCRIPTION		A magical attack that varies in damage depending on your enemy's zodiac sign.
+	DAMAGE			$agent unleashes Glitter Pinch! $target takes {$RED $x damage}.
+	MISS			$agent tried to Glitter Pinch but missed.
+
+[ATTACK - Sparkle Punch]		
+	DESCRIPTION		A magical attack that varies in damage depending on your enemy's zodiac sign.
+	DAMAGE			$agent unleashes Sparkle Punch! $target takes {$RED $x damage}.
+	MISS			$agent tried to Sparkle Punch but missed.
+
+[ATTACK - Night Cap]			
+	DESCRIPTION		A magical attack that varies in damage depending on your enemy's zodiac sign.
+	DAMAGE			$agent unleashes Night Cap! $target takes {$RED $x damage}.
+	MISS			$agent tried to Night Cap but missed.
+
+[ATTACK - Blackout]		
+	DESCRIPTION		A magical attack that varies in damage depending on your enemy's zodiac sign.
+	DAMAGE			$agent unleashes Blackout! $target takes {$RED $x damage}.
+	MISS			$agent tried to Blackout but missed.
+
+[ATTACK - Bear-handed]			
+	DESCRIPTION		A magical attack that varies in damage depending on your enemy's zodiac sign.
+	DAMAGE			$agent unleashes Bear-handed! $target takes {$RED $x damage}.
+	MISS			$agent tried to Bear-handed but missed.
+
+[ATTACK - Rule of Claw]		
+	DESCRIPTION		A magical attack that varies in damage depending on your enemy's zodiac sign.
+	DAMAGE			$agent unleashes Rule of Claw! $target takes {$RED $x damage}.
+	MISS			$agent tried to Rule of Claw but missed.
+
+[ATTACK - Sneak Attack]			
+	DESCRIPTION		A magical attack that varies in damage depending on your enemy's zodiac sign.
+	DAMAGE			$agent unleashes Sneak Attack! $target takes {$RED $x damage}.
+	MISS			$agent tried to Sneak Attack but missed.
+
+[ATTACK - Stealth Bomb]		
+	DESCRIPTION		A magical attack that varies in damage depending on your enemy's zodiac sign.
+	DAMAGE			$agent unleashes Stealth Bomb! $target takes {$RED $x damage}.
+	MISS			$agent tried to Stealth Bomb but missed.

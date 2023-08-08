@@ -1,0 +1,66 @@
+# This is when you get to Cortex and get shut down by Skylar and Lyla
+[BACKGROUND]
+	assets/story/backgrounds/188.swf
+
+[FOREGROUND]
+	assets/story/letterbox.swf
+
+[SETTINGS]
+	USE_LEFT_ARROW					yes
+	ACTOR_STAYS_FOR_PLAYER_SPEECH	yes
+	ACTOR_STAYS_FOR_ANIM			no
+	PLAYER_BUBBLE_X					0
+	PLAYER_BUBBLE_Y					510
+	NPC_BUBBLE_X					480
+	NPC_BUBBLE_Y					300
+
+[PLAYER]
+	NAME		You
+
+[CHARACTER - SKYLAR]
+	ASSET	assets/story/npc/skylar_closeup.swf
+	NAME	Skylar
+
+[CHARACTER - LYLA]
+	ASSET	assets/story/npc/lyla.swf
+	NAME	Lyla
+	
+[STORY]
+
+SKYLAR IN
+
+SKYLAR    So, the bigshot Moga Ranger made it aaaaaall the way to Cortex, huh?
+
+PLAYER    Skylar!
+
+SKYLAR    Bad news, chump: they're only letting ONE tamer through the force field. And they've already picked their pony! ME! I'm the pony!
+
+SKYLAR    C'mon, Weetar! Let's leave this chump in the DUST! 
+
+SKYLAR OUT
+
+SKYLAR IN
+
+SKYLAR    Oh, I almost forgot to tell you: toodles, fartface!
+
+SKYLAR OUT
+
+PLAYER    Skylar... The WORST guy!
+
+LYLA IN
+
+LYLA    Hello there, visitor. Do you have a Cortex entry pass?
+
+PLAYER    I've been sent here on urgent business from Windhym. 
+
+LYLA    The official Windhym representative has already arrived. A young tamer named Skylar. He indicated that additional passes would not be required.
+
+PLAYER    Skylar!
+
+LYLA    I'm terribly sorry. If you'd like, I can submit a request for an additional entry pass, but it may take some time to process.
+
+PLAYER    But--
+
+LYLA    Good day. {OK}
+
+LYLA OUT

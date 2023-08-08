@@ -1,0 +1,56 @@
+
+# This is the first part of Skylar's Celestial Gatekeepers quest. 
+
+[BACKGROUND]
+	assets/story/backgrounds/90.swf
+
+[FOREGROUND]
+	assets/story/letterbox.swf
+
+[SETTINGS]
+	USE_LEFT_ARROW					yes
+	ACTOR_STAYS_FOR_PLAYER_SPEECH	yes
+	ACTOR_STAYS_FOR_ANIM			no
+	PLAYER_BUBBLE_X					0
+	PLAYER_BUBBLE_Y					510
+	NPC_BUBBLE_X					480
+	NPC_BUBBLE_Y					300
+
+[PLAYER]
+	NAME		You
+
+[CHARACTER - SKYLAR]
+	ASSET	assets/story/npc/skylar	
+	NAME	Skylar
+
+SKYLAR IN
+
+SKYLAR        What do YOU want, scrub? Come to grovel for a Cortex pass?
+
+PLAYER        No, Skylar. I need to find the Gemini Celestial Gatekeeper, and I think you might know where it is.
+
+SKYLAR        So, you've come begging for my help! How truly, delightfully pathetic. Well, guess what: go suck a lemon!
+
+PLAYER        Skylar, I really need--
+
+SKYLAR        Oh, and one more thing: Weetar here just let our a genuine RASCAL of a toot. It'll be coming your way in about... five seconds. Peace!
+
+PLAYER        Argh... Skylar!
+
+SKYLAR OUT
+
+PIERCE IN
+
+PIERCE        So, Skylar gave you the ol' brush-off, did he? Well, I kind of expected it. He's... he's the worst guy.
+
+PLAYER        Yeah. I can't get to him through that force field.
+
+PIERCE        Use your head, kid. The forcefield doesn't matter. There's a surefire way to get to a little brat like that: through his mommy.
+
+PLAYER        I've met his mom. She's a little weird.
+
+PIERCE        Pay her a little visit. Oldest trick in the book. You get to the mom, you get to the nerd. Bet you can find her at {$GREEN West Summer Road}.
+
+PIERCE				What's that smell? Dang, Ranger, lay off the cabbage. {ACCEPT} #go to Skylar's mom at one of the first nodes
+
+PIERCE OUT

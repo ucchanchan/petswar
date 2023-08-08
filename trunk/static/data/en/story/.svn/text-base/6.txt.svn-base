@@ -1,0 +1,54 @@
+# Encountering Skylar.
+
+[BACKGROUND]
+	assets/story/backgrounds/22.swf
+
+[FOREGROUND]
+	assets/story/letterbox.swf
+
+[SETTINGS]
+	USE_LEFT_ARROW					yes
+	ACTOR_STAYS_FOR_PLAYER_SPEECH	yes
+	ACTOR_STAYS_FOR_ANIM			no
+	PLAYER_BUBBLE_X					0
+	PLAYER_BUBBLE_Y					510
+	NPC_BUBBLE_X					480
+	NPC_BUBBLE_Y					300
+
+[PLAYER]
+	NAME		You
+
+[CHARACTER - SKYLAR]
+	ASSET	assets/story/npc/skylar_closeup.swf
+	NAME		Skylar 
+
+[STORY]
+
+	SKYLAR IN
+
+	PLAYER		You...!
+
+	SKYLAR		Huh, what's this?  Is that you?  Oh, but it can't be-- you're too far from home! You know it's dangerous to go wandering around unless you're a Moga tamer...
+
+	PLAYER		I am.
+
+	SKYLAR		Eh? EHH!? Is that a Moga?! You're a tamer?! NO!
+
+	SKYLAR		Whatever. I've been taming Mogas since last year. I'm gonna be a Moga Ranger in no time. My mom always said I should be more like you, but now you're following in my footsteps.
+
+	SKYLAR		Ironic, huh? Don't count on catching up to me, though. I'm light years ahead of you and getting constantly more awesome. I'll be a Moga Master any day now.
+
+	SKYLAR		You wanna try me?
+
+	SKYLAR		...nah, just kidding! I'd kick your butt! I wouldn't want to embarrass your poor Mogas by exposing what a terrible trainer you are. Maybe later!
+
+	SKYLAR		Look, past this bridge is Windhym. I heard the mayor there is looking for a tamer for some dangerous mission. Naturally I'll be volunteering, but I should warn you: don't think you're hot stuff just cause you have a coupla Mogas.
+
+	SKYLAR		It's way nasty out there. You really should scamper on home before you get hurt. I certainly wouldn't respect you any less, HRRORORO!
+	
+	PLAYER		Argh... Skylar... 
+
+	PLAYER		He's the worst guy. {OK}
+
+	SKYLAR OUT
+

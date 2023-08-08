@@ -1,0 +1,31 @@
+ # First guard fight on the way to the sultan
+
+[BACKGROUND]
+	assets/story/backgrounds/150.swf
+
+[FOREGROUND]
+	assets/story/letterbox.swf
+
+[SETTINGS]
+	USE_LEFT_ARROW					yes
+	ACTOR_STAYS_FOR_PLAYER_SPEECH	yes
+	ACTOR_STAYS_FOR_ANIM			no
+	PLAYER_BUBBLE_X					0
+	PLAYER_BUBBLE_Y					510
+	NPC_BUBBLE_X					480
+	NPC_BUBBLE_Y					270
+
+[PLAYER]
+	NAME		You
+
+[CHARACTER - GUARD1]
+	ASSET	assets/story/npc/guard1.swf
+	NAME	Arturo
+			
+[STORY]
+
+GUARD1		So you're taking the sultan up on his challenge? Bold--but stupid! {OK}
+
+GUARD1 OUT
+
+#fight

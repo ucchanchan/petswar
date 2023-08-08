@@ -1,0 +1,33 @@
+# After winning your first fight in the tower you get some info from the Oracle.
+
+[BACKGROUND]
+	assets/story/backgrounds/126.swf
+
+[FOREGROUND]
+	assets/story/letterbox.swf
+
+[SETTINGS]
+	USE_LEFT_ARROW					yes
+	ACTOR_STAYS_FOR_PLAYER_SPEECH	yes
+	ACTOR_STAYS_FOR_ANIM			no
+	PLAYER_BUBBLE_X					0
+	PLAYER_BUBBLE_Y					510
+	NPC_BUBBLE_X					460
+	NPC_BUBBLE_Y					270
+
+[PLAYER]
+	NAME		You
+
+[CHARACTER - ORACLE]
+	ASSET	assets/story/npc/oracle.swf
+	NAME	Oracle					
+
+[STORY]
+
+ORACLE IN
+
+ORACLE		When the earth rollsss, the great one ssstirsss. How to tame it? That isss what you desssire.
+
+ORACLE		You know already, tamer. What isss the sssource of all power? What connectsss you to your Mogasss? Only that can tame the great one. {OK}
+
+ORACLE OUT

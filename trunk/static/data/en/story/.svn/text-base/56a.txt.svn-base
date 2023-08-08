@@ -1,0 +1,45 @@
+# This is when you meet Pierce after the Shen quest and he lays it out
+[BACKGROUND]
+	assets/story/backgrounds/176.swf
+
+[FOREGROUND]
+	assets/story/letterbox.swf
+
+[SETTINGS]
+	USE_LEFT_ARROW					yes
+	ACTOR_STAYS_FOR_PLAYER_SPEECH	yes
+	ACTOR_STAYS_FOR_ANIM			no
+	PLAYER_BUBBLE_X					0
+	PLAYER_BUBBLE_Y					510
+	NPC_BUBBLE_X					480
+	NPC_BUBBLE_Y					300
+
+[PLAYER]
+	NAME		You
+
+[CHARACTER - PIERCE]
+	ASSET	assets/story/npc/sgtPierce.swf
+	NAME	Pierce
+	
+[STORY]
+
+PIERCE IN
+
+
+PIERCE    Ah, you made it. Good to see you. Friend, I've got some things to discuss with you.
+
+PIERCE    We're living in strange times. Earthquakes, Mogas going apehockey. In times like these, folks need to feel safe. My company provides that safety.
+
+PIERCE    I reckon I never told you who I work for, did I? It's a firm called Steel Peaks. We used to deal primarily in private security.  Bigwigs with reckless daughters, fancy folks with too much money--you know the type.
+
+PIERCE    But nowadays, everyone needs our services. People are scared. They don't know what to do. They give us a pile of money and we keep the boogeyman away.
+
+PIERCE		We're making money hand-over-fist, friend! When an opportunity like this comes knocking, you don't tell it you're busy baking cookies--you tell it to come in!
+
+PIERCE		I think you've got the skills to be a part of this operation. It's not our fault things have gone so wrong, so why not make a few bucks?
+
+PIERCE		How's about you meet up with me at Steel Peaks and we'll talk about getting you on board? 
+
+PIERCE		Sh--don't decide right now. Think about it. All the money and Mogas you want for as long as this trouble keeps up. Not a bad deal, friend. {OK}
+
+PIERCE OUT

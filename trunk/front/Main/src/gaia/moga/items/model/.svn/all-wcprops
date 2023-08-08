@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/9/trunk/front/Main/src/gaia/moga/items/model
+END
+Item.as
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/2/trunk/front/Main/src/gaia/moga/items/model/Item.as
+END
+ItemEnum.as
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/2/trunk/front/Main/src/gaia/moga/items/model/ItemEnum.as
+END
+ItemFactory.as
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/9/trunk/front/Main/src/gaia/moga/items/model/ItemFactory.as
+END

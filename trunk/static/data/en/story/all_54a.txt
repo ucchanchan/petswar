@@ -1,0 +1,32 @@
+
+[BACKGROUND]
+	assets/story/backgrounds/4.swf
+
+[FOREGROUND]
+	assets/story/letterbox.swf
+
+[SETTINGS]
+	USE_LEFT_ARROW					yes
+	ACTOR_STAYS_FOR_PLAYER_SPEECH	yes
+	ACTOR_STAYS_FOR_ANIM			no
+	PLAYER_BUBBLE_X					0
+	PLAYER_BUBBLE_Y					510
+	NPC_BUBBLE_X					480
+	NPC_BUBBLE_Y					300
+
+[PLAYER]
+	NAME		You
+
+[CHARACTER - NOVA]
+	ASSET	assets/story/npc/nova.swf
+	NAME	Nova
+
+[STORY]
+
+	NOVA IN
+		
+	NOVA		I think I know just the Moga for you. The next step of your training requires that you catch a Knightaur.
+	
+	NOVA		{$GREEN Pueblonia City Gates}, {$GREEN Super Bazaar} and {$GREEN Royal Battledome} are all good places to look. {ACCEPT}
+
+	NOVA OUT

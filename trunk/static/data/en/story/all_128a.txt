@@ -1,0 +1,39 @@
+# Capture Wasabee
+
+[BACKGROUND]
+	assets/story/backgrounds/3.swf
+
+[FOREGROUND]
+	assets/story/letterbox.swf
+
+[SETTINGS]
+	USE_LEFT_ARROW					yes
+	ACTOR_STAYS_FOR_PLAYER_SPEECH	yes
+	ACTOR_STAYS_FOR_ANIM			yes
+	PLAYER_BUBBLE_X					0
+	PLAYER_BUBBLE_Y					510
+	NPC_BUBBLE_X					480
+	NPC_BUBBLE_Y					300
+
+[PLAYER]
+	NAME		You
+
+
+[CHARACTER - NOVA]
+	ASSET	assets/story/npc/nova.swf
+	NAME		Nova
+
+[ANIM - WASABEE]
+	ASSET	assets/story/anim/wasabee.swf
+
+[STORY]
+
+NOVA IN
+
+NOVA		The Wasabees around here are stronger than Lambo and Dinho. Not too strong, though--I think it will be a good challenge for you, and one with a nice reward.
+
+WASABEE		
+
+NOVA		With a {$RED Wasabee} in your collection, you should have enough Mogas to make two teams. That will let you keep moving even when some Mogas are tired. You can find them at {$GREEN Warmwood Trail}. {ACCEPT}
+
+NOVA OUT

@@ -1,0 +1,40 @@
+# Leonard's quest. 
+
+[BACKGROUND]
+	assets/story/backgrounds/43.swf
+
+[FOREGROUND]
+	assets/story/letterbox.swf
+
+[SETTINGS]
+	USE_LEFT_ARROW					yes
+	ACTOR_STAYS_FOR_PLAYER_SPEECH	yes
+	ACTOR_STAYS_FOR_ANIM			no
+	PLAYER_BUBBLE_X					0
+	PLAYER_BUBBLE_Y					510
+	NPC_BUBBLE_X					480
+	NPC_BUBBLE_Y					300
+
+[PLAYER]
+	NAME		You
+
+[CHARACTER - LEONARD]
+	ASSET	assets/story/npc/leonard.swf
+	NAME		Leonard
+
+[CHARACTER - BRUNO]
+	ASSET	assets/story/npc/bruno.swf
+	NAME		Bruno
+
+[STORY]
+
+	LEONARD		Halt!  The mayor asked me to test the strength of any Moga tamers that wish to pass.
+
+	BRUNO		Don't you EVER underestimate...
+
+	BRUNO		my friend here.
+
+	PLAYER	Here we go! {OK}
+
+	BRUNO OUT
+

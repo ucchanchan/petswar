@@ -1,0 +1,44 @@
+
+# This is the first part of Jezabelle's Celestial Gatekeepers quest.
+
+[BACKGROUND]
+	assets/story/backgrounds/63.swf
+
+[FOREGROUND]
+	assets/story/letterbox.swf
+
+[SETTINGS]
+	USE_LEFT_ARROW					yes
+	ACTOR_STAYS_FOR_PLAYER_SPEECH	yes
+	ACTOR_STAYS_FOR_ANIM			no
+	PLAYER_BUBBLE_X					0
+	PLAYER_BUBBLE_Y					510
+	NPC_BUBBLE_X					480
+	NPC_BUBBLE_Y					300
+
+[PLAYER]
+	NAME		You
+
+[CHARACTER - JEZABELLE]
+	ASSET	assets/story/npc/jezabelle	
+	NAME	Jezabelle
+
+[STORY]
+
+JEZABELLE IN
+
+JEZABELLE			Well if it isn't the bumpkin from Windhym! You must've wised up a little if you're still walking.
+
+PLAYER				I'm looking for the Celestial Gatekeepers--they're special Mogas covered in stars. Have you seen any in the desert?
+
+JEZABELLE			Hmmm...maybe I have, maybe I haven't. If I knew about something you wanted, why would I give it to you for free?
+
+PLAYER				For one thing, this world is going to be torn apart if I don't find the Gatekeepers. But I'm also willing to do you a favor.
+
+JEZABELLE			Now you're talking my language. Tell you what, tamer--this desert life is starting to wear on me. Sand in my shoes. Sand in my hair. Sand in my sandwiches. Sounds cute, but it isn't.
+
+JEZABELLE			I'm looking to get back into city life. If you can grease the wheels for my return to Pueblonia, maybe I could tell how to find a Scorpio Gatekeeper I've seen. 
+
+PLAYER				I'll see what I can do. {ACCEPT} #tobi tells you to go to pueblonia
+
+JEZABELLE OUT

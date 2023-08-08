@@ -1,0 +1,34 @@
+
+# This is the first part of Kelecka's Celestial Gatekeepers quest.
+
+[BACKGROUND]
+	assets/story/backgrounds/22.swf
+
+[FOREGROUND]
+	assets/story/letterbox.swf
+
+[SETTINGS]
+	USE_LEFT_ARROW					yes
+	ACTOR_STAYS_FOR_PLAYER_SPEECH	yes
+	ACTOR_STAYS_FOR_ANIM			no
+	PLAYER_BUBBLE_X					0
+	PLAYER_BUBBLE_Y					510
+	NPC_BUBBLE_X					480
+	NPC_BUBBLE_Y					300
+
+[PLAYER]
+	NAME		You
+
+[CHARACTER - KELECKA]
+	ASSET	assets/story/npc/kelecka	
+	NAME	Kelecka
+
+KELECKA IN
+
+PLAYER		I'm looking for the Celestial Gatekeepers and heard you might be able to help me. 
+
+KELECKA		Most definitely! I've seen the Moga you're looking for but I think it's moved on. A creature that size is hard to miss--and I haven't seen it in weeks.
+
+KELECKA		It probably went south with the current. If you know anyone else down that way who spends a lot of time on the water, I'd ask them. {ACCEPT} #tobi says talk to sandman
+
+KELECKA OUT

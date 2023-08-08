@@ -1,0 +1,59 @@
+# This is the Lyle initial quest
+
+[BACKGROUND]
+	assets/story/backgrounds/3.swf
+
+[FOREGROUND]
+	assets/story/letterbox.swf
+
+[SETTINGS]
+	USE_LEFT_ARROW					yes
+	ACTOR_STAYS_FOR_PLAYER_SPEECH	yes
+	ACTOR_STAYS_FOR_ANIM			no
+	PLAYER_BUBBLE_X					0
+	PLAYER_BUBBLE_Y					510
+	NPC_BUBBLE_X					480
+	NPC_BUBBLE_Y					300
+
+[PLAYER]
+	NAME		You
+
+[CHARACTER - LYLE]
+	ASSET	assets/story/npc/lyle.swf
+	NAME	Lyle
+	
+[ANIM - SEXY_GF]						# This is the picture of Lyle's sexy gf
+	ASSET	assets/story/anim/sexy_gf.swf
+
+[ANIM - WASABEE]						# This is the over-sized Wasabee
+	ASSET	assets/story/anim/wasabee.swf
+
+[STORY]
+
+	LYLE IN
+
+	PLAYER		Hey, Lyle.
+		
+	LYLE		Hey, neighbor!  The big earthquake last night wrecked Windhym pretty good.  I made a care package to send there for my long-distance girlfriend, Gertrude...
+	
+	SEXY_GF
+	
+	LYLE		What?  Why are you looking at me like that!?  What can I say... she loves my personality, OK?!
+	
+	LYLE		Anyway, I tried to go to Windhym myself, but the wild Mogas are all going crazy. {$RED Wasabees} jumped me and took Gertrude's chocolates.  Ow, I'm still sore.
+
+	LYLE		Whoa, you're a Moga tamer now?  Awesome! You can beat up the Wasabees and get the chocolates back! Right!?
+	
+	PLAYER		Hmm...
+	
+	LYLE		C'mon, you saw her picture.  I'll never get another chance like this.
+	
+	PLAYER		OK, OK.
+	
+	LYLE		You can usually find Wasabees on the road between our place and the forest.  They're those green bee-lookin' things that are always hanging around.
+	
+	WASABEE
+	
+	PLAYER		I'll do my best. {ACCEPT}
+	
+	LYLE OUT

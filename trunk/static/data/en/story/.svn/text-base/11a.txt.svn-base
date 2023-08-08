@@ -1,0 +1,56 @@
+# Meeting with mayor. 
+
+[BACKGROUND]
+	assets/story/backgrounds/39a.swf
+
+[FOREGROUND]
+	assets/story/letterbox.swf
+
+[SETTINGS]
+	USE_LEFT_ARROW					yes
+	ACTOR_STAYS_FOR_PLAYER_SPEECH	yes
+	ACTOR_STAYS_FOR_ANIM			no
+	PLAYER_BUBBLE_X					0
+	PLAYER_BUBBLE_Y					510
+	NPC_BUBBLE_X					480
+	NPC_BUBBLE_Y					300
+
+[PLAYER]
+	NAME		You
+
+[CHARACTER - MAYOR]
+	ASSET	assets/story/npc/mayor.swf
+	NAME		Mayor
+
+[CHARACTER - BLANK]
+	ASSET	assets/story/npc/blank.swf
+	NAME		Mayor
+
+[CHARACTER - SKYLAR]
+	ASSET	assets/story/npc/skylar_closeup.swf
+	NAME		Skylar
+
+[STORY]
+
+	MAYOR IN
+
+	MAYOR		You're our only--
+
+	SKYLAR IN
+
+	SKYLAR		Listen up, everyone! The Mogas beyond Windhym are far more powerful than anything you can imagine. You other tamers won't make it halfway to Cortex.
+
+	MAYOR		Ohh! Well, I never!!
+
+	PLAYER		Skylar...
+
+	SKYLAR		Hmph... YOU.  What are you looking at? Amateur.
+
+	SKYLAR		The only one who can save this city... is ME! So just don't get in my way.
+
+	SKYLAR OUT
+
+	MAYOR		All tamers who are interested in helping, please step forward. {ACCEPT}
+
+	MAYOR OUT
+

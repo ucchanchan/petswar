@@ -1,0 +1,31 @@
+# This is if you win at darkwood in the st patricks day quest 
+
+[BACKGROUND]
+	assets/story/backgrounds/cat_taxi_bg.swf
+
+[FOREGROUND]
+	assets/story/letterbox.swf
+
+[SETTINGS]
+	USE_LEFT_ARROW					yes
+	ACTOR_STAYS_FOR_PLAYER_SPEECH	yes
+	ACTOR_STAYS_FOR_ANIM			yes
+	PLAYER_BUBBLE_X					0
+	PLAYER_BUBBLE_Y					510
+	NPC_BUBBLE_X					480
+	NPC_BUBBLE_Y					300
+
+[PLAYER]
+	NAME		You
+
+[CHARACTER - PATTY_TOBI]
+	ASSET	assets/story/npc/patty_tobi.swf
+	NAME	Tobi
+
+[STORY]
+
+PATTY_TOBI IN
+
+PATTY_TOBI	The legend is true--the Mogas DO have a spring shindig! And it looks like they didn't take kindly to you crashing the party. {OK}
+
+PATTY_TOBI OUT

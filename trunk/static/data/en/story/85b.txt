@@ -1,0 +1,34 @@
+# This is Keleka's berries quest. 
+
+[BACKGROUND]
+	assets/story/backgrounds/23.swf
+
+[FOREGROUND]
+	assets/story/letterbox.swf
+
+[SETTINGS]
+	USE_LEFT_ARROW					yes
+	ACTOR_STAYS_FOR_PLAYER_SPEECH	yes
+	ACTOR_STAYS_FOR_ANIM			yes
+	PLAYER_BUBBLE_X					0
+	PLAYER_BUBBLE_Y					510
+	NPC_BUBBLE_X					480
+	NPC_BUBBLE_Y					300
+
+[PLAYER]
+	NAME		You
+
+[CHARACTER - KELEKA]
+	ASSET	assets/story/npc/keleka.swf
+	NAME	Keleka
+
+[ANIM - BERRIES]
+	ASSET	assets/story/npc/berries.swf
+
+[STORY]
+KELEKA IN
+
+KELEKA	Thank you so much! I'm going to make her a salve right away. {OK}
+
+KELEKA OUT
+ 

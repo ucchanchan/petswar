@@ -1,0 +1,84 @@
+# This is a duplicate of 60b, please ignore.
+
+[BACKGROUND]
+	assets/story/backgrounds/73.swf
+
+[FOREGROUND]
+	assets/story/letterbox.swf
+
+[SETTINGS]
+	USE_LEFT_ARROW					yes
+	ACTOR_STAYS_FOR_PLAYER_SPEECH	yes
+	ACTOR_STAYS_FOR_ANIM			no
+	PLAYER_BUBBLE_X					0
+	PLAYER_BUBBLE_Y					510
+	NPC_BUBBLE_X					480
+	NPC_BUBBLE_Y					300
+
+[PLAYER]
+	NAME		You
+
+[CHARACTER - PIERRE]
+	ASSET	assets/story/npc/pierre	
+	NAME	Craig Sherman
+	
+[CHARACTER - KAREEM]
+	ASSET	assets/story/npc/kareem	
+	NAME	Kareem Abdul
+
+[ANIM - ] # sad moga
+	ASSET	assets/story/anim/
+
+[STORY]
+
+[STORY]
+
+PIERRE IN
+
+KAREEM IN
+
+PIERRE    You've got it! You've got a MOGANAME! Gimme! Now!
+
+KAREEM     Manners, Pierre.
+
+PIERRE    Give it to me now, please! Now!
+
+YOU        Here you go, Pierre. Take care of it.
+
+PIERRE    C'mere, little guy! Grovel before your new master!
+
+#[Image - Sad Moga]
+
+PIERRE    ...Hey, what gives? It's not coming over here!
+
+KAREEM     I think you know why, Pierre. This Moga has bonded with our friend now. He can't just give it away.
+
+PIERRE    Aww, butts! That's stupid! Now I'll NEVER tell you where the Taurus Guardian is.
+
+PLAYER        Pierre, it's very, very important that I find it.
+
+KAREEM     Pierre, I think our friend has given you something of great value: a lesson about the loyalty of Mogas. You owe him something in return.
+
+PIERRE        Argh! I hate being good! This is so dumb! OK, fine. FINE! The Taurus Guardian usually hangs out in NODE NAME.
+
+PIERRE        But you'll never, ever see it unless you've got an all-Taurus team! It only comes out when it smells its own kind.
+
+PLAYER        Thank you so much, Pierre. You're going to be a great ruler one day.
+
+PIERRE        Shut up! 
+
+PIERRE OUT
+
+KAREEM			Can I talk to you in private for a minute? Pierre would be very embarrassed if he knew I was talking to you about this.
+
+KAREEM			My young ward has been struggling with his studies. Classical Pueblonian poetry in particular is giving him a hard time, and I'm more than a little worried. 
+
+KAREEM			Poetry has always been one of the cornerstones of Pueblonia's royal education. The ability to imagine, to understand, to feel deeply--these are things the great kings and queens of Puebonia learned from our poetic tradition.
+
+KAREEM			I know you have traveled far and met many people. Do you know anyone devoted to the art of poetry--someone almost painfully aware of his feelings--who could tutor Pierre? 
+
+PLAYER			I think I know just the guy...  #Tobi says go to Poe
+
+KAREEM			Thank you very much, tamer. The city of Pueblonia is in your debt. {ACCEPT}
+
+KAREEM OUT    

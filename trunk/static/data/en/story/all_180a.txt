@@ -1,0 +1,41 @@
+# Capture Dinho
+
+[BACKGROUND]
+	assets/story/backgrounds/3.swf
+
+[FOREGROUND]
+	assets/story/letterbox.swf
+
+[SETTINGS]
+	USE_LEFT_ARROW					yes
+	ACTOR_STAYS_FOR_PLAYER_SPEECH	yes
+	ACTOR_STAYS_FOR_ANIM			yes
+	PLAYER_BUBBLE_X					0
+	PLAYER_BUBBLE_Y					510
+	NPC_BUBBLE_X					480
+	NPC_BUBBLE_Y					300
+
+[PLAYER]
+	NAME		You
+
+
+[CHARACTER - NOVA]
+	ASSET	assets/story/npc/nova.swf
+	NAME		Nova
+
+[ANIM - DINHO]
+	ASSET	assets/story/anim/dinho.swf
+
+[STORY]
+
+NOVA IN
+
+NOVA		Good work with Lambo. Next, you should look for {$RED Dinho}. He's got a fierce kick, but you should be able to tame him without too much trouble.
+
+DINHO
+
+NOVA		Taming more Mogas will make your team more flexible. It'll be easier to beat tough enemies down the road if you can put together a team with more effective zodiac attacks!
+
+NOVA		Dinho shares the road with Lambo at {$GREEN West Summer Road}. {ACCEPT}
+
+NOVA OUT

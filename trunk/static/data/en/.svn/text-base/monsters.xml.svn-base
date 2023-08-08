@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+
+	Every monster must have:
+	• an id attribute that corresponds to the monster assets and database
+	• a name attribute
+	• a description tag
+	
+-->
+  
+<monsters>
+	<monster id="2" name="Chiberus">
+		<description>Being guard dog to the underworld is hard work, but the Chiberus loves every moment of their job.</description>
+	</monster>
+	<monster id="4" name="Mimple">
+		<description>Mimples were born out of a dream, one so powerful and vivid that they found themselves springing to life. </description>
+	</monster>
+	<monster id="6" name="Ibex">
+		<description>Ibexes are angry, irascible creatures with bad attitudes. They prefer to live by themselves in the mountains.</description>
+	</monster>
+	<monster id="8" name="Ikki">
+		<description>Ikki are skilled at navigating the spirit realm, a world just beyond the reach of the living.  </description>
+	</monster>
+	<monster id="10" name="Yugure">
+		<description>These wandering souls prefer to dwell in shadow, avoiding others as much as possible. </description>
+	</monster>
+	<monster id="12" name="Starpops">
+		<description>These colorful star-shaped birds are inseparable, joined together singing three-part harmonies. </description>
+	</monster>
+	<monster id="14" name="Crabone">
+		<description>Crabones prefer to feed on rotting carrion and mollusks, which their claws can easily crack.</description>
+	</monster>
+	<monster id="16" name="Skuzy">
+		<description>Skuzies were once house cats, but years of evil behavior led to them being exiled into the wild. </description>
+	</monster>
+	<monster id="18" name="Pwee">
+		<description>Pwees are very friendly, but have a tendency to barf fire when hungry, upset or excited. </description>
+	</monster>
+	<monster id="20" name="Yoake">
+		<description>These mystical nine-tailed canines are bold and fearless, especially when it comes to protecting family.</description>
+	</monster>
+	<monster id="22" name="Meh">
+		<description>These fluffy green goats can't help but get into mischief, even though they continually promise not to.</description>
+	</monster>
+	<monster id="24" name="Eefree">
+		<description>These red-hot salamanders love swimming through molten lava and chewing on tiny pebbles. </description>
+	</monster>
+	<monster id="26" name="Gogh">
+		<description>These tiny chameleons look fragile and slow, but are in fact tough as nails and quite speedy.</description>
+	</monster>
+	<monster id="28" name="Huey">
+		<description>Hueys are energetic little rascals likely to bite you around the ankles if they think they can get away with it. </description>
+	</monster>
+	<monster id="30" name="Tigon">
+		<description>Tigons are crafty plains predators, feared by human and Moga alike--and with good reason.</description>
+	</monster>
+	<monster id="32" name="Radiojack">
+		<description>Radiojacks are natural born rascals. You'll usually find them scheming, stealing or in prison.</description>
+	</monster>
+	<monster id="34" name="Umbranine">
+		<description>Umbranines are the manifestation of a shadowy demon that bathes in moonlight. </description>
+	</monster>
+	<monster id="36" name="Titus">
+		<description>Tituses are feisty little devils, overflowing with enough white-hot energy to melt the hand that touches them.</description>
+	</monster>
+	<monster id="38" name="Lira">
+		<description>Lira are dramatic creatures, and their arrival is almost always preceded by strong, vortex-like winds. </description>
+	</monster>
+	<monster id="40" name="Tutu">
+		<description>These bloated cats nearly ate themselves into oblivion, but an unlikely pair of wings let them survive. </description>
+	</monster>
+	<monster id="42" name="Smok">
+		<description>Smok are adorable obsidian-skinned baby dragons. They've got a lot to learn about being dragons! </description>
+	</monster>
+	<monster id="44" name="Mars">
+		<description>Mars abhor violence, so they pretend that their opponents are amazing presents that need to be opened.</description>
+	</monster>
+	<monster id="46" name="Cathulu">
+		<description>Rising from the stygian depths beyond the veil of time and space comes pure evil personified: Cathulu </description>
+	</monster>
+	<monster id="48" name="Leviathan">
+		<description>These watery serpents would dominate the seas if they weren't so few in number. </description>
+	</monster>
+	<monster id="50" name="Nightmare">
+		<description>The dream world gives rise to many strange creatures, and Nightmares are the most feared of them all. </description>
+	</monster>
+	<monster id="52" name="Chuuchilla">
+		<description>These tiny gold-furred Mogas prefer to spend their time sleeping on piles of cedar so they smell nice.</description>
+	</monster>
+	<monster id="54" name="Knightaur">
+		<description>These spider-legged centaur-like beasts are master archers, able to dispatch most foes with a well-placed arrow.</description>
+	</monster>
+	<monster id="56" name="Nebugon">
+		<description>Nebugon were formed from the very fabric of the universe in the early days, when stars were just beginning to form. </description>
+	</monster>
+	<monster id="58" name="Sno">
+		<description>Sno are very friendly and loyal, which is probably why many aspiring Moga Tamers seek them out. </description>
+	</monster>
+	<monster id="60" name="Pigloo">
+		<description>Pigloos are small adorable pigs made entirely of solid ice, with hearts as cold as their exteriors.</description>
+	</monster>
+	<monster id="62" name="Peafyx">
+		<description>This clever fox has adopted a peacock costume to trick  larger predators into leaving it alone.</description>
+	</monster>
+	<monster id="64" name="Booly">
+		<description>Boolys are as headstrong as they come, mostly because that's the largest part of their bodies.</description>
+	</monster>
+	<monster id="66" name="Tauron">
+		<description>Taurons wear the symbols of sacrificial bulls, their patron spirit beast. When one dies, another is reborn.</description>
+	</monster>
+	<monster id="68" name="Faust">
+		<description>Fausts fly around catching up on the latest Moga gossip, which they love to share with friends.</description>
+	</monster>
+	<monster id="70" name="Cactoo">
+		<description>Cactoos love hugs, but they're covered in spines. It's a bad situation.</description>
+	</monster>
+	<monster id="72" name="Leif">
+		<description>Leif love attention and treats, so even though they're tough to catch, they always come home.</description>
+	</monster>
+	<monster id="74" name="Vuvu">
+		<description>Vuvus have a passion for mortuary rituals and can always be found wearing some sort of death mask. </description>
+	</monster>
+	<monster id="76" name="Spike">
+		<description>Traditionally kept by kings, the Spike's fiery individualistic spirit makes it a challenge for any tamer. .</description>
+	</monster>
+	<monster id="78" name="Twister">
+		<description>Twisters are fiery little devils with a passion for digging and the energy of a thousand suns.</description>
+	</monster>
+	<monster id="80" name="Brineep">
+		<description>These smug little Mogas love to hover over the battlefield, offering criticisms and complaints. </description>
+	</monster>
+	<monster id="82" name="Munyu">
+		<description>Munyus are soft, lazy sheep who have slipped through the evolutionary cracks..</description>
+	</monster>
+	<monster id="84" name="Lumo">
+		<description>Lumos have a springy tail they use to bounce from place to place, and to smack rude Mogas senseless.</description>
+	</monster>
+	<monster id="86" name="Weero">
+		<description>Weero are magnificent Birds of Paradise, and easily the best dancers in the jungle canopy. </description>
+	</monster>
+	<monster id="88" name="Owlreed">
+		<description>Owlreeds have a voracious appetite when it comes to books--they can eat as many as three in a week. </description>
+	</monster>
+	<monster id="90" name="Muninn">
+		<description>Munnins say that the raven once stole sun; today they mostly steal shiny trickets.</description>
+	</monster>
+	<monster id="92" name="Pudgy">
+		<description>Pudgies have harnessed their obesity for good: the weight adds extra oomph to their attacks.</description>
+	</monster>
+	<monster id="94" name="Hakka">
+		<description>Hakkas come from a noble clan of fox warriors sworn to protect the law of the forest.</description>
+	</monster>
+	<monster id="96" name="Paroot">
+		<description>These grandiose avians love to sing elaborate songs using their robust vocabulary of over 36 words. .</description>
+	</monster>
+	<monster id="98" name="Peepee">
+		<description>Little is known about the Peepee, other than that they whistle a lot and are extremely shy.</description>
+	</monster>
+	<monster id="100" name="Crabao">
+		<description>Many people eat Crabao's, as they have a rich, nutty flavor, but they are also strong fighters.</description>
+	</monster>
+	<monster id="102" name="Hammerdog">
+		<description>Hammerdogs are always smiling, perhaps because their brain is split in half to fit their long, tubular skull. .</description>
+	</monster>
+	<monster id="104" name="Yara">
+		<description>Yaras skitter along beaches looking for sun-addled men to  trick into mistaking them for beautiful women. .</description>
+	</monster>
+	<monster id="106" name="Orbz">
+		<description>Orbz are solitary predators, spinning miles-long webs across their hunting territory.</description>
+	</monster>
+	<monster id="108" name="Tenpac">
+		<description>Tenpacs build sprawling compounds underground, sometimes with domed ceilings as high as forty feet.</description>
+	</monster>
+	<monster id="110" name="Chamepo">
+		<description>Chamepos are one of the most human-friendly Mogas, sometimes even pulling wrecked sailors to shore.</description>
+	</monster>
+	<monster id="112" name="Trolo"> 
+		<description>Trolos are psychologically warped creatures with a pathological hatred of trees.</description>
+	</monster>
+	<monster id="114" name="Plasmians">
+		<description>Plasmians are graceful creatures and not by nature violent. They are extremely long-lived and loyal.</description>
+	</monster>
+	<monster id="116" name="Lambo">
+		<description>Lambos have a sassy attitude and will try to manipulate you with their big, irresistible eyes.</description>
+	</monster>
+	<monster id="118" name="Teef">
+		<description>Teef are known as the limousine of the river basins because they are a joy to ride.</description>
+	</monster>
+	<monster id="120" name="Fenix">
+		<description>Fenix exist between two worlds, shifting between the forms of a cloud and a fox.</description>
+	</monster>
+	<monster id="122" name="Creamaranian">
+		<description> Like many little dogs, Creamaranians have delusions of grandeur and would like to be addressed as “mayor.” </description>
+	</monster>
+	<monster id="124" name="Mona">
+		<description>Mona is a ruthless imp willing to act on any desire without regard for its effects on others. </description>
+	</monster>
+	<monster id="126" name="Boogaleef">
+		<description>Little is known about this creature except that it has a taste for caramel and leaves a slimy trail in its wake.</description>
+	</monster>
+	<monster id="128" name="Wasabee">
+		<description>The Wasabee has a poison gland capable of delivering the equivalent of fifty gallons of jalapenos at once.</description>
+	</monster>
+	<monster id="130" name="Electrotter">
+		<description>The cunning Electrotter combines the best elements of the otter with the fearsome power of electricity.</description>
+	</monster>
+	<monster id="132" name="Diabao">
+		<description>A rare hybrid, Diabao combines the splendor of a light imp with the devilish attitude of a dark imp. </description>
+	</monster>
+	<monster id="134" name="Coyotl">
+		<description>The Coyotl are foxes who work in pairs to get the drop on their desert prey.</description>
+	</monster>
+	<monster id="136" name="Sweetish">
+		<description>The Sweetish are what happens when melting ice cream comes alive...and attack!</description>
+	</monster>
+	<monster id="138" name="Chanho">
+		<description>These young and playful Moga cats have lighting-fast reflexes, which they use to pounce larger foes.</description>
+	</monster>
+	<monster id="140" name="Alyx">
+		<description>Thanks to its big ears, the Alyx has excellent hearing and balance. </description>
+	</monster>
+	<monster id="142" name="Zeit">
+		<description>Less an animal and more sentient energy, this  swirling mass has a unique talent for manipulating time. </description>
+	</monster>
+	<monster id="144" name="Roarstache">
+		<description> These handsome Mogas dedicate the majority of their time to personal grooming.</description>
+	</monster>
+	<monster id="146" name="Messi">
+		<description>These shaggy-haired Mogas are gifted footballers, displaying excellent paw-work and keen vision.</description>
+	</monster>
+	<monster id="148" name="Leon">
+		<description>Although Leons are regarded as kings of the jungle, most are dedicated to embracing democratic reforms. </description>
+	</monster>
+	<monster id="150" name="Willo">
+		<description>When night falls, Willos float ominously over the wet ground below, luring the curious into trouble and danger.</description>
+	</monster>
+	<monster id="152" name="Colibri">
+		<description>Colibri are soft-spoken and polite hummingbirds, secretly seething with unspeakable rage.</description>
+	</monster>
+	<monster id="154" name="Jor">
+		<description>Jors are terrible, terrible things that like to eat children and gamble.</description>
+	</monster>
+	<monster id="156" name="Buffant">
+		<description>Buffants are kind, generous souls who enjoy ferrying smaller Mogas across raging rivers. </description>
+	</monster>
+	<monster id="158" name="Waidio">
+		<description>Waidios are as cute and innocent as they look, dreaming of a day when Mogas will fight no more forever.</description>
+	</monster>
+	<monster id="160" name="Zeppelin">
+		<description>Zeppelins are renowned aviators skilled at aerobatics and long-distance flying.</description>
+	</monster>
+	<monster id="162" name="Weeplet">
+		<description>Weeplets are squishy, gelatinous Mogas that derive most of their nutrients from the seafloor. </description>
+	</monster>
+	<monster id="164" name="Anee">
+		<description>Anee used to be a loose confederation of single-celled organisms, but together they're bigger and stronger. </description>
+	</monster>
+	<monster id="166" name="Jag">
+		<description>When tamed, Jags are extremely friendly, and love having their bellies rubbed.</description>
+	</monster>
+	<monster id="168" name="Syrene">
+		<description>Syrenes were once beautiful mermaids, but aeons in the deep have changed them into something more menacing.</description>
+	</monster>
+	<monster id="170" name="Shen">
+		<description>These ugly monstrosities rarely surface, and when they do it's to drag some poor victim down into the depths.</description>
+	</monster>
+	<monster id="172" name="Momo">
+		<description>Momos have fearlessly forsaken their native habitat to plumb the depths of the sea.</description>
+	</monster>
+	<monster id="174" name="A.C.">
+		<description>The A.C. is a lynx-like species of Moga with mystical powers of foresight and telepathy.</description>
+	</monster>
+	<monster id="176" name="Marcuu">
+		<description>The Marcuu is a satyr, a demigod mix of human and goat responsible for unleashing libidinal energies.</description>
+	</monster>
+	<monster id="178" name="Unitaur">
+		<description>The Unitaur's stoutly shielded head allows it to ram pretty much whatever it wants without hurting itself. .</description>
+	</monster>
+	<monster id="180" name="Dinho">
+		<description>Dinho has an amazing ability to deliver precise kicks, helping it in sports and battle.</description>
+	</monster>
+	<monster id="182" name="Hanzo">
+		<description>Hanzos are expert warriors, skilled in a wide array of martial arts that they combine on the fly. </description>
+	</monster>
+	<monster id="184" name="Alejandro">
+		<description>Alejandros are unilamas that love to shake their humps on the dance floor.</description>
+	</monster>
+	<monster id="186" name="Anboo">
+		<description>This swift and sly species is known for its ability to run atop fresh snow without leaving a single footprint. </description>
+	</monster>
+	<monster id="188" name="Peascorp">
+		<description>Despite its fearsome appearance, the Peascorp is actually an herbivore because of its tiny mouth. </description>
+	</monster>
+	<monster id="190" name="Nar">
+		<description>The Nar is every bit as horrible and deadly as it looks. If you can tolerate its low-tide smell, it's a powerful addition to any team. </description>
+	</monster>
+	<monster id="192" name="Pengoo">
+		<description>The Pengoo's unique body geometry maximizes heat conservation, letting them survive in extreme cold.</description>
+	</monster>
+	<monster id="194" name="Scorpius">
+		<description>Many a cheese shop has gone out of business due to the stealthy, thieving cheeselust of Scorpius, and many more will surely follow.</description>
+	</monster>
+	<monster id="196" name="Zomoo">
+		<description>The Zomoo is an undead Taurus powerhouse of charging horns and deadly blue hair (its hair is deadly because it's full of infectious insects).</description>
+	</monster>
+	<monster id="198" name="Pluksop">
+		<description>Pluksops are ultra-majestic, and it goes to their head a little. Tamers often appeal to their egos by flattering them and grooming their lustrous coats.</description>
+	</monster>
+	<monster id="200" name="Golerph">
+		<description>The itchy moss covering Golerphs' bodies constantly irritates them, so they tend to get sulky. Tamers can cheer them up with a vigorous scratching.</description>
+	</monster>
+	<monster id="202" name="Beefee">
+		<description>Beefees look like adorable baby cows, but they aren't afraid to stomp their foes into oblivion with their darling little hooves.</description>
+	</monster>
+	<monster id="204" name="Staryak">
+		<description>Nobody knows who puts the jingly bells around the necks of Staryaks, but everyone knows not to try to take them off.</description>
+	</monster>
+	<monster id="206" name="Tippy">
+		<description>Tippies see the world in two dimensions and get confused by depth and volume, which is why they fall over so much.</description>
+	</monster>
+	<monster id="208" name="Burger">
+		<description>Prophecies tell us that one day, the Burgers' endless mouths will yawn open to consume us all.</description>
+	</monster>
+	<monster id="210" name="Meka">
+		<description>Although Mekas may appear slow and rigid, they can be quite athletic when it comes to protecting territory and defending their tamers.</description>
+	</monster>
+	<monster id="212" name="Siri">
+		<description>Those who lean in for a sniff of Siri may be dealt an unforgettable thrashing by its sharp leaves and slapping petals.</description>
+	</monster>
+	<monster id="214" name="Turtlenie">
+		<description>Turtlenies have taken some cues from their rabbit rivals to become swift runners, fast fighters and prolific breeders.</description>
+	</monster>
+	<monster id="216" name="Barnetta">
+		<description>Barnettas don't talk a lot, but they don't need to. They're amazing at everything, and that's all there is to say about it.</description>
+	</monster>
+	<monster id="218" name="Nomy">
+		<description>Nomys' underdeveloped mollusk brains can only experience one emotion: an ecstatic combination of joy and childlike wonder.</description>
+	</monster>
+	<monster id="220" name="Melodee">
+		<description>Within their pink exteriors, Melodees conceal a nightmarish psyche of unspeakable horrors. They express these dark emotions with gentle cooing.</description>
+	</monster>
+	<monster id="222" name="Tama">
+		<description>Tama's cuteness hides a deadly secret: beneath its outer coat of fur lies an even cuter layer of wooly under-pelt. Well, maybe not "deadly."</description>
+	</monster>
+	<monster id="224" name="Woolf">
+		<description>Because of the Woolf’s huge, gaping mouth, smaller Mogas sometimes survive its attack by leaping inside and hiding until the Woolf forgets about them.</description>
+	</monster>
+	<monster id="226" name="Azurel">
+		<description>Azurel is a dangerous creature, to be sure, but capturing one is seen as a sign of very good things to come.</description>
+	</monster>
+		<monster id="228" name="Capriccino">
+		<description>Cappricinos may look like all fluff, and they are-- except for the horns. Many unfortunate tamers have learned this the hard way.</description>
+	</monster>
+	<monster id="230" name="Gryph">
+		<description>Everything about the legendary Gryph is majestic, including its leavings, which often contain trace specks of precious stones.</description>
+	</monster>
+	<monster id="232" name="Winja">
+		<description>Winjas have a face-like pattern on their inner wings, which they flash to disorient and frighten victims.</description>
+	</monster>
+	<monster id="234" name="Paul">
+		<description>The multi-armed Paul can attack you from just about every direction at once, making it extremely difficult to fend off.</description>
+	</monster>
+	<monster id="236" name="Tiano">
+		<description>A Tiano’s skin channels the universe’s energy into a prismatic armor that provides excellent protection from attacks.</description>
+	</monster>
+	<monster id="238" name="Icevia">
+		<description>Icevia is also known as 'frozen lightning' for its combination of speed and lethal coldness. </description>
+	</monster>
+	<monster id="240" name="Weatar">
+		<description>Weatars are the ne'er-do-wells of the Moga world, often running with bad crowds and engaging in antisocial activity.</description>
+	</monster>
+	<monster id="242" name="Blix">
+		<description>Blixes gain their electric powers from lightning strikes. Unfortunately, lightning also fries the part of their brain that regulates drooling.</description>
+	</monster>
+	<monster id="244" name="Coldbear">
+		<description>Coldbear sleeps during the warmer months, then rises in late December to enjoy comfortably freezing temperatures.</description>
+	</monster>
+	<monster id="246" name="Lainedeer">
+		<description>The rarely-glimpse Lainedeer is as deadly as it is beautiful, making it a prized catch among the greatest tamers.</description>
+	</monster>
+	<monster id="248" name="Lepus">
+		<description>A magical version of the rabbit, Lepus use their flowing head-wings to raid gardens for carrots, whistlefruit and delicious cabbages.</description>
+	</monster>
+	<monster id="250" name="War Lepus">
+		<description>The War Lepus rally their brethren to fight--usually to defend their burrows, but when the moon is right, they go on the offensive.</description>
+	</monster>
+	<monster id="252" name="Black Gold">
+		<description>Black Gold is one of the most ancient Mogas. Only the chosen few can tame this majestic creature.</description>
+	</monster>
+	<monster id="254" name="Clovey">
+		<description>Cloveys embody the saying that "you make your own luck"--this four-leafed gold-pot-wearing Moga does just that!</description>
+	</monster>
+	<monster id="256" name="Rainburn">
+		<description>The Rainburn causes fires with its energetic tail wherever it goes, staining its body black with ash and hiding its colorful plumage.</description>
+	</monster>
+	<monster id="258" name="Gnarwhale">
+		<description>This radical whale surfs both sea and sky!  Watch out, bro!</description>
+	</monster>
+	<monster id="260" name="Mushi">
+		<description>Don't underestimate Mushi.  His bite is bigger than his… well… everything.</description>
+	</monster>
+	<monster id="262" name="Vesper">
+		<description>All it takes is one sprinkle of its "Pixie Dust" and your hits will "Never Never Land."</description>
+	</monster>
+	<monster id="264" name="Southpaw">
+		<description>A rowdy and aggressive fighter with a mean left hook.</description>
+	</monster>
+	<monster id="266" name="Martini">
+		<description>One of these IS too many.  You'll have more than a headache after a few rounds with Martini.</description>
+	</monster>
+	<monster id="268" name="Sandburrow">
+		<description>Constantly irritated due to the sand in his crags, Sandburrow is not one to mess with.</description>
+	</monster>
+	<monster id="270" name="Bamf">
+		<description>Bamf isn't the biggest Moga around, but with its speed, stealth and claws Bamf has no problem bringing down its prey.</description>
+	</monster>
+</monsters>

@@ -1,0 +1,64 @@
+# This is the beginning of Rip's arc. 
+
+[BACKGROUND]
+	assets/story/backgrounds/120.swf
+
+[FOREGROUND]
+	assets/story/letterbox.swf
+
+[SETTINGS]
+	USE_LEFT_ARROW					yes
+	ACTOR_STAYS_FOR_PLAYER_SPEECH	yes
+	ACTOR_STAYS_FOR_ANIM			yes
+	PLAYER_BUBBLE_X					0
+	PLAYER_BUBBLE_Y					510
+	NPC_BUBBLE_X					480
+	NPC_BUBBLE_Y					300
+
+[PLAYER]
+	NAME		You
+
+[CHARACTER - RIP]
+	ASSET	assets/story/npc/rip.swf
+	NAME	Rip						
+
+[ANIM - WHITE_WAVE]						# This is the the White Wave
+	ASSET	assets/story/anim/white_wave.swf
+
+[ANIM - GFATHER_SURFING]						# This is the picture of the grandfather surfing
+	ASSET	assets/story/anim/gfather_surfing.swf
+
+[ANIM - FATHER_SURFING]						# This is the picture of the father surfing
+	ASSET	assets/story/anim/father_surfing.swf
+
+[STORY]
+
+RIP IN
+
+RIP		Listen, o dude, to my tale of woe: once every generation, the White Wave rises from the sea to wreak havoc on all the unwise bros who dare to surf it!
+
+WHITE_WAVE		# anim Terrifying White Wave
+
+RIP		I hail from a long line of Moga Surfers--we tame Mogas and ride their backs through the waves. But time and again, the White Wave has wiped us out.
+
+RIP		My grandfather tried to tame it, but it took him in its foaming jaws and shook him like a rag doll. He never surfed again, dude.
+
+GFATHER_SURFING		# anim Grandfather in striped bathing costume riding a ridiculous giraffe Moga
+
+RIP		Same with my father-- he thought he could ride the White Wave, but it grated him across the reef like cheese. He, too, gave up surfing.
+
+FATHER_SURFING		# anim Father riding a tiny kitten Moga
+
+RIP		But hear this, dude: I shall succeed where my forebros failed. I will ride the White Wave. Oh yes, dude; it shall be so.
+
+PLAYER		Is there any way I can help?
+
+RIP		I've got to find the perfect Surf-Moga. Horus here is fine on the smaller breaks, but I'll need a bigger board to attempt the White Wave.
+
+RIP		Some huge {$RED Hammerdogs} live nearby, but they hardly ever come out. But they love {$RED Chamepo}-- if you capture one first, the scent will let you attract a Hammerdog.
+
+RIP		Dude, could you go over to {$GREEN Talonsweep Point} and capture a {$RED Chamepo} for me? I'd be stoked beyond words.
+
+PLAYER		I'll see what I can do. {ACCEPT}
+
+RIP OUT

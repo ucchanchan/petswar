@@ -1,0 +1,32 @@
+# This is the third part of Craig Sherman's Celestial Gatekeepers quest.
+[BACKGROUND]
+	assets/story/backgrounds/65.swf
+
+[FOREGROUND]
+	assets/story/letterbox.swf
+
+[SETTINGS]
+	USE_LEFT_ARROW					yes
+	ACTOR_STAYS_FOR_PLAYER_SPEECH	yes
+	ACTOR_STAYS_FOR_ANIM			no
+	PLAYER_BUBBLE_X					0
+	PLAYER_BUBBLE_Y					510
+	NPC_BUBBLE_X					480
+	NPC_BUBBLE_Y					300
+
+[PLAYER]
+	NAME		You
+
+[CHARACTER - CRAIG]
+	ASSET	assets/story/npc/craig	
+	NAME	Craig Sherman
+	
+[STORY]
+
+CRAIG IN
+
+CRAIG		Congratulations, tamer, that's quite a catch! Lovely creature!
+
+CRAIG		That's the only Gatekeeper I know of--they're really hard to find! You might ask Pierre, the sultan of Pueblonia, at the {$GREEN Royal Battledome}. He's kind of a brat but he does know his Mogas! {ACCEPT}
+
+CRAIG OUT

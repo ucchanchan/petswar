@@ -1,0 +1,16 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<zodiac>
+	<sign id="2" name="Aries" />
+	<sign id="4" name="Taurus" />
+	<sign id="6" name="Gemini" />
+	<sign id="8" name="Cancer" />
+	<sign id="10" name="Leo" />
+	<sign id="12" name="Virgo" />
+	<sign id="14" name="Libra" />
+	<sign id="16" name="Scorpio" />
+	<sign id="18" name="Sagittarius" />
+	<sign id="20" name="Capricorn" />
+	<sign id="22" name="Aquarius" />
+	<sign id="24" name="Pisces" />
+</zodiac>

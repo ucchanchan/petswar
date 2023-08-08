@@ -1,0 +1,43 @@
+# Capture Heart
+
+[BACKGROUND]
+	assets/story/backgrounds/3.swf
+
+[FOREGROUND]
+	assets/story/letterbox.swf
+
+[SETTINGS]
+	USE_LEFT_ARROW					yes
+	ACTOR_STAYS_FOR_PLAYER_SPEECH	yes
+	ACTOR_STAYS_FOR_ANIM			yes
+	PLAYER_BUBBLE_X					0
+	PLAYER_BUBBLE_Y					510
+	NPC_BUBBLE_X					480
+	NPC_BUBBLE_Y					300
+
+[PLAYER]
+	NAME		You
+
+
+[CHARACTER - NOVA]
+	ASSET	assets/story/npc/nova.swf
+	NAME		Nova
+
+[ANIM - BLACK_GOLD]
+	ASSET	assets/story/anim/blackgold.swf
+
+[STORY]
+
+NOVA IN
+
+NOVA		Now that you've learned how to tame Mogas on your own, you can begin the ultimate Moga trainer quest--the quest to catch them all.
+
+NOVA		I'll tell you which Moga you need to look for next and where you can find. Complete your collection, and you'll be able to capture one of the rarest Mogas in the world: {$RED Black Gold}.
+
+BLACK_GOLD
+
+NOVA		Amazing, isn't it? Some day you'll have one. For now, though, the next Moga you need to catch is {$RED Lambo}.
+
+NOVA		You may have seen one already--they live in the same area as Beefee, on {$GREEN West Summer Road}.
+
+NOVA OUT

@@ -1,0 +1,56 @@
+# Jack frost Coldbear
+
+[BACKGROUND]
+	assets/story/backgrounds/30a.swf
+
+[FOREGROUND]
+	assets/story/letterbox.swf
+
+[SETTINGS]
+	USE_LEFT_ARROW					yes
+	ACTOR_STAYS_FOR_PLAYER_SPEECH	yes
+	ACTOR_STAYS_FOR_ANIM			no
+	PLAYER_BUBBLE_X					0
+	PLAYER_BUBBLE_Y					510
+	NPC_BUBBLE_X					480
+	NPC_BUBBLE_Y					300
+
+[PLAYER]
+	NAME		You
+
+[CHARACTER - JACKFROST]
+	ASSET	assets/story/npc/jackfrost.swf
+	NAME	Jack Frost
+
+[ANIM - COLDBEAR]						# This is the picture of Coldbear
+	ASSET	assets/story/anim/coldbear.swf
+
+[STORY]
+		
+	JACKFROST		Hmm? Are you lost? Wouldn't you rather be inside, where it's warm and dry?
+	
+	PLAYER			Huh? Who are you?
+	
+	JACKFROST		I'm Jack Frost, of course! I've come to bring winter to the land... have I failed? Is my chill not bitter enough to keep you by the hearth?
+	
+	PLAYER			It's definitely cold, but I can't go home now-- I'm trying to become a Moga Ranger.
+	
+	JACKFROST		Oh? Then this might interest you: as I spread my frost into the deep woods, rare Mogas emerge. They're seldom glimpsed, and even more seldom tamed.
+	
+	JACKFROST		Only the best tamers can catch them, but if my blustery weather can't beat you, maybe you have a chance. What do you say?
+	
+	PLAYER			I'd be happy to try.
+	
+	JACKFROST		Excellent! Let me tell you about a strange little friend of mine: Coldbear
+	
+	COLDBEAR
+	
+	JACKFROST		Coldbear is a lonely little fellow-- he hibernates in the spring and wakes in the winter.
+	
+	JACKFROST		While the other bears are sound asleep, he's licking up the frozen dew just like his warm-blooded brothers eat berries-- their paths never cross.
+	
+	JACKFROST		Perhaps you could tame my poor little Coldbear. He could use a friend!
+	
+	PLAYER			I'll look for him! {OK}
+	
+	JACKFROST OUT

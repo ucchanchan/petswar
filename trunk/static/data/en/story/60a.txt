@@ -1,0 +1,59 @@
+# This is the first part of Pierre's Celestial Gatekeepers quest.
+[BACKGROUND]
+	assets/story/backgrounds/73.swf
+
+[FOREGROUND]
+	assets/story/letterbox.swf
+
+[SETTINGS]
+	USE_LEFT_ARROW					yes
+	ACTOR_STAYS_FOR_PLAYER_SPEECH	yes
+	ACTOR_STAYS_FOR_ANIM			no
+	PLAYER_BUBBLE_X					0
+	PLAYER_BUBBLE_Y					510
+	NPC_BUBBLE_X					480
+	NPC_BUBBLE_Y					300
+
+[PLAYER]
+	NAME		You
+
+[CHARACTER - PIERRE]
+	ASSET	assets/story/npc/craig	
+	NAME	Craig Sherman
+	
+[CHARACTER - KAREEM]
+	ASSET	assets/story/npc/kareem	
+	NAME	Kareem Abdul
+
+[STORY]
+
+PIERRE IN	
+
+PLAYER		Pierre, I need your help. I heard you might know where the Taurus Celestial Gatekeeper is.
+
+PIERRE		Maybe I do. But since I'm the greatest tamer in the land, it should be ME who tames it!
+
+PLAYER		But didn't I beat you?
+
+PIERRE    So!?
+
+KAREEM 		Now, Pierre. I think you know what he means. You'd better be a good sport and help him find the Celestial Gatekeeper.
+
+PIERRE		Gosh dang it! That Moga should be MINE! I'm a Taurus! I'm the greatest!
+
+KAREEM		Pierre! Do we need a time out?
+
+PIERRE		Fine! I'll tell you where it is... if you find me a MOGANAME! It's the last Moga I need for my perfect team... if I had one, I could beat you any day.
+
+KAREEM		It sounds fair to me. You can find these Mogas between {$GREEN } and {$GREEN }. What do you say, Ranger?
+
+PLAYER		OK. I'll tame a MOGANAME for you.
+
+PIERRE		Yesssssss! I'm gonna kick your butt once I have it!
+
+KAREEM	Pierre! Enough! {ACCEPT}
+
+PIERRE OUT
+
+KAREEM OUT
+

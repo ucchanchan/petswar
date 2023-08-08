@@ -1,0 +1,32 @@
+
+# This is the third part of Leonard's Celestial Gatekeepers quest.
+
+[BACKGROUND]
+	assets/story/backgrounds/24.swf
+
+[FOREGROUND]
+	assets/story/letterbox.swf
+
+[SETTINGS]
+	USE_LEFT_ARROW					yes
+	ACTOR_STAYS_FOR_PLAYER_SPEECH	yes
+	ACTOR_STAYS_FOR_ANIM			no
+	PLAYER_BUBBLE_X					0
+	PLAYER_BUBBLE_Y					510
+	NPC_BUBBLE_X					480
+	NPC_BUBBLE_Y					300
+
+[PLAYER]
+	NAME		You
+
+[CHARACTER - LEONARD]
+	ASSET	assets/story/npc/leonard	
+	NAME	Leonard
+
+[STORY]
+
+LEONARD IN
+
+LEONARD		You got the pincers! If that isn't very fine and wonderful, I don't know what is! I'm going to hurry back to Windhym to put this baby together. You should come check it out! {ACCEPT}
+
+LEONARD OUT

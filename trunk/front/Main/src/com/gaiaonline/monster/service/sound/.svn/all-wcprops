@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/9/trunk/front/Main/src/com/gaiaonline/monster/service/sound
+END
+SoundProxy.as
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/2/trunk/front/Main/src/com/gaiaonline/monster/service/sound/SoundProxy.as
+END
+AnimSoundEffect.as
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/2/trunk/front/Main/src/com/gaiaonline/monster/service/sound/AnimSoundEffect.as
+END
+MusicService.as
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/2/trunk/front/Main/src/com/gaiaonline/monster/service/sound/MusicService.as
+END
+MusicProxy.as
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/2/trunk/front/Main/src/com/gaiaonline/monster/service/sound/MusicProxy.as
+END
+AnimMusic.as
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/2/trunk/front/Main/src/com/gaiaonline/monster/service/sound/AnimMusic.as
+END
+SoundService.as
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/9/trunk/front/Main/src/com/gaiaonline/monster/service/sound/SoundService.as
+END
+SoundWrapper.as
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/2/trunk/front/Main/src/com/gaiaonline/monster/service/sound/SoundWrapper.as
+END
+CrossFade.as
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/2/trunk/front/Main/src/com/gaiaonline/monster/service/sound/CrossFade.as
+END
